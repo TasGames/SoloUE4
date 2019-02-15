@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\CrazyTaxiProcGen.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{7FB650DB-4372-443C-AE93-E13D8FB6E056}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\CrazyTaxiProcGen.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\CrazyTaxiProcGenEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{18166DF4-2A3B-4F18-986D-928A560FF867}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\CrazyTaxiProcGen">
+			<UniqueIdentifier>{2A41A5FF-559D-496B-A500-E071742D8F82}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\CrazyTaxiProcGen\CrazyTaxiProcGen.Build.cs">
+			<Filter>Source\CrazyTaxiProcGen</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\CrazyTaxiProcGen\CrazyTaxiProcGen.cpp">
+			<Filter>Source\CrazyTaxiProcGen</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CrazyTaxiProcGen\CrazyTaxiProcGen.h">
+			<Filter>Source\CrazyTaxiProcGen</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\CrazyTaxiProcGen\CrazyTaxiProcGenGameModeBase.cpp">
+			<Filter>Source\CrazyTaxiProcGen</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CrazyTaxiProcGen\CrazyTaxiProcGenGameModeBase.h">
+			<Filter>Source\CrazyTaxiProcGen</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
