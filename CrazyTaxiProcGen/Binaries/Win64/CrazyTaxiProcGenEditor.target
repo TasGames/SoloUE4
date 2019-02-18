@@ -3266,10 +3266,6 @@
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/svn/Win64/changelog.txt",
-			"Type": "NonUFS"
-		},
-		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/svn/Win64/diff.exe",
 			"Type": "NonUFS"
 		},

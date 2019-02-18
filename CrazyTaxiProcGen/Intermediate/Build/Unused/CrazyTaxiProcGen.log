@@ -1,20 +1,19 @@
-﻿  Performing full C++ include scan (building a new target)
-  Using 'git status' to determine working set for adaptive non-unity build.
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Creating makefile for CrazyTaxiProcGenEditor (no existing makefile)
-  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726) and Windows 10.0.15063.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Performing full C++ include scan (no include cache file)
+  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for CrazyTaxiProcGenEditor
-    Running UnrealHeaderTool "C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\CrazyTaxiProcGen.uproject" "C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\CrazyTaxiProcGenEditor\Development\CrazyTaxiProcGenEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for CrazyTaxiProcGenEditor in 10.0671269 seconds
-  Building 8 actions with 8 processes...
-    [1/8] PCLaunch.rc
-    [2/8] SharedPCH.Engine.cpp
-    [3/8] CrazyTaxiProcGen.cpp
-    [4/8] CrazyTaxiProcGen.init.gen.cpp
-    [5/8] CrazyTaxiProcGenGameModeBase.cpp
-    [6/8] CrazyTaxiProcGenGameModeBase.gen.cpp
-    [7/8] UE4Editor-CrazyTaxiProcGen.lib
-       Creating library C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen.lib and object C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen.exp
-    [8/8] UE4Editor-CrazyTaxiProcGen.dll
-       Creating library C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen.suppressed.lib and object C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen.suppressed.exp
+    Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\CrazyTaxiProcGen.uproject" "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\CrazyTaxiProcGenEditor\Development\CrazyTaxiProcGenEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for CrazyTaxiProcGenEditor in 9.2452993 seconds
+  Building 7 actions with 4 processes...
+    [1/7] SharedPCH.Engine.cpp
+    [2/7] CrazyTaxiProcGen.init.gen.cpp
+    [3/7] CrazyTaxiProcGen.cpp
+    [4/7] CrazyTaxiProcGenGameModeBase.cpp
+    [5/7] CrazyTaxiProcGenGameModeBase.gen.cpp
+    [6/7] UE4Editor-CrazyTaxiProcGen.lib
+       Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen.exp
+    [7/7] UE4Editor-CrazyTaxiProcGen.dll
+       Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen.suppressed.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen.suppressed.exp
   Deploying CrazyTaxiProcGenEditor Win64 Development...
-  Total build time: 79.47 seconds (Parallel executor: 40.03 seconds)
+  Total build time: 42.03 seconds (Parallel executor: 27.35 seconds)
