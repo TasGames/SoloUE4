@@ -10,17 +10,17 @@ UCLASS()
 class CRAZYTAXIPROCGEN_API AGenerateGrid : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
-	// Sets default values for this actor's properties
-	AGenerateGrid();
 
 protected:
-	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	void SetPositions();
+
+	TArray<ACell*> ArrayOfCells;
+
 public:	
-	// Called every frame
+	AGenerateGrid();
+
 	virtual void Tick(float DeltaTime) override;
 
 	

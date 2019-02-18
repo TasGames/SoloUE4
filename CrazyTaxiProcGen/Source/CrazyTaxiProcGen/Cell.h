@@ -10,19 +10,21 @@ UCLASS()
 class CRAZYTAXIPROCGEN_API ACell : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
-	// Sets default values for this actor's properties
-	ACell();
 
 protected:
-	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	float positionX;
+	float positionY;
 
+public:	
+	ACell();
+
+	virtual void Tick(float DeltaTime) override;
 	
+	void SetPositionX(float x);
+	int GetPositionX();
+	void SetPositionY(float y);
+	int GetPositionY();
 	
 };
