@@ -1,61 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\CrazyTaxiProcGen.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{07A6FB02-E3E2-4526-8379-C8853E6F79B9}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\CrazyTaxiProcGen.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\CrazyTaxiProcGenEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{3B0791BA-05E8-49C6-B9B2-2FFF55355664}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\CrazyTaxiProcGen">
-      <UniqueIdentifier>{0B513338-A217-419A-B906-19561BBE55F3}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\CrazyTaxiProcGen\CrazyTaxiProcGen.Build.cs">
-      <Filter>Source\CrazyTaxiProcGen</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\CrazyTaxiProcGen\CrazyTaxiProcGen.cpp">
-      <Filter>Source\CrazyTaxiProcGen</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\CrazyTaxiProcGen\CrazyTaxiProcGen.h">
-      <Filter>Source\CrazyTaxiProcGen</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\CrazyTaxiProcGen\CrazyTaxiProcGenGameModeBase.cpp">
-      <Filter>Source\CrazyTaxiProcGen</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\CrazyTaxiProcGen\CrazyTaxiProcGenGameModeBase.h">
-      <Filter>Source\CrazyTaxiProcGen</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\CrazyTaxiProcGen\GenerateGrid.h">
-      <Filter>Source\CrazyTaxiProcGen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\CrazyTaxiProcGen\Cell.h">
-      <Filter>Source\CrazyTaxiProcGen</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\CrazyTaxiProcGen\GenerateGrid.cpp">
-      <Filter>Source\CrazyTaxiProcGen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\CrazyTaxiProcGen\Cell.cpp">
-      <Filter>Source\CrazyTaxiProcGen</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\CrazyTaxiProcGen.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{57686FA2-2A2D-42F1-9066-E2F9AFD2FD0C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\CrazyTaxiProcGen.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\CrazyTaxiProcGenEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{87480544-8AC3-47A2-9708-99C368263331}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\CrazyTaxiProcGen">
+			<UniqueIdentifier>{EC9E8D5C-0BE3-48E4-B530-8A5680A81BE0}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\CrazyTaxiProcGen\Cell.cpp">
+			<Filter>Source\CrazyTaxiProcGen</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CrazyTaxiProcGen\Cell.h">
+			<Filter>Source\CrazyTaxiProcGen</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\CrazyTaxiProcGen\CrazyTaxiProcGen.Build.cs">
+			<Filter>Source\CrazyTaxiProcGen</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\CrazyTaxiProcGen\CrazyTaxiProcGen.cpp">
+			<Filter>Source\CrazyTaxiProcGen</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CrazyTaxiProcGen\CrazyTaxiProcGen.h">
+			<Filter>Source\CrazyTaxiProcGen</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\CrazyTaxiProcGen\CrazyTaxiProcGenGameModeBase.cpp">
+			<Filter>Source\CrazyTaxiProcGen</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CrazyTaxiProcGen\CrazyTaxiProcGenGameModeBase.h">
+			<Filter>Source\CrazyTaxiProcGen</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\CrazyTaxiProcGen\GenerateGrid.cpp">
+			<Filter>Source\CrazyTaxiProcGen</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CrazyTaxiProcGen\GenerateGrid.h">
+			<Filter>Source\CrazyTaxiProcGen</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>

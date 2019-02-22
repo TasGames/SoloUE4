@@ -46,4 +46,28 @@ public:
 	int GetColumn();
 	void SetRow(int n);
 	int GetRow();
+
+	void SetTLCell(int c);
+	int GetTLCell();
+
+	void SetTCell(int c);
+	int GetTCell();
+
+	void SetTRCell(int c);
+	int GetTRCell();
+
+	void SetLCell(int c);
+	int GetLCell();
+
+	void SetRCell(int c);
+	int GetRCell();
+
+	void SetBLCell(int c);
+	int GetBLCell();
+
+	void SetBCell(int c);
+	int GetBCell();
+
+	void SetBRCell(int c);
+	int GetBRCell();
 };

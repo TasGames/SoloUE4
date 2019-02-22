@@ -63,3 +63,83 @@ int ACell::GetRow()
 	return rowNum;
 }
 
+void ACell::SetTLCell(int c)
+{
+	tlCell = c;
+}
+
+int ACell::GetTLCell()
+{
+	return tlCell;
+}
+
+void ACell::SetTCell(int c)
+{
+	tCell = c;
+}
+
+int ACell::GetTCell()
+{
+	return tCell;
+}
+
+void ACell::SetTRCell(int c)
+{
+	trCell = c;
+}
+
+int ACell::GetTRCell()
+{
+	return trCell;
+}
+
+void ACell::SetLCell(int c)
+{
+	lCell = c;
+}
+
+int ACell::GetLCell()
+{
+	return lCell;
+}
+
+void ACell::SetRCell(int c)
+{
+	rCell = c;
+}
+
+int ACell::GetRCell()
+{
+	return rCell;
+}
+
+void ACell::SetBLCell(int c)
+{
+	blCell = c;
+}
+
+int ACell::GetBLCell()
+{
+	return blCell;
+}
+
+void ACell::SetBCell(int c)
+{
+	bCell = c;
+}
+
+int ACell::GetBCell()
+{
+	return bCell;
+}
+
+void ACell::SetBRCell(int c)
+{
+	brCell = c;
+}
+
+int ACell::GetBRCell()
+{
+	return brCell;
+}
+
