@@ -52,5 +52,6 @@ void AGenerateGrid::SetPositions()
 		spawnLoc.Y += 800;
 		column += 1;
 
+
 	}
 }
