@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define CRAZYTAXIPROCGEN_GenerateGrid_generated_h
 
-#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_12_RPC_WRAPPERS
-#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_12_INCLASS_NO_PURE_DECLS \
+#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_13_RPC_WRAPPERS
+#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGenerateGrid(); \
 	friend struct Z_Construct_UClass_AGenerateGrid_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(AGenerateGrid)
 
 
-#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_12_INCLASS \
+#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesAGenerateGrid(); \
 	friend struct Z_Construct_UClass_AGenerateGrid_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AGenerateGrid)
 
 
-#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_12_STANDARD_CONSTRUCTORS \
+#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AGenerateGrid(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AGenerateGrid) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_12_ENHANCED_CONSTRUCTORS \
+#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AGenerateGrid(AGenerateGrid&&); \
@@ -57,26 +57,29 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGenerateGrid); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AGenerateGrid)
 
 
-#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_12_PRIVATE_PROPERTY_OFFSET
-#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_9_PROLOG
-#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_12_GENERATED_BODY_LEGACY \
+#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_13_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__cellClass() { return STRUCT_OFFSET(AGenerateGrid, cellClass); }
+
+
+#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_10_PROLOG
+#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_12_PRIVATE_PROPERTY_OFFSET \
-	CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_12_RPC_WRAPPERS \
-	CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_12_INCLASS \
-	CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_12_STANDARD_CONSTRUCTORS \
+	CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_13_PRIVATE_PROPERTY_OFFSET \
+	CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_13_RPC_WRAPPERS \
+	CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_13_INCLASS \
+	CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_12_GENERATED_BODY \
+#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_12_PRIVATE_PROPERTY_OFFSET \
-	CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_12_INCLASS_NO_PURE_DECLS \
-	CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_12_ENHANCED_CONSTRUCTORS \
+	CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_13_PRIVATE_PROPERTY_OFFSET \
+	CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_13_INCLASS_NO_PURE_DECLS \
+	CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

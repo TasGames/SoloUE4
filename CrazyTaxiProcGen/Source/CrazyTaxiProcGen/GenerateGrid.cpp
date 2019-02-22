@@ -1,7 +1,6 @@
 // Thomas Arthur Simon
 
 #include "GenerateGrid.h"
-#include "Cell.h"
 
 AGenerateGrid::AGenerateGrid()
 {

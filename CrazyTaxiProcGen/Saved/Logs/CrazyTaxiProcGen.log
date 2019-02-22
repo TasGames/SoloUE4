@@ -1,4 +1,4 @@
-﻿Log file open, 02/18/19 12:40:40
+﻿Log file open, 02/22/19 07:25:21
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: CrazyTaxiProcGen
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.203694
+LogStats: Stats thread started at 0.585177
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +91,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.149s to configure plugins.
+LogStreaming: Display: Took  0.140s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -148,290 +148,340 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.02.18-12.40.40:859][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.18-12.40.40:859][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.02.18-12.40.40:868][  0]LogHAL: Display: Platform has ~ 16 GB [17116667904 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.02.18-12.40.40:868][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.02.18-12.40.40:868][  0]LogInit: Going up to parent DeviceProfile []
-[2019.02.18-12.40.40:868][  0]LogInit: Computer: DESKTOP-C6U4EA4
-[2019.02.18-12.40.40:868][  0]LogInit: User: ThomasSimon
-[2019.02.18-12.40.40:868][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.02.18-12.40.40:868][  0]LogInit: High frequency timer resolution =3.234374 MHz
-[2019.02.18-12.40.40:869][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.02.18-12.40.40:869][  0]LogMemory: Platform Memory Stats for Windows
-[2019.02.18-12.40.40:869][  0]LogMemory: Process Physical Memory: 100.18 MB used, 100.18 MB peak
-[2019.02.18-12.40.40:869][  0]LogMemory: Process Virtual Memory: 84.31 MB used, 84.31 MB peak
-[2019.02.18-12.40.40:869][  0]LogMemory: Physical Memory: 7286.48 MB used,  9037.24 MB free, 16323.73 MB total
-[2019.02.18-12.40.40:869][  0]LogMemory: Virtual Memory: 4625.71 MB used,  9037.24 MB free, 134217728.00 MB total
-[2019.02.18-12.40.40:888][  0]LogInit: Using OS detected language (en-GB).
-[2019.02.18-12.40.40:888][  0]LogInit: Using OS detected locale (en-GB).
-[2019.02.18-12.40.40:888][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2019.02.18-12.40.41:232][  0]LogStreaming: Display: Took  0.344s to InitEngineTextLocalization.
-[2019.02.18-12.40.41:232][  0]LogInit: Setting process to per monitor DPI aware
-[2019.02.18-12.40.41:264][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.02.18-12.40.41:264][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.02.18-12.40.41:429][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.18-12.40.41:430][  0]LogD3D11RHI: D3D11 adapters:
-[2019.02.18-12.40.41:499][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2019.02.18-12.40.41:500][  0]LogD3D11RHI:       4043/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
-[2019.02.18-12.40.41:502][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.02.18-12.40.41:502][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.02.18-12.40.41:502][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.02.18-12.40.41:508][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.02.18-12.40.41:508][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2019.02.18-12.40.41:508][  0]LogWindows: EnumDisplayDevices:
-[2019.02.18-12.40.41:508][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2019.02.18-12.40.41:509][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2019.02.18-12.40.41:509][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2019.02.18-12.40.41:509][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2019.02.18-12.40.41:509][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.02.18-12.40.41:509][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2019.02.18-12.40.41:509][  0]LogD3D11RHI:   Driver Version: 398.11 (internal:24.21.13.9811, unified:398.11)
-[2019.02.18-12.40.41:509][  0]LogD3D11RHI:      Driver Date: 6-1-2018
-[2019.02.18-12.40.41:509][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
-[2019.02.18-12.40.41:537][  0]LogD3D11RHI: Async texture creation enabled
-[2019.02.18-12.40.41:553][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.02.18-12.40.41:604][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Intermediate/Shaders/WorkingDirectory/7476/).
-[2019.02.18-12.40.41:604][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thomas Simon/AppData/Local/Temp/UnrealShaderWorkingDir/141B8D804775875B86CDB886224435EA/'.
-[2019.02.18-12.40.41:970][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.02.18-12.40.41:982][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.02.18-12.40.41:995][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.02.18-12.40.42:008][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.02.18-12.40.42:020][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.02.18-12.40.42:033][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.02.18-12.40.42:046][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.02.18-12.40.42:058][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.02.18-12.40.42:064][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.02.18-12.40.42:139][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.18-12.40.42:140][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.18-12.40.42:140][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.18-12.40.42:140][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.18-12.40.42:140][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.18-12.40.42:140][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.18-12.40.42:140][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.18-12.40.42:140][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.18-12.40.42:140][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.18-12.40.42:140][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.18-12.40.42:140][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.18-12.40.42:140][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.18-12.40.42:140][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.18-12.40.42:140][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.18-12.40.42:140][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.18-12.40.42:140][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.18-12.40.42:140][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.18-12.40.42:140][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.18-12.40.42:141][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.02.18-12.40.42:202][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.18-12.40.42:202][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.18-12.40.42:224][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.18-12.40.42:224][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.18-12.40.42:236][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.02.18-12.40.42:248][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.02.18-12.40.42:259][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.02.18-12.40.42:271][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.02.18-12.40.42:280][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.02.18-12.40.42:280][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.02.18-12.40.42:334][  0]LogXGEController: Cleaning working directory: C:/Users/Thomas Simon/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.02.18-12.40.42:335][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.02.18-12.40.42:335][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.02.18-12.40.42:335][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.02.18-12.40.43:004][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.02.18-12.40.43:065][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.02.18-12.40.43:067][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.02.18-12.40.43:067][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.02.18-12.40.43:067][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.02.18-12.40.43:067][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.18-12.40.43:067][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.02.18-12.40.43:079][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.02.18-12.40.43:092][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thomas Simon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.02.18-12.40.43:092][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.02.18-12.40.43:092][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.02.18-12.40.43:109][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.02.18-12.40.43:111][  0]LogSlate: Using FreeType 2.6.0
-[2019.02.18-12.40.43:111][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.18-12.40.43:183][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
-[2019.02.18-12.40.43:477][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.18-12.40.43:610][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.02.18-12.40.43:614][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.02.18-12.40.43:614][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.02.18-12.40.43:614][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.02.18-12.40.43:614][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.02.18-12.40.43:637][  0]LogNetVersion: CrazyTaxiProcGen 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1195376751)
-[2019.02.18-12.40.44:193][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.141528 seconds
-[2019.02.18-12.40.44:200][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.02.18-12.40.44:200][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2019.02.18-12.40.44:200][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.02.18-12.40.44:984][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.02.18-12.40.44:997][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.02.18-12.40.45:143][  0]SourceControl: Source control is disabled
-[2019.02.18-12.40.45:143][  0]SourceControl: Source control is disabled
-[2019.02.18-12.40.45:144][  0]SourceControl: Source control is disabled
-[2019.02.18-12.40.45:145][  0]SourceControl: Source control is disabled
-[2019.02.18-12.40.45:304][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.02.18-12.40.45:347][  0]LogOcInput: OculusInput pre-init called
-[2019.02.18-12.40.45:400][  0]LogEngine: Initializing Engine...
-[2019.02.18-12.40.45:401][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.18-12.40.45:402][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.18-12.40.45:402][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.18-12.40.45:402][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.18-12.40.45:402][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.18-12.40.45:589][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.02.18-12.40.45:600][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.02.18-12.40.45:617][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.18-12.40.45:631][  0]LogInit: FAudioDevice initialized.
-[2019.02.18-12.40.45:631][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.02.18-12.40.45:700][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.02.18-12.40.45:700][  0]LogInit: Texture streaming: Enabled
-[2019.02.18-12.40.45:716][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.02.18-12.40.45:729][  0]LogInit: Transaction tracking system initialized
-[2019.02.18-12.40.45:751][  0]BlueprintLog: New page: Editor Load
-[2019.02.18-12.40.45:823][  0]LocalizationService: Localization service is disabled
-[2019.02.18-12.40.46:098][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.02.18-12.40.46:098][  0]LogCook: Display: Mobile HDR setting 1
-[2019.02.18-12.40.46:098][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.02.18-12.40.46:098][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.18-12.40.46:098][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.18-12.40.46:098][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.18-12.40.46:098][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.18-12.40.46:205][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/' took 0.01s
-[2019.02.18-12.40.46:205][  0]SourceControl: Source control is disabled
-[2019.02.18-12.40.46:205][  0]Cmd: MAP LOAD FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.18-12.40.46:205][  0]LightingResults: New page: Lighting Build
-[2019.02.18-12.40.46:208][  0]MapCheck: New page: Map Check
-[2019.02.18-12.40.46:208][  0]LightingResults: New page: Lighting Build
-[2019.02.18-12.40.46:317][  0]LogLinker: Warning: Can't find file '/Game/MyContent/Maps/Main_BuiltData'
-[2019.02.18-12.40.46:317][  0]LogLinker: Warning: Can't find file for asset '/Game/MyContent/Maps/Main_BuiltData' while loading A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap.
-[2019.02.18-12.40.46:317][  0]LoadErrors: Error: /Game/MyContent/Maps/Main : Can't find file for asset. /Game/MyContent/Maps/Main_BuiltData
-[2019.02.18-12.40.46:318][  0]LogLinker: Warning: Can't find file '/Game/MyContent/Maps/Main_BuiltData'
-[2019.02.18-12.40.46:318][  0]LogLinker: Warning: Can't find file for asset '/Game/MyContent/Maps/Main_BuiltData' while loading A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap.
-[2019.02.18-12.40.46:318][  0]LoadErrors: Error: /Game/MyContent/Maps/Main : Can't find file for asset. /Game/MyContent/Maps/Main_BuiltData
-[2019.02.18-12.40.46:326][  0]LogLinker: Warning: Can't find file '/Game/MyContent/Maps/Main_BuiltData'
-[2019.02.18-12.40.46:326][  0]LoadErrors: Failed to load /Game/MyContent/Maps/Main_BuiltData.Main_BuiltData Referenced by PersistentLevel
-[2019.02.18-12.40.46:326][  0]LogLinker: Warning: Can't find file for asset '/Game/MyContent/Maps/Main_BuiltData' while loading NULL.
-[2019.02.18-12.40.46:326][  0]LoadErrors: Failed to load /Game/MyContent/Maps/Main_BuiltData.Main_BuiltData Referenced by PersistentLevel
-[2019.02.18-12.40.46:392][  0]LogAIModule: Creating AISystem for world Main
-[2019.02.18-12.40.46:396][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.18-12.40.46:417][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.18-12.40.46:476][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.082ms to complete.
-[2019.02.18-12.40.46:476][  0]LogFileHelpers: Loading map 'Main' took 0.271
-[2019.02.18-12.40.46:613][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.18-12.40.46:620][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.18-12.40.46:627][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.18-12.40.46:634][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.18-12.40.46:639][  0]LogCollectionManager: Loaded 0 collections in 0.001362 seconds
-[2019.02.18-12.40.46:697][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Collections/' took 0.01s
-[2019.02.18-12.40.46:697][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/Developers/ThomasSimon/Collections/' took 0.01s
-[2019.02.18-12.40.46:697][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/Collections/' took 0.01s
-[2019.02.18-12.40.46:697][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.02.18-12.40.46:706][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2574 classes and 607 folders.
-[2019.02.18-12.40.46:712][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.02.18-12.40.46:748][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.02.18-12.40.47:703][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.02.18-12.40.47:729][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.02.18-12.40.47:733][  0]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.02.18-12.40.47:735][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.02.18-12.40.47:802][  0]LogRenderer: Reallocating scene render targets to support 1152x600 Format 10 NumSamples 1 (Frame:1).
-[2019.02.18-12.40.47:927][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CrazyTaxiProcGen
-[2019.02.18-12.40.47:927][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2019.02.18-12.40.47:927][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
-[2019.02.18-12.40.47:927][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2019.02.18-12.40.47:927][  0]LogTemp: BranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
-[2019.02.18-12.40.47:927][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Thomas Simon\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2019.02.18-12.40.47:942][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.02.18-12.40.47:942][  0]LogLoad: (Engine Initialization) Total time: 8.42 seconds
-[2019.02.18-12.40.47:942][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.02.18-12.40.47:951][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.02.18-12.40.47:976][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.02.18-12.40.48:009][  1]LogAssetRegistry: Asset discovery search completed in 4.8490 seconds
-[2019.02.18-12.40.48:012][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.02.18-12.40.48:012][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000063 seconds (updated 0 objects)
-[2019.02.18-12.40.53:444][646]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.18-12.40.54:132][727]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.18-12.41.00:729][514]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.18-12.41.12:592][934]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
-[2019.02.18-12.41.12:639][934]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.18-12.41.18:912][675]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2019.02.18-12.41.21:435][971]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.18-12.42.14:395][283]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.18-12.42.14:404][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.02.18-12.42.14:454][283]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Main51DDE1744C52CF08CA805A9251310413.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap'
-[2019.02.18-12.42.18:717][562]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.18-12.42.22:470][989]LogSlate: Took 0.004325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.02.18-12.42.39:126][838]Running C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" -invalidatemakefilesonly
-[2019.02.18-12.42.39:940][838]Invalidating makefiles only in this run.
-[2019.02.18-12.42.40:076][838]Candidate modules for hot reload:
-[2019.02.18-12.42.40:076][838]  CrazyTaxiProcGen
-[2019.02.18-12.42.40:076][838]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CrazyTaxiProcGen,3805 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" ]
-[2019.02.18-12.42.58:696][838]CompilerResultsLog: New page: Compilation - 18 Feb 2019 12:42:58
-[2019.02.18-12.42.58:696][838]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2019.02.18-12.42.58:696][838]CompilerResultsLog: Creating makefile for hot reloading CrazyTaxiProcGenEditor (no existing makefile)
-[2019.02.18-12.42.58:696][838]CompilerResultsLog: Compiling game modules for hot reload
-[2019.02.18-12.42.58:696][838]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.02.18-12.42.58:696][838]CompilerResultsLog: Parsing headers for CrazyTaxiProcGenEditor
-[2019.02.18-12.42.58:696][838]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\CrazyTaxiProcGen.uproject" "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\CrazyTaxiProcGenEditor\Development\CrazyTaxiProcGenEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2019.02.18-12.42.58:696][838]CompilerResultsLog: Reflection code generated for CrazyTaxiProcGenEditor in 9.3599957 seconds
-[2019.02.18-12.42.58:696][838]CompilerResultsLog: Building 8 actions with 4 processes...
-[2019.02.18-12.42.58:696][838]CompilerResultsLog:   [1/8] CrazyTaxiProcGenGameModeBase.cpp
-[2019.02.18-12.42.58:696][838]CompilerResultsLog:   [2/8] GenerateGrid.cpp
-[2019.02.18-12.42.58:696][838]CompilerResultsLog:   [3/8] CrazyTaxiProcGen.init.gen.cpp
-[2019.02.18-12.42.58:696][838]CompilerResultsLog:   [4/8] CrazyTaxiProcGen.cpp
-[2019.02.18-12.42.58:696][838]CompilerResultsLog:   [5/8] GenerateGrid.gen.cpp
-[2019.02.18-12.42.58:696][838]CompilerResultsLog:   [6/8] CrazyTaxiProcGenGameModeBase.gen.cpp
-[2019.02.18-12.42.58:696][838]CompilerResultsLog:   [7/8] UE4Editor-CrazyTaxiProcGen-3805.lib
-[2019.02.18-12.42.58:696][838]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-3805.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-3805.exp
-[2019.02.18-12.42.58:696][838]CompilerResultsLog:   [8/8] UE4Editor-CrazyTaxiProcGen-3805.dll
-[2019.02.18-12.42.58:696][838]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-3805.suppressed.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-3805.suppressed.exp
-[2019.02.18-12.42.58:696][838]CompilerResultsLog: Total build time: 18.36 seconds (Parallel executor: 3.90 seconds)
-[2019.02.18-12.42.58:696][838]LogMainFrame: MainFrame: Module compiling took 18.633 seconds
-[2019.02.18-12.42.58:730][838]LogClass: Could not find existing class GenerateGrid in package /Script/CrazyTaxiProcGen for HotReload, assuming new class
-[2019.02.18-12.42.58:732][838]LogContentBrowser: Native class hierarchy updated for 'CrazyTaxiProcGen' in 0.0003 seconds. Added 2 classes and 2 folders.
-[2019.02.18-12.42.58:734][838]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2019.02.18-12.42.58:823][838]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2575 classes and 607 folders.
-[2019.02.18-12.42.58:823][838]Display: HotReload took 18.8s.
-[2019.02.18-12.42.58:825][838]Warning: HotReload operation took 18.8s.
-[2019.02.18-12.42.59:605][838]LogVSAccessor: Warning: Couldn't goto line number '1' in 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Source/CrazyTaxiProcGen/GenerateGrid.h'
-[2019.02.18-12.42.59:963][838]LogSlate: Window 'Add C++ Class' being destroyed
-[2019.02.18-12.42.59:966][838]LogHotReload: New module detected: UE4Editor-CrazyTaxiProcGen-3805.dll
-[2019.02.18-12.42.59:996][839]LogHotReload: Starting Hot-Reload from IDE
-[2019.02.18-12.43.00:054][839]LogContentBrowser: Native class hierarchy updated for 'CrazyTaxiProcGen' in 0.0003 seconds. Added 2 classes and 2 folders.
-[2019.02.18-12.43.00:061][839]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2019.02.18-12.43.00:092][839]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2575 classes and 607 folders.
-[2019.02.18-12.43.00:106][839]Display: HotReload took  0.1s.
-[2019.02.18-12.43.15:509][310]Running C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" -invalidatemakefilesonly
-[2019.02.18-12.43.16:423][310]Invalidating makefiles only in this run.
-[2019.02.18-12.43.16:568][310]Candidate modules for hot reload:
-[2019.02.18-12.43.16:568][310]  CrazyTaxiProcGen
-[2019.02.18-12.43.16:568][310]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CrazyTaxiProcGen,8008 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" ]
-[2019.02.18-12.43.39:360][310]CompilerResultsLog: New page: Compilation - 18 Feb 2019 12:43:39
-[2019.02.18-12.43.39:360][310]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2019.02.18-12.43.39:360][310]CompilerResultsLog: Creating makefile for hot reloading CrazyTaxiProcGenEditor (no existing makefile)
-[2019.02.18-12.43.39:360][310]CompilerResultsLog: Compiling game modules for hot reload
-[2019.02.18-12.43.39:360][310]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.02.18-12.43.39:360][310]CompilerResultsLog: Parsing headers for CrazyTaxiProcGenEditor
-[2019.02.18-12.43.39:360][310]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\CrazyTaxiProcGen.uproject" "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\CrazyTaxiProcGenEditor\Development\CrazyTaxiProcGenEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2019.02.18-12.43.39:360][310]CompilerResultsLog: Reflection code generated for CrazyTaxiProcGenEditor in 10.10665 seconds
-[2019.02.18-12.43.39:360][310]CompilerResultsLog: Building 5 actions with 4 processes...
-[2019.02.18-12.43.39:360][310]CompilerResultsLog:   [1/5] Cell.gen.cpp
-[2019.02.18-12.43.39:360][310]CompilerResultsLog:   [2/5] Cell.cpp
-[2019.02.18-12.43.39:360][310]CompilerResultsLog:   [3/5] CrazyTaxiProcGen.init.gen.cpp
-[2019.02.18-12.43.39:360][310]CompilerResultsLog:   [4/5] UE4Editor-CrazyTaxiProcGen-8008.lib
-[2019.02.18-12.43.39:360][310]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-8008.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-8008.exp
-[2019.02.18-12.43.39:360][310]CompilerResultsLog:   [5/5] UE4Editor-CrazyTaxiProcGen-8008.dll
-[2019.02.18-12.43.39:360][310]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-8008.suppressed.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-8008.suppressed.exp
-[2019.02.18-12.43.39:360][310]CompilerResultsLog: Total build time: 22.39 seconds (Parallel executor: 5.82 seconds)
-[2019.02.18-12.43.39:360][310]LogMainFrame: MainFrame: Module compiling took 22.807 seconds
-[2019.02.18-12.43.39:413][310]LogClass: Could not find existing class Cell in package /Script/CrazyTaxiProcGen for HotReload, assuming new class
-[2019.02.18-12.43.39:417][310]LogContentBrowser: Native class hierarchy updated for 'CrazyTaxiProcGen' in 0.0003 seconds. Added 3 classes and 2 folders.
-[2019.02.18-12.43.39:420][310]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2019.02.18-12.43.39:475][310]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2576 classes and 607 folders.
-[2019.02.18-12.43.39:476][310]Display: HotReload took 22.9s.
-[2019.02.18-12.43.39:477][310]Warning: HotReload operation took 22.9s.
-[2019.02.18-12.43.39:719][310]LogVSAccessor: Warning: Couldn't goto line number '1' in 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Source/CrazyTaxiProcGen/Cell.h'
-[2019.02.18-12.43.39:869][310]LogVSAccessor: Warning: Couldn't goto line number '1' in 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Source/CrazyTaxiProcGen/Cell.cpp'
-[2019.02.18-12.43.39:891][310]LogSlate: Window 'Add C++ Class' being destroyed
-[2019.02.18-12.43.39:894][310]LogHotReload: New module detected: UE4Editor-CrazyTaxiProcGen-8008.dll
-[2019.02.18-12.43.39:929][311]LogHotReload: Starting Hot-Reload from IDE
-[2019.02.18-12.43.39:980][311]LogContentBrowser: Native class hierarchy updated for 'CrazyTaxiProcGen' in 0.0003 seconds. Added 3 classes and 2 folders.
-[2019.02.18-12.43.39:982][311]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2019.02.18-12.43.40:016][311]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2576 classes and 607 folders.
-[2019.02.18-12.43.40:030][311]Display: HotReload took  0.1s.
+[2019.02.22-07.25.22:716][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.22-07.25.22:716][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.22-07.25.22:751][  0]LogHAL: Display: Platform has ~ 16 GB [17116667904 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.22-07.25.22:751][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.22-07.25.22:751][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.22-07.25.22:754][  0]LogInit: Computer: DESKTOP-C6U4EA4
+[2019.02.22-07.25.22:754][  0]LogInit: User: ThomasSimon
+[2019.02.22-07.25.22:754][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.22-07.25.22:754][  0]LogInit: High frequency timer resolution =3.234384 MHz
+[2019.02.22-07.25.22:755][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.02.22-07.25.22:755][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.22-07.25.22:755][  0]LogMemory: Process Physical Memory: 100.06 MB used, 100.06 MB peak
+[2019.02.22-07.25.22:755][  0]LogMemory: Process Virtual Memory: 84.36 MB used, 84.36 MB peak
+[2019.02.22-07.25.22:755][  0]LogMemory: Physical Memory: 3477.12 MB used,  12846.61 MB free, 16323.73 MB total
+[2019.02.22-07.25.22:755][  0]LogMemory: Virtual Memory: 4625.71 MB used,  12846.61 MB free, 134217728.00 MB total
+[2019.02.22-07.25.22:964][  0]LogInit: Using OS detected language (en-GB).
+[2019.02.22-07.25.22:964][  0]LogInit: Using OS detected locale (en-GB).
+[2019.02.22-07.25.22:965][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.02.22-07.25.23:390][  0]LogStreaming: Display: Took  0.424s to InitEngineTextLocalization.
+[2019.02.22-07.25.23:391][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.22-07.25.23:469][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.22-07.25.23:469][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.22-07.25.23:802][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.22-07.25.23:803][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.22-07.25.23:904][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.02.22-07.25.23:904][  0]LogD3D11RHI:       4043/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2019.02.22-07.25.23:907][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.22-07.25.23:907][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.22-07.25.23:907][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.22-07.25.23:914][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.22-07.25.23:915][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.22-07.25.23:915][  0]LogWindows: EnumDisplayDevices:
+[2019.02.22-07.25.23:915][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.02.22-07.25.23:915][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.02.22-07.25.23:916][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.02.22-07.25.23:916][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.02.22-07.25.23:916][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.22-07.25.23:916][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.02.22-07.25.23:916][  0]LogD3D11RHI:   Driver Version: 398.11 (internal:24.21.13.9811, unified:398.11)
+[2019.02.22-07.25.23:916][  0]LogD3D11RHI:      Driver Date: 6-1-2018
+[2019.02.22-07.25.23:916][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.02.22-07.25.23:949][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.22-07.25.23:976][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.22-07.25.24:031][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Intermediate/Shaders/WorkingDirectory/2324/).
+[2019.02.22-07.25.24:031][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thomas Simon/AppData/Local/Temp/UnrealShaderWorkingDir/68DFA2034E863DB4AE611493458E821E/'.
+[2019.02.22-07.25.24:493][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.22-07.25.24:517][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.22-07.25.24:542][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.22-07.25.24:566][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.22-07.25.24:594][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.22-07.25.24:620][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.22-07.25.24:645][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.22-07.25.24:669][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.22-07.25.24:688][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.22-07.25.24:780][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-07.25.24:780][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-07.25.24:780][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-07.25.24:780][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-07.25.24:780][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-07.25.24:780][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-07.25.24:780][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-07.25.24:780][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-07.25.24:780][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-07.25.24:780][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-07.25.24:780][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-07.25.24:780][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-07.25.24:780][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-07.25.24:780][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-07.25.24:780][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-07.25.24:780][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-07.25.24:780][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-07.25.24:780][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.22-07.25.24:795][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.22-07.25.24:893][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.22-07.25.24:893][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.22-07.25.24:928][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.22-07.25.24:928][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.22-07.25.24:953][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.22-07.25.24:978][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.22-07.25.25:003][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.22-07.25.25:030][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.22-07.25.25:052][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.22-07.25.25:052][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.22-07.25.25:417][  0]LogXGEController: Cleaning working directory: C:/Users/Thomas Simon/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.22-07.25.25:417][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.22-07.25.25:417][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.22-07.25.25:417][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.22-07.25.26:288][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.22-07.25.26:597][  0]LogDerivedDataCache: Loaded boot cache 0.31s 71MB C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.22-07.25.26:597][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.22-07.25.26:597][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.22-07.25.26:597][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.22-07.25.26:597][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.22-07.25.26:597][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.22-07.25.26:615][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.22-07.25.26:628][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thomas Simon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.22-07.25.26:628][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.22-07.25.26:628][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.22-07.25.26:648][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.22-07.25.26:654][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.22-07.25.26:658][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.22-07.25.26:987][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
+[2019.02.22-07.25.27:345][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.22-07.25.27:684][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.22-07.25.27:729][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.22-07.25.27:730][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.22-07.25.27:730][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.22-07.25.27:730][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.22-07.25.27:773][  0]LogNetVersion: CrazyTaxiProcGen 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1195376751)
+[2019.02.22-07.25.28:570][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.112374 seconds
+[2019.02.22-07.25.28:580][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.22-07.25.28:580][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.02.22-07.25.28:580][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.22-07.25.33:187][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.22-07.25.33:215][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.22-07.25.33:763][  0]SourceControl: Source control is disabled
+[2019.02.22-07.25.33:763][  0]SourceControl: Source control is disabled
+[2019.02.22-07.25.33:810][  0]SourceControl: Source control is disabled
+[2019.02.22-07.25.33:826][  0]SourceControl: Source control is disabled
+[2019.02.22-07.25.34:544][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.22-07.25.34:678][  0]LogOcInput: OculusInput pre-init called
+[2019.02.22-07.25.34:829][  0]LogEngine: Initializing Engine...
+[2019.02.22-07.25.34:831][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.22-07.25.34:833][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.22-07.25.34:833][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.22-07.25.34:833][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.22-07.25.34:833][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.22-07.25.35:062][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.22-07.25.35:129][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.22-07.25.35:157][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.22-07.25.35:175][  0]LogInit: FAudioDevice initialized.
+[2019.02.22-07.25.35:175][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.22-07.25.35:247][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.22-07.25.35:258][  0]LogInit: Texture streaming: Enabled
+[2019.02.22-07.25.35:328][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.22-07.25.35:372][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.22-07.25.35:424][  0]LogInit: Transaction tracking system initialized
+[2019.02.22-07.25.35:591][  0]BlueprintLog: New page: Editor Load
+[2019.02.22-07.25.36:059][  0]LocalizationService: Localization service is disabled
+[2019.02.22-07.25.36:685][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.22-07.25.36:686][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.22-07.25.36:686][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/' took 0.01s
+[2019.02.22-07.25.36:686][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.22-07.25.36:686][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.22-07.25.36:686][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.22-07.25.36:686][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.22-07.25.36:686][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.22-07.25.37:378][  0]SourceControl: Source control is disabled
+[2019.02.22-07.25.37:378][  0]Cmd: MAP LOAD FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.22-07.25.37:379][  0]LightingResults: New page: Lighting Build
+[2019.02.22-07.25.37:393][  0]MapCheck: New page: Map Check
+[2019.02.22-07.25.37:393][  0]LightingResults: New page: Lighting Build
+[2019.02.22-07.25.37:656][  0]LogAIModule: Creating AISystem for world Main
+[2019.02.22-07.25.37:676][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.22-07.25.37:711][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.22-07.25.37:779][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 67.488ms to complete.
+[2019.02.22-07.25.37:779][  0]LogFileHelpers: Loading map 'Main' took 0.401
+[2019.02.22-07.25.37:998][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.22-07.25.38:006][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.22-07.25.38:014][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.22-07.25.38:021][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.22-07.25.38:046][  0]LogCollectionManager: Loaded 0 collections in 0.001491 seconds
+[2019.02.22-07.25.38:114][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Collections/' took 0.01s
+[2019.02.22-07.25.38:114][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/Developers/ThomasSimon/Collections/' took 0.01s
+[2019.02.22-07.25.38:114][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/Collections/' took 0.01s
+[2019.02.22-07.25.38:114][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.22-07.25.38:127][  0]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2576 classes and 607 folders.
+[2019.02.22-07.25.38:149][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.22-07.25.38:365][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.22-07.25.39:726][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.02.22-07.25.39:778][  0]LogSlate: Took 0.015977 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.22-07.25.39:789][  0]LogSlate: Took 0.006551 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.22-07.25.39:796][  0]LogSlate: Took 0.002842 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.22-07.25.39:889][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CrazyTaxiProcGen
+[2019.02.22-07.25.39:889][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.02.22-07.25.39:889][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2019.02.22-07.25.39:889][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.02.22-07.25.39:889][  0]LogTemp: BranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2019.02.22-07.25.39:889][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Thomas Simon\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.02.22-07.25.39:889][  0]LogRenderer: Reallocating scene render targets to support 1152x600 Format 10 NumSamples 1 (Frame:1).
+[2019.02.22-07.25.39:971][  0]LogSlate: Took 0.003829 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.22-07.25.40:057][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.22-07.25.40:057][  0]LogLoad: (Engine Initialization) Total time: 21.08 seconds
+[2019.02.22-07.25.40:057][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.22-07.25.40:096][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.22-07.25.40:126][  1]LogAssetRegistry: Asset discovery search completed in 13.1611 seconds
+[2019.02.22-07.25.40:128][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.22-07.25.40:128][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000084 seconds (updated 0 objects)
+[2019.02.22-07.25.47:107][367]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.22-07.31.20:163][348]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.02.22-07.31.20:181][348]Candidate modules for hot reload:
+[2019.02.22-07.31.20:181][348]  CrazyTaxiProcGen
+[2019.02.22-07.31.20:181][348]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CrazyTaxiProcGen,494 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" ]
+[2019.02.22-07.31.20:190][348]Warning: Starting HotReload took  0.1s.
+[2019.02.22-07.32.46:330][753]CompilerResultsLog: New page: Compilation - 22 Feb 2019 07:32:46
+[2019.02.22-07.32.46:330][753]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.22-07.32.46:330][753]CompilerResultsLog: Creating makefile for hot reloading CrazyTaxiProcGenEditor (ini files are newer than UBTMakefile)
+[2019.02.22-07.32.46:330][753]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.22-07.32.46:330][753]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.02.22-07.32.46:330][753]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.02.22-07.32.46:331][753]CompilerResultsLog:   [1/4] GenerateGrid.cpp
+[2019.02.22-07.32.46:331][753]CompilerResultsLog:    a:\projects\unreal engine projects\soloue4\crazytaxiprocgen\source\crazytaxiprocgen\GenerateGrid.h(19) : error C2065: 'ACell': undeclared identifier
+[2019.02.22-07.32.46:331][753]CompilerResultsLog:    a:\projects\unreal engine projects\soloue4\crazytaxiprocgen\source\crazytaxiprocgen\GenerateGrid.h(19) : error C2059: syntax error: '>'
+[2019.02.22-07.32.46:331][753]CompilerResultsLog:    a:\projects\unreal engine projects\soloue4\crazytaxiprocgen\source\crazytaxiprocgen\GenerateGrid.h(19) : error C2976: 'TArray': too few template arguments
+[2019.02.22-07.32.46:331][753]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(278): note: see declaration of 'TArray'
+[2019.02.22-07.32.46:331][753]CompilerResultsLog:    A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Source\CrazyTaxiProcGen\GenerateGrid.cpp(7) : error C2512: 'TArray': no appropriate default constructor available
+[2019.02.22-07.32.46:331][753]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(278): note: see declaration of 'TArray'
+[2019.02.22-07.32.46:331][753]CompilerResultsLog:    A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Source\CrazyTaxiProcGen\GenerateGrid.cpp(28) : error C2678: binary '[': no operator found which takes a left-hand operand of type 'TArray' (or there is no acceptable conversion)
+[2019.02.22-07.32.46:331][753]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(666): note: could be 'const InElementType &TArray<InElementType,InAllocator>::operator [](int32) const'
+[2019.02.22-07.32.46:331][753]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(653): note: or       'InElementType &TArray<InElementType,InAllocator>::operator [](int32)'
+[2019.02.22-07.32.46:331][753]CompilerResultsLog:   A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Source\CrazyTaxiProcGen\GenerateGrid.cpp(28): note: while trying to match the argument list '(TArray, int)'
+[2019.02.22-07.32.46:331][753]CompilerResultsLog:   [2/4] GenerateGrid.gen.cpp
+[2019.02.22-07.32.46:331][753]CompilerResultsLog:    A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Source\CrazyTaxiProcGen/GenerateGrid.h(19) : error C2065: 'ACell': undeclared identifier
+[2019.02.22-07.32.46:331][753]CompilerResultsLog:    A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Source\CrazyTaxiProcGen/GenerateGrid.h(19) : error C2059: syntax error: '>'
+[2019.02.22-07.32.46:331][753]CompilerResultsLog:    A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Source\CrazyTaxiProcGen/GenerateGrid.h(19) : error C2976: 'TArray': too few template arguments
+[2019.02.22-07.32.46:331][753]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(278): note: see declaration of 'TArray'
+[2019.02.22-07.32.46:331][753]CompilerResultsLog:    A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Inc\CrazyTaxiProcGen\GenerateGrid.gen.cpp(72) : error C2512: 'TArray': no appropriate default constructor available
+[2019.02.22-07.32.46:331][753]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(278): note: see declaration of 'TArray'
+[2019.02.22-07.32.46:331][753]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Binaries\Win64\UE4Editor-CrazyTaxiProcGen-494.dll
+[2019.02.22-07.32.46:331][753]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.02.22-07.32.46:331][753]CompilerResultsLog: Total build time: 85.66 seconds (Parallel executor: 0.00 seconds)
+[2019.02.22-07.32.46:331][753]LogMainFrame: MainFrame: Module compiling took 86.167 seconds
+[2019.02.22-07.32.46:331][753]Warning: HotReload failed, recompile failed
+[2019.02.22-07.32.58:409][436]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.22-07.32.58:416][436]LogAssetEditorManager: Opening Asset editor for Class /Script/CrazyTaxiProcGen.Cell
+[2019.02.22-07.34.02:742][231]LogAssetEditorManager: Opening Asset editor for Class /Script/CrazyTaxiProcGen.Cell
+[2019.02.22-07.34.37:989][671]Candidate modules for hot reload:
+[2019.02.22-07.34.37:989][671]  CrazyTaxiProcGen
+[2019.02.22-07.34.37:989][671]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CrazyTaxiProcGen,7843 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" ]
+[2019.02.22-07.34.37:996][671]Warning: Starting HotReload took  0.0s.
+[2019.02.22-07.35.14:171][826]CompilerResultsLog: New page: Compilation - 22 Feb 2019 07:35:14
+[2019.02.22-07.35.14:171][826]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.22-07.35.14:171][826]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.22-07.35.14:171][826]CompilerResultsLog: Parsing headers for CrazyTaxiProcGenEditor
+[2019.02.22-07.35.14:171][826]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\CrazyTaxiProcGen.uproject" "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\CrazyTaxiProcGenEditor\Development\CrazyTaxiProcGenEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.22-07.35.14:171][826]CompilerResultsLog: Reflection code generated for CrazyTaxiProcGenEditor in 12.0884477 seconds
+[2019.02.22-07.35.14:171][826]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.02.22-07.35.14:171][826]CompilerResultsLog:   [1/4] GenerateGrid.cpp
+[2019.02.22-07.35.14:171][826]CompilerResultsLog:   [2/4] GenerateGrid.gen.cpp
+[2019.02.22-07.35.14:171][826]CompilerResultsLog:   [3/4] UE4Editor-CrazyTaxiProcGen-7843.lib
+[2019.02.22-07.35.14:171][826]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-7843.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-7843.exp
+[2019.02.22-07.35.14:171][826]CompilerResultsLog:   [4/4] UE4Editor-CrazyTaxiProcGen-7843.dll
+[2019.02.22-07.35.14:171][826]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-7843.suppressed.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-7843.suppressed.exp
+[2019.02.22-07.35.14:171][826]CompilerResultsLog: Total build time: 35.78 seconds (Parallel executor: 20.07 seconds)
+[2019.02.22-07.35.14:171][826]LogMainFrame: MainFrame: Module compiling took 36.195 seconds
+[2019.02.22-07.35.14:206][826]LogClass: Could not find existing class Cell in package /Script/CrazyTaxiProcGen for HotReload, assuming new class
+[2019.02.22-07.35.14:207][826]LogClass: Could not find existing class GenerateGrid in package /Script/CrazyTaxiProcGen for HotReload, assuming new class
+[2019.02.22-07.35.14:210][826]LogHotReload: Re-instancing Cell after hot-reload.
+[2019.02.22-07.35.14:258][826]LogHotReload: Re-instancing GenerateGrid after hot-reload.
+[2019.02.22-07.35.14:302][826]LogContentBrowser: Native class hierarchy updated for 'CrazyTaxiProcGen' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2019.02.22-07.35.14:304][826]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.22-07.35.14:393][826]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2576 classes and 607 folders.
+[2019.02.22-07.35.14:393][826]Display: HotReload took 36.4s.
+[2019.02.22-07.39.48:009][703]Candidate modules for hot reload:
+[2019.02.22-07.39.48:009][703]  CrazyTaxiProcGen
+[2019.02.22-07.39.48:009][703]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CrazyTaxiProcGen,8838 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" ]
+[2019.02.22-07.39.48:015][703]Warning: Starting HotReload took  0.0s.
+[2019.02.22-07.40.10:082][326]CompilerResultsLog: New page: Compilation - 22 Feb 2019 07:40:10
+[2019.02.22-07.40.10:082][326]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.22-07.40.10:082][326]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.22-07.40.10:082][326]CompilerResultsLog: Parsing headers for CrazyTaxiProcGenEditor
+[2019.02.22-07.40.10:082][326]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\CrazyTaxiProcGen.uproject" "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\CrazyTaxiProcGenEditor\Development\CrazyTaxiProcGenEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.22-07.40.10:082][326]CompilerResultsLog: Reflection code generated for CrazyTaxiProcGenEditor in 11.9098149 seconds
+[2019.02.22-07.40.10:082][326]CompilerResultsLog: Building 7 actions with 4 processes...
+[2019.02.22-07.40.10:082][326]CompilerResultsLog:   [1/7] Cell.cpp
+[2019.02.22-07.40.10:082][326]CompilerResultsLog:   [2/7] CrazyTaxiProcGen.init.gen.cpp
+[2019.02.22-07.40.10:082][326]CompilerResultsLog:   [3/7] GenerateGrid.cpp
+[2019.02.22-07.40.10:082][326]CompilerResultsLog:   [4/7] GenerateGrid.gen.cpp
+[2019.02.22-07.40.10:082][326]CompilerResultsLog:   [5/7] Cell.gen.cpp
+[2019.02.22-07.40.10:082][326]CompilerResultsLog:   [6/7] UE4Editor-CrazyTaxiProcGen-8838.lib
+[2019.02.22-07.40.10:082][326]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-8838.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-8838.exp
+[2019.02.22-07.40.10:082][326]CompilerResultsLog:   [7/7] UE4Editor-CrazyTaxiProcGen-8838.dll
+[2019.02.22-07.40.10:082][326]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-8838.suppressed.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-8838.suppressed.exp
+[2019.02.22-07.40.10:082][326]CompilerResultsLog: Total build time: 21.77 seconds (Parallel executor: 7.81 seconds)
+[2019.02.22-07.40.10:082][326]LogMainFrame: MainFrame: Module compiling took 22.090 seconds
+[2019.02.22-07.40.10:117][326]LogClass: Could not find existing class Cell in package /Script/CrazyTaxiProcGen for HotReload, assuming new class
+[2019.02.22-07.40.10:118][326]LogClass: Could not find existing class GenerateGrid in package /Script/CrazyTaxiProcGen for HotReload, assuming new class
+[2019.02.22-07.40.10:121][326]LogHotReload: Re-instancing Cell after hot-reload.
+[2019.02.22-07.40.10:167][326]LogHotReload: Re-instancing GenerateGrid after hot-reload.
+[2019.02.22-07.40.10:211][326]LogContentBrowser: Native class hierarchy updated for 'CrazyTaxiProcGen' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2019.02.22-07.40.10:213][326]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.22-07.40.10:271][326]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2576 classes and 607 folders.
+[2019.02.22-07.40.10:271][326]Display: HotReload took 22.3s.
+[2019.02.22-07.46.18:401][847]Candidate modules for hot reload:
+[2019.02.22-07.46.18:401][847]  CrazyTaxiProcGen
+[2019.02.22-07.46.18:401][847]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CrazyTaxiProcGen,6676 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" ]
+[2019.02.22-07.46.18:407][847]Warning: Starting HotReload took  0.0s.
+[2019.02.22-07.46.36:994][ 50]CompilerResultsLog: New page: Compilation - 22 Feb 2019 07:46:36
+[2019.02.22-07.46.36:995][ 50]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.22-07.46.36:995][ 50]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.22-07.46.36:995][ 50]CompilerResultsLog: Parsing headers for CrazyTaxiProcGenEditor
+[2019.02.22-07.46.36:995][ 50]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\CrazyTaxiProcGen.uproject" "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\CrazyTaxiProcGenEditor\Development\CrazyTaxiProcGenEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.22-07.46.36:995][ 50]CompilerResultsLog: Reflection code generated for CrazyTaxiProcGenEditor in 11.8692554 seconds
+[2019.02.22-07.46.36:995][ 50]CompilerResultsLog: Building 6 actions with 4 processes...
+[2019.02.22-07.46.36:995][ 50]CompilerResultsLog:   [1/6] Cell.cpp
+[2019.02.22-07.46.36:995][ 50]CompilerResultsLog:   [2/6] Cell.gen.cpp
+[2019.02.22-07.46.36:995][ 50]CompilerResultsLog:   [3/6] GenerateGrid.cpp
+[2019.02.22-07.46.36:995][ 50]CompilerResultsLog:   [4/6] GenerateGrid.gen.cpp
+[2019.02.22-07.46.36:995][ 50]CompilerResultsLog:   [5/6] UE4Editor-CrazyTaxiProcGen-6676.lib
+[2019.02.22-07.46.36:995][ 50]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-6676.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-6676.exp
+[2019.02.22-07.46.36:995][ 50]CompilerResultsLog:   [6/6] UE4Editor-CrazyTaxiProcGen-6676.dll
+[2019.02.22-07.46.36:995][ 50]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-6676.suppressed.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-6676.suppressed.exp
+[2019.02.22-07.46.36:995][ 50]CompilerResultsLog: Total build time: 18.27 seconds (Parallel executor: 4.37 seconds)
+[2019.02.22-07.46.36:995][ 50]LogMainFrame: MainFrame: Module compiling took 18.613 seconds
+[2019.02.22-07.46.37:029][ 50]LogClass: Could not find existing class Cell in package /Script/CrazyTaxiProcGen for HotReload, assuming new class
+[2019.02.22-07.46.37:034][ 50]LogHotReload: Re-instancing Cell after hot-reload.
+[2019.02.22-07.46.37:079][ 50]LogContentBrowser: Native class hierarchy updated for 'CrazyTaxiProcGen' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2019.02.22-07.46.37:081][ 50]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.22-07.46.37:138][ 50]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2576 classes and 607 folders.
+[2019.02.22-07.46.37:138][ 50]Display: HotReload took 18.8s.
+[2019.02.22-07.50.49:653][480]Candidate modules for hot reload:
+[2019.02.22-07.50.49:653][480]  CrazyTaxiProcGen
+[2019.02.22-07.50.49:653][480]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CrazyTaxiProcGen,2581 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" ]
+[2019.02.22-07.50.49:660][480]Warning: Starting HotReload took  0.0s.
+[2019.02.22-07.51.07:645][624]CompilerResultsLog: New page: Compilation - 22 Feb 2019 07:51:07
+[2019.02.22-07.51.07:645][624]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.22-07.51.07:645][624]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.22-07.51.07:645][624]CompilerResultsLog: Parsing headers for CrazyTaxiProcGenEditor
+[2019.02.22-07.51.07:645][624]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\CrazyTaxiProcGen.uproject" "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\CrazyTaxiProcGenEditor\Development\CrazyTaxiProcGenEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.22-07.51.07:645][624]CompilerResultsLog: Reflection code generated for CrazyTaxiProcGenEditor in 12.2078179 seconds
+[2019.02.22-07.51.07:645][624]CompilerResultsLog: Building 6 actions with 4 processes...
+[2019.02.22-07.51.07:645][624]CompilerResultsLog:   [1/6] Cell.cpp
+[2019.02.22-07.51.07:645][624]CompilerResultsLog:   [2/6] GenerateGrid.cpp
+[2019.02.22-07.51.07:645][624]CompilerResultsLog:   [3/6] Cell.gen.cpp
+[2019.02.22-07.51.07:645][624]CompilerResultsLog:   [4/6] GenerateGrid.gen.cpp
+[2019.02.22-07.51.07:645][624]CompilerResultsLog:   [5/6] UE4Editor-CrazyTaxiProcGen-2581.lib
+[2019.02.22-07.51.07:645][624]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-2581.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-2581.exp
+[2019.02.22-07.51.07:645][624]CompilerResultsLog:   [6/6] UE4Editor-CrazyTaxiProcGen-2581.dll
+[2019.02.22-07.51.07:645][624]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-2581.suppressed.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-2581.suppressed.exp
+[2019.02.22-07.51.07:645][624]CompilerResultsLog: Total build time: 17.67 seconds (Parallel executor: 3.37 seconds)
+[2019.02.22-07.51.07:645][624]LogMainFrame: MainFrame: Module compiling took 18.009 seconds
+[2019.02.22-07.51.07:678][624]LogClass: Could not find existing class Cell in package /Script/CrazyTaxiProcGen for HotReload, assuming new class
+[2019.02.22-07.51.07:682][624]LogHotReload: Re-instancing Cell after hot-reload.
+[2019.02.22-07.51.07:726][624]LogContentBrowser: Native class hierarchy updated for 'CrazyTaxiProcGen' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2019.02.22-07.51.07:728][624]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.22-07.51.07:784][624]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2576 classes and 607 folders.
+[2019.02.22-07.51.07:784][624]Display: HotReload took 18.2s.

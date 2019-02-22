@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Cell.h"
 #include "GenerateGrid.generated.h"
 
 UCLASS()
@@ -15,6 +16,9 @@ protected:
 	virtual void BeginPlay() override;
 
 	void SetPositions();
+
+	UPROPERTY(EditAnywhere, Category = Cell)
+	TSubclassOf<class ACell> cellClass;
 
 	TArray<ACell*> ArrayOfCells;
 

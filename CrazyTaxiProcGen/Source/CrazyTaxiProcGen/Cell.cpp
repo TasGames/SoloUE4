@@ -6,6 +6,9 @@ ACell::ACell()
 {
 	PrimaryActorTick.bCanEverTick = true;
 
+	cellMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Cell"));
+	cellMesh->SetupAttachment(RootComponent);
+	cellMesh->SetSimulatePhysics(true);
 }
 
 void ACell::BeginPlay()
@@ -22,19 +25,41 @@ void ACell::Tick(float DeltaTime)
 
 void ACell::SetPositionX(float x)
 {
+	positionX = x;
 }
 
-int ACell::GetPositionX()
+float ACell::GetPositionX()
 {
-	return 0;
+	return positionX;
 }
 
 void ACell::SetPositionY(float y)
 {
+	positionY = y;
 }
 
-int ACell::GetPositionY()
+float ACell::GetPositionY()
 {
-	return 0;
+	return positionY;
+}
+
+void ACell::SetColumn(int n)
+{
+	columnNum = n;
+}
+
+int ACell::GetColumn()
+{
+	return columnNum;
+}
+
+void ACell::SetRow(int n)
+{
+	rowNum = n;
+}
+
+int ACell::GetRow()
+{
+	return rowNum;
 }
 

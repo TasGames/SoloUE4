@@ -57,7 +57,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACell); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACell)
 
 
-#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_Cell_h_12_PRIVATE_PROPERTY_OFFSET
+#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_Cell_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__cellMesh() { return STRUCT_OFFSET(ACell, cellMesh); }
+
+
 #define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_Cell_h_9_PROLOG
 #define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_Cell_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

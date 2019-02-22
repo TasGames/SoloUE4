@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeCell() {}
 	CRAZYTAXIPROCGEN_API UClass* Z_Construct_UClass_ACell();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_CrazyTaxiProcGen();
+	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void ACell::StaticRegisterNativesACell()
 	{
@@ -31,6 +32,11 @@ void EmptyLinkFunctionForGeneratedCodeCell() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_cellMesh_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_cellMesh;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -44,6 +50,17 @@ void EmptyLinkFunctionForGeneratedCodeCell() {}
 		{ "ModuleRelativePath", "Cell.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACell_Statics::NewProp_cellMesh_MetaData[] = {
+		{ "Category", "Mesh" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Cell.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACell_Statics::NewProp_cellMesh = { UE4CodeGen_Private::EPropertyClass::Object, "cellMesh", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(ACell, cellMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACell_Statics::NewProp_cellMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACell_Statics::NewProp_cellMesh_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACell_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACell_Statics::NewProp_cellMesh,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACell_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ACell>::IsAbstract,
 	};
@@ -52,7 +69,7 @@ void EmptyLinkFunctionForGeneratedCodeCell() {}
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009000A0u,
 		nullptr, 0,
-		nullptr, 0,
+		Z_Construct_UClass_ACell_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_ACell_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
 		nullptr, 0,
@@ -67,7 +84,7 @@ void EmptyLinkFunctionForGeneratedCodeCell() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACell, 2405390364);
+	IMPLEMENT_CLASS(ACell, 3787621590);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ACell(Z_Construct_UClass_ACell, &ACell::StaticClass, TEXT("/Script/CrazyTaxiProcGen"), TEXT("ACell"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACell);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
