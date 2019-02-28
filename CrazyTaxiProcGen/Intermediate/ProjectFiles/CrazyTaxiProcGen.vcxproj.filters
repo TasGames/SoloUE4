@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\CrazyTaxiProcGen.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{0A814E3D-B2AE-41BB-A730-BEEAE6A39837}</UniqueIdentifier>
+			<UniqueIdentifier>{57686FA2-2A2D-42F1-9066-E2F9AFD2FD0C}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\CrazyTaxiProcGen.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{0FBAF234-E755-43AE-8CFC-B453311E174A}</UniqueIdentifier>
+			<UniqueIdentifier>{87480544-8AC3-47A2-9708-99C368263331}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,8 +25,14 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\CrazyTaxiProcGen">
-			<UniqueIdentifier>{12EEE9C2-2DE1-4638-989E-F3C54136BD3C}</UniqueIdentifier>
+			<UniqueIdentifier>{EC9E8D5C-0BE3-48E4-B530-8A5680A81BE0}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\CrazyTaxiProcGen\Cell.cpp">
+			<Filter>Source\CrazyTaxiProcGen</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CrazyTaxiProcGen\Cell.h">
+			<Filter>Source\CrazyTaxiProcGen</Filter>
+		</ClInclude >
 		<None Include="..\..\Source\CrazyTaxiProcGen\CrazyTaxiProcGen.Build.cs">
 			<Filter>Source\CrazyTaxiProcGen</Filter>
 		</None >
@@ -40,6 +46,12 @@
 			<Filter>Source\CrazyTaxiProcGen</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\CrazyTaxiProcGen\CrazyTaxiProcGenGameModeBase.h">
+			<Filter>Source\CrazyTaxiProcGen</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\CrazyTaxiProcGen\GenerateGrid.cpp">
+			<Filter>Source\CrazyTaxiProcGen</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CrazyTaxiProcGen\GenerateGrid.h">
 			<Filter>Source\CrazyTaxiProcGen</Filter>
 		</ClInclude >
 	</ItemGroup>
