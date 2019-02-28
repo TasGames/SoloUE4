@@ -20,14 +20,18 @@ protected:
 
 	TArray<ACell*> ArrayOfCells;
 
+	void SetPositions();
+
+	void RemoveCells();
+
+	void StoreCells();
+
+	void CheckCells(int c);
+
 public:	
 	AGenerateGrid();
 
 	virtual void Tick(float DeltaTime) override;
-
-	void SetPositions();
-
-	void RemoveCells();
 
 	UFUNCTION(BlueprintCallable, Category = "Regenerate")
 	void Regenerate();

@@ -14,6 +14,10 @@ void AGenerateGrid::BeginPlay()
 	Super::BeginPlay();
 	
 	SetPositions();
+
+	StoreCells();
+
+	CheckCells(105);
 }
 
 void AGenerateGrid::Tick(float DeltaTime)
@@ -44,7 +48,7 @@ void AGenerateGrid::SetPositions()
 			cell->SetColumn(column);
 
 			int RandT = FMath::RandRange(0, 2);
-			cell->SetType(RandT);
+			//cell->SetType(RandT);
 
 			if (cell->GetPositionX() == 0 || cell->GetPositionX() == 24000 || cell->GetPositionY() == 0 || cell->GetPositionY() == 24000)
 				cell->SetType(1);
@@ -71,6 +75,49 @@ void AGenerateGrid::RemoveCells()
 	}
 
 	ArrayOfCells.Empty();
+}
+
+void AGenerateGrid::StoreCells()
+{
+	int numOfCells = ArrayOfCells.Num();
+
+	for (int i = 0; i < numOfCells; i++)
+	{
+		ACell* cell = ArrayOfCells[i];
+
+		cell->SetTCell(i + 31);
+		cell->SetTLCell(i + 30);
+		cell->SetTRCell(i + 32);
+		cell->SetBCell(i - 31);
+		cell->SetBLCell(i - 30);
+		cell->SetBRCell(i - 32);
+		cell->SetLCell(i - 1);
+		cell->SetRCell(i + 1);
+	}
+}
+
+void AGenerateGrid::CheckCells(int c)
+{
+	ACell* cell = ArrayOfCells[c];
+
+	ACell* cell1 = ArrayOfCells[cell->GetTCell()];
+	ACell* cell2 = ArrayOfCells[cell->GetTLCell()];
+	ACell* cell3 = ArrayOfCells[cell->GetTRCell()];
+	ACell* cell4 = ArrayOfCells[cell->GetLCell()];
+	ACell* cell5 = ArrayOfCells[cell->GetRCell()];
+	ACell* cell6 = ArrayOfCells[cell->GetBCell()];
+	ACell* cell7 = ArrayOfCells[cell->GetBLCell()];
+	ACell* cell8 = ArrayOfCells[cell->GetBRCell()];
+
+	cell->SetType(2);
+	cell1->SetType(2);
+	cell2->SetType(2);
+	cell3->SetType(2);
+	cell4->SetType(2);
+	cell5->SetType(2);
+	cell6->SetType(2);
+	cell7->SetType(2);
+	cell8->SetType(2);
 }
 
 void AGenerateGrid::Regenerate()
