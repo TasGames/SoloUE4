@@ -77,7 +77,10 @@ int ACell::GetRow()
 
 void ACell::SetTLCell(int c)
 {
-	tlCell = c;
+	if (c > 961)
+		tlCell = 961;
+	else
+		tlCell = c;
 }
 
 int ACell::GetTLCell()
@@ -87,7 +90,10 @@ int ACell::GetTLCell()
 
 void ACell::SetTCell(int c)
 {
-	tCell = c;
+	if (c > 961)
+		tCell = 961;
+	else
+		tCell = c;
 }
 
 int ACell::GetTCell()
@@ -97,7 +103,10 @@ int ACell::GetTCell()
 
 void ACell::SetTRCell(int c)
 {
-	trCell = c;
+	if (c > 961)
+		trCell = 961;
+	else
+		trCell = c;
 }
 
 int ACell::GetTRCell()
@@ -107,7 +116,10 @@ int ACell::GetTRCell()
 
 void ACell::SetLCell(int c)
 {
-	lCell = c;
+	if (c < 0)
+		lCell = 961;
+	else
+		lCell = c;
 }
 
 int ACell::GetLCell()
@@ -117,7 +129,10 @@ int ACell::GetLCell()
 
 void ACell::SetRCell(int c)
 {
-	rCell = c;
+	if (c > 961)
+		rCell = 961;
+	else
+		rCell = c;
 }
 
 int ACell::GetRCell()
@@ -127,7 +142,10 @@ int ACell::GetRCell()
 
 void ACell::SetBLCell(int c)
 {
-	blCell = c;
+	if (c < 0)
+		blCell = 961;
+	else
+		blCell = c;
 }
 
 int ACell::GetBLCell()
@@ -137,7 +155,10 @@ int ACell::GetBLCell()
 
 void ACell::SetBCell(int c)
 {
-	bCell = c;
+	if (c < 0)
+		bCell = 961;
+	else
+		bCell = c;
 }
 
 int ACell::GetBCell()
@@ -147,7 +168,10 @@ int ACell::GetBCell()
 
 void ACell::SetBRCell(int c)
 {
-	brCell = c;
+	if (c < 0)
+		brCell = 961;
+	else
+		brCell = c;
 }
 
 int ACell::GetBRCell()

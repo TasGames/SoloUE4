@@ -17,7 +17,8 @@ void AGenerateGrid::BeginPlay()
 
 	StoreCells();
 
-	CheckCells(105);
+	SmoothCells();
+
 }
 
 void AGenerateGrid::Tick(float DeltaTime)
@@ -48,7 +49,7 @@ void AGenerateGrid::SetPositions()
 			cell->SetColumn(column);
 
 			int RandT = FMath::RandRange(0, 2);
-			//cell->SetType(RandT);
+			cell->SetType(RandT);
 
 			if (cell->GetPositionX() == 0 || cell->GetPositionX() == 24000 || cell->GetPositionY() == 0 || cell->GetPositionY() == 24000)
 				cell->SetType(1);
@@ -62,6 +63,11 @@ void AGenerateGrid::SetPositions()
 		spawnLoc.Y += 800;
 		column += 1;
 	}
+
+	spawnLoc.Z = -100000;
+
+	ACell* cell = GetWorld()->SpawnActor<ACell>(cellClass, spawnLoc, spawnRot, SpawnParams);
+	ArrayOfCells.Add(cell);
 }
 
 void AGenerateGrid::RemoveCells()
@@ -120,11 +126,56 @@ void AGenerateGrid::CheckCells(int c)
 	cell8->SetType(2);
 }
 
+void AGenerateGrid::SmoothCells()
+{
+	for (int i = 0; i < 960; i++)
+	{
+		ACell* cell = ArrayOfCells[i];
+
+		ACell* tlCell = ArrayOfCells[cell->GetTLCell()];
+		ACell* trCell = ArrayOfCells[cell->GetTRCell()];
+		ACell* blCell = ArrayOfCells[cell->GetBLCell()];
+		ACell* brCell = ArrayOfCells[cell->GetBRCell()];
+		ACell* tCell = ArrayOfCells[cell->GetTCell()];
+		ACell* lCell = ArrayOfCells[cell->GetLCell()];
+		ACell* bCell = ArrayOfCells[cell->GetBCell()];
+		ACell* rCell = ArrayOfCells[cell->GetRCell()];
+
+		if (tlCell->GetType() == 1)
+		{
+			if (tCell->GetType() == 1 && lCell->GetType() == 1)
+				cell->SetType(2);
+		}
+
+		if (trCell->GetType() == 1)
+		{
+			if (tCell->GetType() == 1 && rCell->GetType() == 1)
+				cell->SetType(2);
+		}
+
+		if (blCell->GetType() == 1)
+		{
+			if (bCell->GetType() == 1 && lCell->GetType() == 1)
+				cell->SetType(2);
+		}
+
+		if (brCell->GetType() == 1)
+		{
+			if (bCell->GetType() == 1 && rCell->GetType() == 1)
+				cell->SetType(2);
+		}
+
+		if (cell->GetPositionX() == 0 || cell->GetPositionX() == 24000 || cell->GetPositionY() == 0 || cell->GetPositionY() == 24000)
+			cell->SetType(1);
+	}
+}
+
 void AGenerateGrid::Regenerate()
 {
 	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "Worked");
 
 	RemoveCells();
 	SetPositions();
-
+	StoreCells();
+	SmoothCells();
 }

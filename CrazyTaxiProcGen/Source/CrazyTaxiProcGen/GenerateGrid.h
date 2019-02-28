@@ -28,6 +28,8 @@ protected:
 
 	void CheckCells(int c);
 
+	void SmoothCells();
+
 public:	
 	AGenerateGrid();
 
