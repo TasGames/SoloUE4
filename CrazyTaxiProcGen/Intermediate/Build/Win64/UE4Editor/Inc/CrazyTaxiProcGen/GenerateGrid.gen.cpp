@@ -17,11 +17,40 @@ void EmptyLinkFunctionForGeneratedCodeGenerateGrid() {}
 	CRAZYTAXIPROCGEN_API UClass* Z_Construct_UClass_AGenerateGrid();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_CrazyTaxiProcGen();
+	CRAZYTAXIPROCGEN_API UFunction* Z_Construct_UFunction_AGenerateGrid_Regenerate();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	CRAZYTAXIPROCGEN_API UClass* Z_Construct_UClass_ACell_NoRegister();
 // End Cross Module References
 	void AGenerateGrid::StaticRegisterNativesAGenerateGrid()
 	{
+		UClass* Class = AGenerateGrid::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "Regenerate", &AGenerateGrid::execRegenerate },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AGenerateGrid_Regenerate_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGenerateGrid_Regenerate_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Regenerate" },
+		{ "ModuleRelativePath", "GenerateGrid.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGenerateGrid_Regenerate_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGenerateGrid, "Regenerate", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGenerateGrid_Regenerate_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGenerateGrid_Regenerate_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGenerateGrid_Regenerate()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGenerateGrid_Regenerate_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AGenerateGrid_NoRegister()
 	{
@@ -30,6 +59,7 @@ void EmptyLinkFunctionForGeneratedCodeGenerateGrid() {}
 	struct Z_Construct_UClass_AGenerateGrid_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -44,6 +74,9 @@ void EmptyLinkFunctionForGeneratedCodeGenerateGrid() {}
 	UObject* (*const Z_Construct_UClass_AGenerateGrid_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_CrazyTaxiProcGen,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AGenerateGrid_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AGenerateGrid_Regenerate, "Regenerate" }, // 2065178244
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGenerateGrid_Statics::Class_MetaDataParams[] = {
@@ -68,7 +101,7 @@ void EmptyLinkFunctionForGeneratedCodeGenerateGrid() {}
 		&AGenerateGrid::StaticClass,
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009000A0u,
-		nullptr, 0,
+		FuncInfo, ARRAY_COUNT(FuncInfo),
 		Z_Construct_UClass_AGenerateGrid_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_AGenerateGrid_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
@@ -84,7 +117,7 @@ void EmptyLinkFunctionForGeneratedCodeGenerateGrid() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGenerateGrid, 2367340394);
+	IMPLEMENT_CLASS(AGenerateGrid, 1730901297);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AGenerateGrid(Z_Construct_UClass_AGenerateGrid, &AGenerateGrid::StaticClass, TEXT("/Script/CrazyTaxiProcGen"), TEXT("AGenerateGrid"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AGenerateGrid);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

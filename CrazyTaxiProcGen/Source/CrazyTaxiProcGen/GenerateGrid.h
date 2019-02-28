@@ -28,5 +28,9 @@ public:
 	void SetPositions();
 
 	void RemoveCells();
+
+	UFUNCTION(BlueprintCallable, Category = "Regenerate")
+	void Regenerate();
+
 	
 };

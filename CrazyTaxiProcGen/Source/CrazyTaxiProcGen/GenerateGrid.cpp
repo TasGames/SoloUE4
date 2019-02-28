@@ -71,3 +71,12 @@ void AGenerateGrid::RemoveCells()
 
 	ArrayOfCells.Empty();
 }
+
+void AGenerateGrid::Regenerate()
+{
+	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "Worked");
+
+	RemoveCells();
+	SetPositions();
+
+}
