@@ -15,8 +15,6 @@ class CRAZYTAXIPROCGEN_API AGenerateGrid : public AActor
 protected:
 	virtual void BeginPlay() override;
 
-	void SetPositions();
-
 	UPROPERTY(EditAnywhere, Category = Cell)
 	TSubclassOf<class ACell> cellClass;
 
@@ -27,6 +25,8 @@ public:
 
 	virtual void Tick(float DeltaTime) override;
 
-	
+	void SetPositions();
+
+	void RemoveCells();
 	
 };

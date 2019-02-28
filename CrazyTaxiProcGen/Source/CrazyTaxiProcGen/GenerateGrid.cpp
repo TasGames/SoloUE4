@@ -43,7 +43,8 @@ void AGenerateGrid::SetPositions()
 			cell->SetRow(row);
 			cell->SetColumn(column);
 
-			cell->SetType(2);
+			int RandT = FMath::RandRange(0, 2);
+			cell->SetType(RandT);
 
 			spawnLoc.X += 800;
 			row += 1;
@@ -56,4 +57,17 @@ void AGenerateGrid::SetPositions()
 
 
 	}
+}
+
+void AGenerateGrid::RemoveCells()
+{
+	int numOfCells = ArrayOfCells.Num();
+
+	for (int i = 0; i < numOfCells; i++)
+	{
+		ACell* cell = ArrayOfCells[i];
+		cell->Destroy();
+	}
+
+	ArrayOfCells.Empty();
 }
