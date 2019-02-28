@@ -46,6 +46,9 @@ void AGenerateGrid::SetPositions()
 			int RandT = FMath::RandRange(0, 2);
 			cell->SetType(RandT);
 
+			if (cell->GetPositionX() == 0 || cell->GetPositionX() == 24000 || cell->GetPositionY() == 0 || cell->GetPositionY() == 24000)
+				cell->SetType(1);
+
 			spawnLoc.X += 800;
 			row += 1;
 		}
@@ -54,8 +57,6 @@ void AGenerateGrid::SetPositions()
 		row = 1;
 		spawnLoc.Y += 800;
 		column += 1;
-
-
 	}
 }
 
