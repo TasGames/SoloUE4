@@ -58,7 +58,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACell); \
 
 
 #define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_Cell_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__cellMesh() { return STRUCT_OFFSET(ACell, cellMesh); }
+	FORCEINLINE static uint32 __PPO__gridMesh() { return STRUCT_OFFSET(ACell, gridMesh); } \
+	FORCEINLINE static uint32 __PPO__cellMesh() { return STRUCT_OFFSET(ACell, cellMesh); } \
+	FORCEINLINE static uint32 __PPO__cellMeshRoad() { return STRUCT_OFFSET(ACell, cellMeshRoad); } \
+	FORCEINLINE static uint32 __PPO__cellMeshBuilding() { return STRUCT_OFFSET(ACell, cellMeshBuilding); }
 
 
 #define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_Cell_h_9_PROLOG

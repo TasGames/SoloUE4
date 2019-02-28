@@ -6,9 +6,18 @@ ACell::ACell()
 {
 	PrimaryActorTick.bCanEverTick = true;
 
-	cellMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Cell"));
+	gridMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Grid"));
+	RootComponent = gridMesh;
+
+	cellMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("CellE"));
 	cellMesh->SetupAttachment(RootComponent);
-	cellMesh->SetSimulatePhysics(true);
+
+	cellMeshRoad = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("CellR"));
+	cellMeshRoad->SetupAttachment(RootComponent);
+
+	cellMeshBuilding = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("CellB"));
+	cellMeshBuilding->SetupAttachment(RootComponent);
+
 }
 
 void ACell::BeginPlay()
@@ -141,5 +150,14 @@ void ACell::SetBRCell(int c)
 int ACell::GetBRCell()
 {
 	return brCell;
+}
+
+void ACell::SetType(int t)
+{
+}
+
+int ACell::GetType()
+{
+	return 0;
 }
 

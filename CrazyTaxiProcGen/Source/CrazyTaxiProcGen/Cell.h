@@ -12,7 +12,16 @@ class CRAZYTAXIPROCGEN_API ACell : public AActor
 	GENERATED_BODY()
 
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	class UStaticMeshComponent* gridMesh;
+
+	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
 	class UStaticMeshComponent* cellMesh;
+
+	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	class UStaticMeshComponent* cellMeshRoad;
+
+	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	class UStaticMeshComponent* cellMeshBuilding;
 
 protected:
 	virtual void BeginPlay() override;
@@ -31,6 +40,8 @@ protected:
 	int blCell;
 	int bCell;
 	int brCell;
+
+	int type = 0;
 
 public:	
 	ACell();
@@ -70,4 +81,7 @@ public:
 
 	void SetBRCell(int c);
 	int GetBRCell();
+
+	void SetType(int t);
+	int GetType();
 };

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-837691E34B86A464839A1ABEDDAF8270_0000</CrashGUID>
+		<ProcessId>8640</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>true</IsAssert>
+		<CrashType>Assert</CrashType>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<GameName>UE4-CrazyTaxiProcGen</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.20.3-4369336+++UE4+Release-4.20</EngineVersion>
+		<CommandLine>&quot;A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\CrazyTaxiProcGen.uproject&quot;</CommandLine>
+		<LanguageLCID>2057</LanguageLCID>
+		<AppDefaultLocale>en-GB</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.20-CL-4369336</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>ThomasSimon</UserName>
+		<BaseDir>C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files/Epic Games/UE_4.20/</RootDir>
+		<MachineId>5FDFB9EB4A3AF766A039A8B9B40F75DC</MachineId>
+		<LoginId>5fdfb9eb4a3af766a039a8b9b40f75dc</LoginId>
+		<EpicAccountId>75455451a11a4e86936f96d58b7d0fbf</EpicAccountId>
+		<CallStack />
+		<PCallStack>UE4Editor-CoreUObject 0x000000001a800000 + 3d4ef4 UE4Editor-CoreUObject 0x000000001a800000 + 2f8b1e UE4Editor-CrazyTaxiProcGen-8403 0x0000000004e60000 + 1967 UE4Editor-CoreUObject 0x000000001a800000 + 13aafd UE4Editor-CoreUObject 0x000000001a800000 + 41dcf8 UE4Editor-CoreUObject 0x000000001a800000 + 3fda9f UE4Editor-CoreUObject 0x000000001a800000 + 140a57 UE4Editor-Core 0x0000000019e30000 + 12e08e UE4Editor-Core 0x0000000019e30000 + 2e7851 UE4Editor-Projects 0x0000000045f00000 + 1d11c UE4Editor-Projects 0x0000000045f00000 + 1d404 UE4Editor 0x00000000fb980000 + 18521 UE4Editor 0x00000000fb980000 + 1d907 UE4Editor 0x00000000fb980000 + 15968 UE4Editor 0x00000000fb980000 + 15bba UE4Editor 0x00000000fb980000 + 23dac UE4Editor 0x00000000fb980000 + 25aaa KERNEL32 0x0000000062fc0000 + 13dc4 ntdll 0x00000000657c0000 + 73691</PCallStack>
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<ErrorMessage>Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\UObjectGlobals.cpp] [Line: 3751] Default subobject StaticMeshComponent Cell already exists for Cell /Script/CrazyTaxiProcGen.Default__Cell.</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 970</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<GameStateName />
+		<MemoryStats.TotalPhysical>17116667904</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>8865472512</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140731858006016</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>597843968</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>598241280</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>615985152</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>617177088</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636869628128050000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>

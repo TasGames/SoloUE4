@@ -33,9 +33,21 @@ void EmptyLinkFunctionForGeneratedCodeCell() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_cellMeshBuilding_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_cellMeshBuilding;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_cellMeshRoad_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_cellMeshRoad;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_cellMesh_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_cellMesh;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_gridMesh_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_gridMesh;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -51,6 +63,22 @@ void EmptyLinkFunctionForGeneratedCodeCell() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACell_Statics::NewProp_cellMeshBuilding_MetaData[] = {
+		{ "Category", "Mesh" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Cell.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACell_Statics::NewProp_cellMeshBuilding = { UE4CodeGen_Private::EPropertyClass::Object, "cellMeshBuilding", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(ACell, cellMeshBuilding), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACell_Statics::NewProp_cellMeshBuilding_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACell_Statics::NewProp_cellMeshBuilding_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACell_Statics::NewProp_cellMeshRoad_MetaData[] = {
+		{ "Category", "Mesh" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Cell.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACell_Statics::NewProp_cellMeshRoad = { UE4CodeGen_Private::EPropertyClass::Object, "cellMeshRoad", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(ACell, cellMeshRoad), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACell_Statics::NewProp_cellMeshRoad_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACell_Statics::NewProp_cellMeshRoad_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACell_Statics::NewProp_cellMesh_MetaData[] = {
 		{ "Category", "Mesh" },
 		{ "EditInline", "true" },
@@ -58,8 +86,19 @@ void EmptyLinkFunctionForGeneratedCodeCell() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACell_Statics::NewProp_cellMesh = { UE4CodeGen_Private::EPropertyClass::Object, "cellMesh", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(ACell, cellMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACell_Statics::NewProp_cellMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACell_Statics::NewProp_cellMesh_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACell_Statics::NewProp_gridMesh_MetaData[] = {
+		{ "Category", "Mesh" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Cell.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACell_Statics::NewProp_gridMesh = { UE4CodeGen_Private::EPropertyClass::Object, "gridMesh", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(ACell, gridMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACell_Statics::NewProp_gridMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACell_Statics::NewProp_gridMesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACell_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACell_Statics::NewProp_cellMeshBuilding,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACell_Statics::NewProp_cellMeshRoad,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACell_Statics::NewProp_cellMesh,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACell_Statics::NewProp_gridMesh,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACell_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ACell>::IsAbstract,
@@ -84,7 +123,7 @@ void EmptyLinkFunctionForGeneratedCodeCell() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACell, 3787621590);
+	IMPLEMENT_CLASS(ACell, 2162290597);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ACell(Z_Construct_UClass_ACell, &ACell::StaticClass, TEXT("/Script/CrazyTaxiProcGen"), TEXT("ACell"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACell);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
