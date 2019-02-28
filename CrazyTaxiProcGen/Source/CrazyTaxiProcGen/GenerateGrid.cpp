@@ -43,6 +43,8 @@ void AGenerateGrid::SetPositions()
 			cell->SetRow(row);
 			cell->SetColumn(column);
 
+			cell->SetType(2);
+
 			spawnLoc.X += 800;
 			row += 1;
 		}

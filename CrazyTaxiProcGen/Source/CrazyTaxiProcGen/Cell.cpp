@@ -14,10 +14,13 @@ ACell::ACell()
 
 	cellMeshRoad = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("CellR"));
 	cellMeshRoad->SetupAttachment(RootComponent);
+	cellMeshRoad->SetVisibility(false);
 
 	cellMeshBuilding = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("CellB"));
 	cellMeshBuilding->SetupAttachment(RootComponent);
+	cellMeshRoad->SetVisibility(false);
 
+	currentMesh = cellMesh;
 }
 
 void ACell::BeginPlay()
@@ -154,10 +157,30 @@ int ACell::GetBRCell()
 
 void ACell::SetType(int t)
 {
+	cellType = t;
+
+	if (cellType == 0)
+	{
+	currentMesh->SetVisibility(false);
+	cellMesh->SetVisibility(true);
+	currentMesh = cellMesh;
+	}
+	else if (cellType == 1)
+	{
+		currentMesh->SetVisibility(false);
+		cellMeshRoad->SetVisibility(true);
+		currentMesh = cellMeshRoad;
+	}
+	else if (cellType == 2)
+	{
+		currentMesh->SetVisibility(false);
+		cellMeshBuilding->SetVisibility(true);
+		currentMesh = cellMeshBuilding;
+	}
 }
 
 int ACell::GetType()
 {
-	return 0;
+	return cellType;
 }
 

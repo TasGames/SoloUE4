@@ -23,6 +23,8 @@ class CRAZYTAXIPROCGEN_API ACell : public AActor
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
 	class UStaticMeshComponent* cellMeshBuilding;
 
+	class UStaticMeshComponent* currentMesh;
+
 protected:
 	virtual void BeginPlay() override;
 
@@ -41,7 +43,7 @@ protected:
 	int bCell;
 	int brCell;
 
-	int type = 0;
+	int cellType = 0;
 
 public:	
 	ACell();
