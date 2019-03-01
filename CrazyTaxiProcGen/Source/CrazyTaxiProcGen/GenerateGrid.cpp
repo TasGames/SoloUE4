@@ -17,6 +17,8 @@ void AGenerateGrid::BeginPlay()
 
 	StoreCells();
 
+	GenerateRoad();
+
 	SmoothCells();
 
 	GenerateBuildings();
@@ -176,7 +178,30 @@ void AGenerateGrid::SmoothCells()
 
 void AGenerateGrid::GenerateRoad()
 {
+	int randC1 = FMath::RandRange(3, 29);
+	int randC2 = FMath::RandRange(3, 29);
 
+	for (int i = 0; i < 961; i++)
+	{
+		ACell* cell = ArrayOfCells[i];
+		if (cell->GetRow() == 2)
+		{
+			if (cell->GetColumn() == randC1 || cell->GetColumn() == randC2)
+			{
+				cell->SetType(1);
+
+				ACell* tCell = ArrayOfCells[cell->GetTCell()];
+				ACell* bCell = ArrayOfCells[cell->GetBCell()];
+				ACell* rCell = ArrayOfCells[cell->GetRCell()];
+				ACell* lCell = ArrayOfCells[cell->GetLCell()];
+
+				for (int j = 0; j < 10; j++)
+				{
+
+				}
+			}
+		}
+	}
 }
 
 void AGenerateGrid::GenerateBuildings()
@@ -210,6 +235,7 @@ void AGenerateGrid::Regenerate()
 	RemoveCells();
 	SetPositions();
 	StoreCells();
+	GenerateRoad();
 	SmoothCells();
 	GenerateBuildings();
 }
