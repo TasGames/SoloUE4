@@ -49,7 +49,7 @@ void AGenerateGrid::SetPositions()
 			cell->SetRow(row);
 			cell->SetColumn(column);
 
-			int Rand = FMath::RandRange(0, 10);
+			int Rand = FMath::RandRange(0, 5);
 			if (Rand == 1)
 				cell->SetType(1);
 			else
@@ -187,16 +187,16 @@ void AGenerateGrid::GenerateBuildings()
 
 		if (cell->GetType() == 0)
 		{
-			ACell* tlCell = ArrayOfCells[cell->GetTLCell()];
-			ACell* trCell = ArrayOfCells[cell->GetTRCell()];
-			ACell* blCell = ArrayOfCells[cell->GetBLCell()];
-			ACell* brCell = ArrayOfCells[cell->GetBRCell()];
+			//ACell* tlCell = ArrayOfCells[cell->GetTLCell()];
+			//ACell* trCell = ArrayOfCells[cell->GetTRCell()];
+			//ACell* blCell = ArrayOfCells[cell->GetBLCell()];
+			//ACell* brCell = ArrayOfCells[cell->GetBRCell()];
 			ACell* tCell = ArrayOfCells[cell->GetTCell()];
 			ACell* lCell = ArrayOfCells[cell->GetLCell()];
 			ACell* bCell = ArrayOfCells[cell->GetBCell()];
 			ACell* rCell = ArrayOfCells[cell->GetRCell()];
 
-			if (tlCell->GetType() == 1 || trCell->GetType() == 1 || blCell->GetType() == 1 || brCell->GetType() == 1 || tCell->GetType() == 1 || lCell->GetType() == 1 || bCell->GetType() == 1 || rCell->GetType() == 1)
+			if (/*tlCell->GetType() == 1 || trCell->GetType() == 1 || blCell->GetType() == 1 || brCell->GetType() == 1 || */tCell->GetType() == 1 || lCell->GetType() == 1 || bCell->GetType() == 1 || rCell->GetType() == 1)
 				cell->SetType(2);
 		}
 

@@ -1,4 +1,4 @@
-﻿Log file open, 02/28/19 18:22:20
+﻿Log file open, 03/01/19 10:23:35
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,8 +7,8 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: CrazyTaxiProcGen
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.185955
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.491548
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +91,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.116s to configure plugins.
+LogStreaming: Display: Took  0.390s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -116,12 +116,12 @@ LogInit: Build: ++UE4+Release-4.20-CL-4369336
 LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 780
 LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line: 
+LogInit: Command Line:  
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -145,362 +145,378 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.005s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.02.28-18.22.21:288][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.28-18.22.21:288][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.02.28-18.22.21:297][  0]LogHAL: Display: Platform has ~ 16 GB [17116667904 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.02.28-18.22.21:297][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.02.28-18.22.21:297][  0]LogInit: Going up to parent DeviceProfile []
-[2019.02.28-18.22.21:298][  0]LogInit: Computer: DESKTOP-C6U4EA4
-[2019.02.28-18.22.21:298][  0]LogInit: User: ThomasSimon
-[2019.02.28-18.22.21:298][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.02.28-18.22.21:298][  0]LogInit: High frequency timer resolution =3.234369 MHz
-[2019.02.28-18.22.21:298][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.02.28-18.22.21:298][  0]LogMemory: Platform Memory Stats for Windows
-[2019.02.28-18.22.21:298][  0]LogMemory: Process Physical Memory: 100.21 MB used, 100.21 MB peak
-[2019.02.28-18.22.21:298][  0]LogMemory: Process Virtual Memory: 84.40 MB used, 84.40 MB peak
-[2019.02.28-18.22.21:298][  0]LogMemory: Physical Memory: 6377.39 MB used,  9946.34 MB free, 16323.73 MB total
-[2019.02.28-18.22.21:298][  0]LogMemory: Virtual Memory: 4625.71 MB used,  9946.34 MB free, 134217728.00 MB total
-[2019.02.28-18.22.21:323][  0]LogInit: Using OS detected language (en-GB).
-[2019.02.28-18.22.21:323][  0]LogInit: Using OS detected locale (en-GB).
-[2019.02.28-18.22.21:324][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2019.02.28-18.22.21:685][  0]LogStreaming: Display: Took  0.362s to InitEngineTextLocalization.
-[2019.02.28-18.22.21:685][  0]LogInit: Setting process to per monitor DPI aware
-[2019.02.28-18.22.21:728][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.02.28-18.22.21:728][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.02.28-18.22.21:896][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.28-18.22.21:896][  0]LogD3D11RHI: D3D11 adapters:
-[2019.02.28-18.22.21:936][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2019.02.28-18.22.21:937][  0]LogD3D11RHI:       4043/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
-[2019.02.28-18.22.21:939][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.02.28-18.22.21:939][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.02.28-18.22.21:939][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.02.28-18.22.21:945][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.02.28-18.22.21:945][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2019.02.28-18.22.21:945][  0]LogWindows: EnumDisplayDevices:
-[2019.02.28-18.22.21:945][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2019.02.28-18.22.21:945][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2019.02.28-18.22.21:945][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2019.02.28-18.22.21:946][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2019.02.28-18.22.21:946][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.02.28-18.22.21:946][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2019.02.28-18.22.21:946][  0]LogD3D11RHI:   Driver Version: 398.11 (internal:24.21.13.9811, unified:398.11)
-[2019.02.28-18.22.21:946][  0]LogD3D11RHI:      Driver Date: 6-1-2018
-[2019.02.28-18.22.21:946][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
-[2019.02.28-18.22.21:975][  0]LogD3D11RHI: Async texture creation enabled
-[2019.02.28-18.22.21:992][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.02.28-18.22.22:044][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Intermediate/Shaders/WorkingDirectory/14804/).
-[2019.02.28-18.22.22:044][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thomas Simon/AppData/Local/Temp/UnrealShaderWorkingDir/E34E0105431E7E2334EDB08125AA3C8D/'.
-[2019.02.28-18.22.22:300][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.02.28-18.22.22:312][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.02.28-18.22.22:324][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.02.28-18.22.22:337][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.02.28-18.22.22:349][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.02.28-18.22.22:361][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.02.28-18.22.22:373][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.02.28-18.22.22:386][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.02.28-18.22.22:392][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.02.28-18.22.22:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-18.22.22:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-18.22.22:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-18.22.22:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-18.22.22:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-18.22.22:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-18.22.22:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-18.22.22:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-18.22.22:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-18.22.22:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-18.22.22:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-18.22.22:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-18.22.22:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-18.22.22:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-18.22.22:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-18.22.22:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-18.22.22:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-18.22.22:467][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.28-18.22.22:468][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.02.28-18.22.22:527][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.28-18.22.22:527][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.28-18.22.22:550][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.28-18.22.22:550][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.28-18.22.22:562][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.02.28-18.22.22:574][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.02.28-18.22.22:586][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.02.28-18.22.22:598][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.02.28-18.22.22:607][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.02.28-18.22.22:607][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.02.28-18.22.22:664][  0]LogXGEController: Cleaning working directory: C:/Users/Thomas Simon/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.02.28-18.22.22:665][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.02.28-18.22.22:665][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.02.28-18.22.22:665][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.02.28-18.22.23:346][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.02.28-18.22.23:402][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.02.28-18.22.23:402][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.02.28-18.22.23:402][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.02.28-18.22.23:402][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.02.28-18.22.23:402][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.28-18.22.23:402][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.02.28-18.22.23:414][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.02.28-18.22.23:428][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thomas Simon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.02.28-18.22.23:428][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.02.28-18.22.23:428][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.02.28-18.22.23:446][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.02.28-18.22.23:447][  0]LogSlate: Using FreeType 2.6.0
-[2019.02.28-18.22.23:447][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.28-18.22.23:521][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
-[2019.02.28-18.22.23:830][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.28-18.22.23:959][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.02.28-18.22.23:963][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.02.28-18.22.23:963][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.02.28-18.22.23:963][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.02.28-18.22.23:963][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.02.28-18.22.23:992][  0]LogNetVersion: CrazyTaxiProcGen 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1195376751)
-[2019.02.28-18.22.24:521][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.139612 seconds
-[2019.02.28-18.22.24:527][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.02.28-18.22.24:527][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2019.02.28-18.22.24:527][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.02.28-18.22.25:323][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.02.28-18.22.25:337][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.02.28-18.22.25:475][  0]SourceControl: Source control is disabled
-[2019.02.28-18.22.25:475][  0]SourceControl: Source control is disabled
-[2019.02.28-18.22.25:477][  0]SourceControl: Source control is disabled
-[2019.02.28-18.22.25:477][  0]SourceControl: Source control is disabled
-[2019.02.28-18.22.25:635][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.02.28-18.22.25:680][  0]LogOcInput: OculusInput pre-init called
-[2019.02.28-18.22.25:734][  0]LogEngine: Initializing Engine...
-[2019.02.28-18.22.25:735][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.28-18.22.25:737][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.28-18.22.25:737][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.28-18.22.25:737][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.28-18.22.25:737][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.28-18.22.25:935][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.02.28-18.22.25:946][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.02.28-18.22.25:962][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.28-18.22.25:978][  0]LogInit: FAudioDevice initialized.
-[2019.02.28-18.22.25:978][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.02.28-18.22.26:685][  0]LogDerivedDataCache: Saved boot cache 0.71s 71MB C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.02.28-18.22.26:692][  0]LogInit: Texture streaming: Enabled
-[2019.02.28-18.22.26:711][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.02.28-18.22.26:711][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={BC48AF4E-4046-FC25-A347-A380EA1AFC5B}
-[2019.02.28-18.22.26:726][  0]LogInit: Transaction tracking system initialized
-[2019.02.28-18.22.26:748][  0]BlueprintLog: New page: Editor Load
-[2019.02.28-18.22.26:821][  0]LocalizationService: Localization service is disabled
-[2019.02.28-18.22.27:066][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.02.28-18.22.27:066][  0]LogCook: Display: Mobile HDR setting 1
-[2019.02.28-18.22.27:066][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.02.28-18.22.27:066][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.28-18.22.27:066][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.28-18.22.27:066][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.28-18.22.27:066][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.28-18.22.27:168][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/' took 0.01s
-[2019.02.28-18.22.27:168][  0]SourceControl: Source control is disabled
-[2019.02.28-18.22.27:168][  0]Cmd: MAP LOAD FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.28-18.22.27:168][  0]LightingResults: New page: Lighting Build
-[2019.02.28-18.22.27:170][  0]MapCheck: New page: Map Check
-[2019.02.28-18.22.27:171][  0]LightingResults: New page: Lighting Build
-[2019.02.28-18.22.27:388][  0]LogAIModule: Creating AISystem for world Main
-[2019.02.28-18.22.27:393][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.28-18.22.27:415][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.28-18.22.27:476][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.092ms to complete.
-[2019.02.28-18.22.27:476][  0]LogFileHelpers: Loading map 'Main' took 0.308
-[2019.02.28-18.22.27:622][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.28-18.22.27:629][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.28-18.22.27:636][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.28-18.22.27:642][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.28-18.22.27:648][  0]LogCollectionManager: Loaded 0 collections in 0.001345 seconds
-[2019.02.28-18.22.27:701][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Collections/' took 0.01s
-[2019.02.28-18.22.27:701][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/Developers/ThomasSimon/Collections/' took 0.01s
-[2019.02.28-18.22.27:701][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/Collections/' took 0.01s
-[2019.02.28-18.22.27:701][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.02.28-18.22.27:710][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2576 classes and 607 folders.
-[2019.02.28-18.22.27:716][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.02.28-18.22.27:753][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.02.28-18.22.28:751][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.02.28-18.22.28:779][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.02.28-18.22.28:783][  0]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.02.28-18.22.28:786][  0]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.02.28-18.22.28:853][  0]LogRenderer: Reallocating scene render targets to support 1152x600 Format 10 NumSamples 1 (Frame:1).
-[2019.02.28-18.22.28:951][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CrazyTaxiProcGen
-[2019.02.28-18.22.28:951][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2019.02.28-18.22.28:951][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
-[2019.02.28-18.22.28:951][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2019.02.28-18.22.28:951][  0]LogTemp: BranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
-[2019.02.28-18.22.28:951][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Thomas Simon\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2019.02.28-18.22.28:966][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.02.28-18.22.28:966][  0]LogLoad: (Engine Initialization) Total time: 8.98 seconds
-[2019.02.28-18.22.28:966][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.02.28-18.22.28:976][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.02.28-18.22.29:001][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.02.28-18.22.29:018][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.28-18.22.29:030][  1]LogAssetRegistry: Asset discovery search completed in 5.5308 seconds
-[2019.02.28-18.22.29:031][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.02.28-18.22.29:031][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
-[2019.02.28-18.22.29:996][111]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.28-18.22.33:259][499]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.28-18.22.37:730][ 30]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.28-18.22.37:741][ 30]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
-[2019.02.28-18.22.37:741][ 30]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.28-18.22.37:753][ 30]PIE: New page: PIE session: Main (28 Feb 2019 18:22:37)
-[2019.02.28-18.22.37:753][ 30]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
-[2019.02.28-18.22.37:757][ 30]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003487s)
-[2019.02.28-18.22.37:757][ 30]LogAIModule: Creating AISystem for world Main
-[2019.02.28-18.22.37:758][ 30]LogPlayLevel: PIE: World Init took: (0.000887s)
-[2019.02.28-18.22.37:758][ 30]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.004518s)
-[2019.02.28-18.22.37:786][ 30]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.28-18.22.37:796][ 30]LogInit: FAudioDevice initialized.
-[2019.02.28-18.22.37:842][ 30]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
-[2019.02.28-18.22.37:843][ 30]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.02.28-18.22.37
-[2019.02.28-18.22.37:844][ 30]LogWorld: Bringing up level for play took: 0.000533
-[2019.02.28-18.22.37:859][ 30]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
-[2019.02.28-18.22.38:002][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.28-18.22.38:003][ 30]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.886
-[2019.02.28-18.22.38:004][ 30]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
-[2019.02.28-18.22.39:823][180]LogScript: Warning: Accessed None trying to read property grid
-	WidgetButtons_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.WidgetButtons_C_0
-	Function /Game/MyContent/Widgets/WidgetButtons.WidgetButtons_C:ExecuteUbergraph_WidgetButtons:0015
-[2019.02.28-18.22.40:195][213]LogScript: Warning: Accessed None trying to read property grid
-	WidgetButtons_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.WidgetButtons_C_0
-	Function /Game/MyContent/Widgets/WidgetButtons.WidgetButtons_C:ExecuteUbergraph_WidgetButtons:0015
-[2019.02.28-18.22.40:499][240]LogScript: Warning: Accessed None trying to read property grid
-	WidgetButtons_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.WidgetButtons_C_0
-	Function /Game/MyContent/Widgets/WidgetButtons.WidgetButtons_C:ExecuteUbergraph_WidgetButtons:0015
-[2019.02.28-18.22.40:761][263]LogScript: Warning: Accessed None trying to read property grid
-	WidgetButtons_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.WidgetButtons_C_0
-	Function /Game/MyContent/Widgets/WidgetButtons.WidgetButtons_C:ExecuteUbergraph_WidgetButtons:0015
-[2019.02.28-18.22.41:001][284]LogScript: Warning: Accessed None trying to read property grid
-	WidgetButtons_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.WidgetButtons_C_0
-	Function /Game/MyContent/Widgets/WidgetButtons.WidgetButtons_C:ExecuteUbergraph_WidgetButtons:0015
-[2019.02.28-18.22.41:241][305]LogScript: Warning: Accessed None trying to read property grid
-	WidgetButtons_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.WidgetButtons_C_0
-	Function /Game/MyContent/Widgets/WidgetButtons.WidgetButtons_C:ExecuteUbergraph_WidgetButtons:0015
-[2019.02.28-18.22.41:594][335]LogScript: Warning: Accessed None trying to read property grid
-	WidgetButtons_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.WidgetButtons_C_0
-	Function /Game/MyContent/Widgets/WidgetButtons.WidgetButtons_C:ExecuteUbergraph_WidgetButtons:0015
-[2019.02.28-18.22.41:829][353]LogScript: Warning: Accessed None trying to read property grid
-	WidgetButtons_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.WidgetButtons_C_0
-	Function /Game/MyContent/Widgets/WidgetButtons.WidgetButtons_C:ExecuteUbergraph_WidgetButtons:0015
-[2019.02.28-18.22.42:047][370]LogScript: Warning: Accessed None trying to read property grid
-	WidgetButtons_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.WidgetButtons_C_0
-	Function /Game/MyContent/Widgets/WidgetButtons.WidgetButtons_C:ExecuteUbergraph_WidgetButtons:0015
-[2019.02.28-18.22.42:285][391]LogScript: Warning: Accessed None trying to read property grid
-	WidgetButtons_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.WidgetButtons_C_0
-	Function /Game/MyContent/Widgets/WidgetButtons.WidgetButtons_C:ExecuteUbergraph_WidgetButtons:0015
-[2019.02.28-18.22.42:538][413]LogScript: Warning: Accessed None trying to read property grid
-	WidgetButtons_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.WidgetButtons_C_0
-	Function /Game/MyContent/Widgets/WidgetButtons.WidgetButtons_C:ExecuteUbergraph_WidgetButtons:0015
-[2019.02.28-18.22.42:808][437]LogScript: Warning: Accessed None trying to read property grid
-	WidgetButtons_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.WidgetButtons_C_0
-	Function /Game/MyContent/Widgets/WidgetButtons.WidgetButtons_C:ExecuteUbergraph_WidgetButtons:0015
-[2019.02.28-18.22.43:104][463]LogScript: Warning: Accessed None trying to read property grid
-	WidgetButtons_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.WidgetButtons_C_0
-	Function /Game/MyContent/Widgets/WidgetButtons.WidgetButtons_C:ExecuteUbergraph_WidgetButtons:0015
-[2019.02.28-18.22.44:041][544]LogScript: Warning: Accessed None trying to read property grid
-	WidgetButtons_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.WidgetButtons_C_0
-	Function /Game/MyContent/Widgets/WidgetButtons.WidgetButtons_C:ExecuteUbergraph_WidgetButtons:0015
-[2019.02.28-18.22.44:469][582]LogScript: Warning: Accessed None trying to read property grid
-	WidgetButtons_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.WidgetButtons_C_0
-	Function /Game/MyContent/Widgets/WidgetButtons.WidgetButtons_C:ExecuteUbergraph_WidgetButtons:0015
-[2019.02.28-18.22.44:695][602]LogScript: Warning: Accessed None trying to read property grid
-	WidgetButtons_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.WidgetButtons_C_0
-	Function /Game/MyContent/Widgets/WidgetButtons.WidgetButtons_C:ExecuteUbergraph_WidgetButtons:0015
-[2019.02.28-18.22.44:933][623]LogScript: Warning: Accessed None trying to read property grid
-	WidgetButtons_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.WidgetButtons_C_0
-	Function /Game/MyContent/Widgets/WidgetButtons.WidgetButtons_C:ExecuteUbergraph_WidgetButtons:0015
-[2019.02.28-18.22.46:118][724]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
-[2019.02.28-18.22.46:118][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.28-18.22.46:170][724]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.28-18.22.46:170][724]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
-[2019.02.28-18.22.46:195][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.28-18.22.46:223][725]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2019.02.28-18.22.48:482][992]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_Cell2_.Bp_Cell2_
-[2019.02.28-18.22.48:957][992]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
-[2019.02.28-18.22.49:676][992]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/MyContent/Widgets/WidgetButtons.WidgetButtons
-[2019.02.28-18.22.49:964][992]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.02.28-18.22.52:910][130]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.02.28-18.23.44:327][946]LogSlate: Window 'Bp_Cell2_' being destroyed
-[2019.02.28-18.23.46:086][157]BlueprintLog: New page: Compile WidgetButtons
-[2019.02.28-18.23.46:095][157]LogBlueprint: Error: [Compiler WidgetButtons] This blueprint (self) is not a GenerateGrid, therefore ' Target ' must have a connection.
-[2019.02.28-18.23.46:133][157]LogBlueprint: Warning: [Compiler WidgetButtons] [0086.15] Compile of WidgetButtons failed. 1 Fatal Issue(s) 0 Warning(s) [in 47 ms] (/Game/MyContent/Widgets/WidgetButtons.WidgetButtons)
-[2019.02.28-18.23.47:324][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/WidgetButtons" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Widgets/WidgetButtons.uasset" SILENT=true
-[2019.02.28-18.23.47:336][296]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/WidgetButtonsD4E05D5C40952AB6450FD6A12B2B5855.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Widgets/WidgetButtons.uasset'
-[2019.02.28-18.24.17:981][495]BlueprintLog: New page: Compile WidgetButtons
-[2019.02.28-18.24.18:794][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/WidgetButtons" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Widgets/WidgetButtons.uasset" SILENT=true
-[2019.02.28-18.24.18:805][584]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/WidgetButtonsB6F8FD7244A94CE6104A528441E83A35.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Widgets/WidgetButtons.uasset'
-[2019.02.28-18.26.40:350][398]BlueprintLog: New page: Compile WidgetButtons
-[2019.02.28-18.26.41:200][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/WidgetButtons" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Widgets/WidgetButtons.uasset" SILENT=true
-[2019.02.28-18.26.41:220][491]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/WidgetButtonsC428024C4576935AD2793F8D2ED05317.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Widgets/WidgetButtons.uasset'
-[2019.02.28-18.26.45:319][980]BlueprintLog: New page: Compile WidgetButtons
-[2019.02.28-18.26.45:973][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/WidgetButtons" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Widgets/WidgetButtons.uasset" SILENT=true
-[2019.02.28-18.26.45:986][ 49]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/WidgetButtons4BE00DBB4338D006483E399067D0CD41.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Widgets/WidgetButtons.uasset'
-[2019.02.28-18.26.47:352][211]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.28-18.26.47:367][211]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
-[2019.02.28-18.26.47:368][211]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.28-18.26.47:368][211]PIE: New page: PIE session: Main (28 Feb 2019 18:26:47)
-[2019.02.28-18.26.47:368][211]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
-[2019.02.28-18.26.47:370][211]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002268s)
-[2019.02.28-18.26.47:371][211]LogAIModule: Creating AISystem for world Main
-[2019.02.28-18.26.47:371][211]LogPlayLevel: PIE: World Init took: (0.000805s)
-[2019.02.28-18.26.47:371][211]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.003233s)
-[2019.02.28-18.26.47:405][211]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.28-18.26.47:416][211]LogInit: FAudioDevice initialized.
-[2019.02.28-18.26.47:444][211]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
-[2019.02.28-18.26.47:445][211]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.02.28-18.26.47
-[2019.02.28-18.26.47:445][211]LogWorld: Bringing up level for play took: 0.000479
-[2019.02.28-18.26.47:605][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.28-18.26.47:606][211]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.488
-[2019.02.28-18.26.47:606][211]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
-[2019.02.28-18.27.10:832][725]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.28-18.27.43:359][508]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
-[2019.02.28-18.27.43:360][508]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.28-18.27.43:407][508]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.28-18.27.43:407][508]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
-[2019.02.28-18.27.43:434][508]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.28-18.27.43:463][509]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2019.02.28-18.27.52:509][883]Candidate modules for hot reload:
-[2019.02.28-18.27.52:509][883]  CrazyTaxiProcGen
-[2019.02.28-18.27.52:509][883]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CrazyTaxiProcGen,2788 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" ]
-[2019.02.28-18.27.52:516][883]Warning: Starting HotReload took  0.0s.
-[2019.02.28-18.28.00:766][829]CompilerResultsLog: New page: Compilation - 28 Feb 2019 18:28:00
-[2019.02.28-18.28.00:766][829]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2019.02.28-18.28.00:766][829]CompilerResultsLog: Creating makefile for hot reloading CrazyTaxiProcGenEditor (ini files are newer than UBTMakefile)
-[2019.02.28-18.28.00:766][829]CompilerResultsLog: Compiling game modules for hot reload
-[2019.02.28-18.28.00:766][829]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.02.28-18.28.00:766][829]CompilerResultsLog: Building 3 actions with 4 processes...
-[2019.02.28-18.28.00:766][829]CompilerResultsLog:   [1/3] GenerateGrid.cpp
-[2019.02.28-18.28.00:766][829]CompilerResultsLog:   [2/3] UE4Editor-CrazyTaxiProcGen-2788.lib
-[2019.02.28-18.28.00:766][829]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-2788.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-2788.exp
-[2019.02.28-18.28.00:766][829]CompilerResultsLog:   [3/3] UE4Editor-CrazyTaxiProcGen-2788.dll
-[2019.02.28-18.28.00:766][829]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-2788.suppressed.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-2788.suppressed.exp
-[2019.02.28-18.28.00:766][829]CompilerResultsLog: Total build time: 7.89 seconds (Parallel executor: 2.15 seconds)
-[2019.02.28-18.28.00:766][829]LogMainFrame: MainFrame: Module compiling took 8.273 seconds
-[2019.02.28-18.28.00:823][829]LogContentBrowser: Native class hierarchy updated for 'CrazyTaxiProcGen' in 0.0003 seconds. Added 3 classes and 2 folders.
-[2019.02.28-18.28.00:827][829]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2019.02.28-18.28.01:180][829]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2576 classes and 607 folders.
-[2019.02.28-18.28.01:181][829]Display: HotReload took  8.7s.
-[2019.02.28-18.28.02:854][834]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.28-18.28.02:873][834]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
-[2019.02.28-18.28.02:873][834]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.28-18.28.02:873][834]PIE: New page: PIE session: Main (28 Feb 2019 18:28:02)
-[2019.02.28-18.28.02:873][834]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
-[2019.02.28-18.28.02:876][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002502s)
-[2019.02.28-18.28.02:876][834]LogAIModule: Creating AISystem for world Main
-[2019.02.28-18.28.02:877][834]LogPlayLevel: PIE: World Init took: (0.000718s)
-[2019.02.28-18.28.02:877][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.003338s)
-[2019.02.28-18.28.02:930][834]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.28-18.28.02:939][834]LogInit: FAudioDevice initialized.
-[2019.02.28-18.28.02:974][834]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
-[2019.02.28-18.28.02:975][834]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.02.28-18.28.02
-[2019.02.28-18.28.02:975][834]LogWorld: Bringing up level for play took: 0.000505
-[2019.02.28-18.28.03:124][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.28-18.28.03:125][834]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.008
-[2019.02.28-18.28.03:125][834]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
-[2019.02.28-18.28.15:638][559]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.28-18.28.21:385][989]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.28-18.28.26:965][246]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
-[2019.02.28-18.28.26:965][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.28-18.28.27:037][246]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.28-18.28.27:037][246]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
-[2019.02.28-18.28.27:266][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.28-18.28.27:434][247]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.03.01-10.23.39:282][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.01-10.23.39:282][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.01-10.23.39:378][  0]LogHAL: Display: Platform has ~ 16 GB [17080971264 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.01-10.23.39:378][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.01-10.23.39:378][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.01-10.23.39:395][  0]LogInit: Computer: AMTX222-23
+[2019.03.01-10.23.39:395][  0]LogInit: User: ts2crt
+[2019.03.01-10.23.39:396][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.01-10.23.39:396][  0]LogInit: High frequency timer resolution =3.507507 MHz
+[2019.03.01-10.23.39:396][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.01-10.23.39:396][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.01-10.23.39:396][  0]LogMemory: Process Physical Memory: 99.70 MB used, 99.70 MB peak
+[2019.03.01-10.23.39:396][  0]LogMemory: Process Virtual Memory: 90.89 MB used, 90.89 MB peak
+[2019.03.01-10.23.39:396][  0]LogMemory: Physical Memory: 5149.00 MB used,  11140.68 MB free, 16289.68 MB total
+[2019.03.01-10.23.39:396][  0]LogMemory: Virtual Memory: 4640.63 MB used,  11140.68 MB free, 134217728.00 MB total
+[2019.03.01-10.23.40:375][  0]LogInit: Using OS detected language (en-GB).
+[2019.03.01-10.23.40:375][  0]LogInit: Using OS detected locale (en-GB).
+[2019.03.01-10.23.40:434][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.03.01-10.23.46:484][  0]LogStreaming: Display: Took  6.110s to InitEngineTextLocalization.
+[2019.03.01-10.23.46:484][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.01-10.23.46:930][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.01-10.23.46:930][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.01-10.23.52:411][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.01-10.23.52:411][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.01-10.23.52:537][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 780' (Feature Level 11_0)
+[2019.03.01-10.23.52:537][  0]LogD3D11RHI:       3029/0/8144 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.03.01-10.23.52:541][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.01-10.23.52:541][  0]LogD3D11RHI:       0/0/8144 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.01-10.23.52:541][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.01-10.23.52:551][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.01-10.23.52:551][  0]LogD3D11RHI:     GPU DeviceId: 0x1004 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.01-10.23.52:552][  0]LogWindows: EnumDisplayDevices:
+[2019.03.01-10.23.52:552][  0]LogWindows:    0. 'NVIDIA GeForce GTX 780' (P:1 D:1)
+[2019.03.01-10.23.52:552][  0]LogWindows:    1. 'NVIDIA GeForce GTX 780' (P:0 D:1)
+[2019.03.01-10.23.52:553][  0]LogWindows:    2. 'NVIDIA GeForce GTX 780' (P:0 D:0)
+[2019.03.01-10.23.52:553][  0]LogWindows:    3. 'NVIDIA GeForce GTX 780' (P:0 D:0)
+[2019.03.01-10.23.52:553][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.01-10.23.52:553][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 780
+[2019.03.01-10.23.52:553][  0]LogD3D11RHI:   Driver Version: 399.07 (internal:24.21.13.9907, unified:399.07)
+[2019.03.01-10.23.52:553][  0]LogD3D11RHI:      Driver Date: 8-21-2018
+[2019.03.01-10.23.52:553][  0]LogRHI: Texture pool is 2120 MB (70% of 3029 MB)
+[2019.03.01-10.23.52:632][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.01-10.23.52:652][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.01-10.23.52:657][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Intermediate/Shaders/WorkingDirectory/5468/).
+[2019.03.01-10.23.52:657][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ts2crt/AppData/Local/Temp/UnrealShaderWorkingDir/4EB48442400AD50DD6FADE9B72CCC132/'.
+[2019.03.01-10.23.54:209][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.01-10.23.54:269][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.01-10.23.54:373][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.01-10.23.54:414][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.01-10.23.54:562][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.01-10.23.54:831][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.01-10.23.54:905][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.01-10.23.54:989][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.01-10.23.55:066][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.01-10.23.55:324][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-10.23.55:324][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-10.23.55:324][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-10.23.55:324][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-10.23.55:324][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-10.23.55:324][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-10.23.55:324][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-10.23.55:324][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-10.23.55:324][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-10.23.55:324][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-10.23.55:324][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-10.23.55:324][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-10.23.55:324][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-10.23.55:324][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-10.23.55:324][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-10.23.55:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-10.23.55:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-10.23.55:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-10.23.55:349][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.01-10.23.55:528][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.01-10.23.55:528][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.01-10.23.55:648][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.01-10.23.55:648][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.01-10.23.55:710][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.01-10.23.55:777][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.01-10.23.55:808][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.01-10.23.55:888][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.01-10.23.55:933][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.01-10.23.55:933][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.01-10.23.59:282][  0]LogXGEController: Cleaning working directory: C:/Users/ts2crt/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.01-10.23.59:282][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.01-10.23.59:282][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.01-10.23.59:283][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.01-10.24.10:407][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.01-10.24.10:407][  0]LogDerivedDataCache: Display: Starting with empty Boot cache
+[2019.03.01-10.24.10:407][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.01-10.24.10:407][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.01-10.24.10:407][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.01-10.24.10:407][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.01-10.24.10:501][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.01-10.24.10:515][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ts2crt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.01-10.24.10:515][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.01-10.24.10:515][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.01-10.24.10:644][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.01-10.24.10:648][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.01-10.24.10:703][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.01-10.24.11:650][  0]LogAssetRegistry: FAssetRegistry took 0.0427 seconds to start up
+[2019.03.01-10.24.12:501][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.01-10.24.19:437][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.01-10.24.19:586][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.01-10.24.19:586][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.01-10.24.19:586][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.01-10.24.19:586][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.01-10.24.21:195][  0]LogNetVersion: CrazyTaxiProcGen 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1195376751)
+[2019.03.01-10.24.38:807][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.265932 seconds
+[2019.03.01-10.24.38:813][  0]LogUObjectArray: 38447 objects as part of root set at end of initial load.
+[2019.03.01-10.24.38:814][  0]LogUObjectAllocator: 6692632 out of 0 bytes used by permanent object pool.
+[2019.03.01-10.24.38:814][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.01-10.24.59:073][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.01-10.24.59:089][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.01-10.25.00:965][  0]SourceControl: Source control is disabled
+[2019.03.01-10.25.00:965][  0]SourceControl: Source control is disabled
+[2019.03.01-10.25.00:968][  0]SourceControl: Source control is disabled
+[2019.03.01-10.25.00:969][  0]SourceControl: Source control is disabled
+[2019.03.01-10.25.01:823][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.01-10.25.02:009][  0]LogOcInput: OculusInput pre-init called
+[2019.03.01-10.25.03:060][  0]LogEngine: Initializing Engine...
+[2019.03.01-10.25.03:062][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.01-10.25.03:065][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.01-10.25.03:065][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.01-10.25.03:065][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.01-10.25.03:066][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.01-10.25.09:039][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.01-10.25.09:191][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.01-10.25.09:216][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.01-10.25.09:877][  0]LogInit: FAudioDevice initialized.
+[2019.03.01-10.25.09:878][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.01-10.25.10:340][  0]LogDerivedDataCache: Saved boot cache 0.46s 87MB C:/Users/ts2crt/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.01-10.25.10:363][  0]LogInit: Texture streaming: Enabled
+[2019.03.01-10.25.11:428][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.01-10.25.14:578][  0]LogInit: Transaction tracking system initialized
+[2019.03.01-10.25.16:046][  0]BlueprintLog: New page: Editor Load
+[2019.03.01-10.25.20:190][  0]LocalizationService: Localization service is disabled
+[2019.03.01-10.25.25:671][  0]LogFileCache: Scanning file cache for directory 'C:/Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/' took 0.05s
+[2019.03.01-10.25.25:671][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.01-10.25.25:692][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.01-10.25.25:748][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.01-10.25.25:749][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.01-10.25.25:749][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.01-10.25.25:749][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.01-10.25.25:749][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.01-10.25.35:169][  0]SourceControl: Source control is disabled
+[2019.03.01-10.25.35:232][  0]Cmd: MAP LOAD FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.01-10.25.35:250][  0]LightingResults: New page: Lighting Build
+[2019.03.01-10.25.35:577][  0]MapCheck: New page: Map Check
+[2019.03.01-10.25.35:577][  0]LightingResults: New page: Lighting Build
+[2019.03.01-10.25.41:514][  0]LogStaticMesh: Building static mesh Cube1...
+[2019.03.01-10.25.42:016][  0]LogStaticMesh: Built static mesh [0.60s] /Game/MyContent/Meshes/Cube1.Cube1
+[2019.03.01-10.25.42:160][  0]LogStaticMesh: Building static mesh Grid...
+[2019.03.01-10.25.42:180][  0]LogStaticMesh: Built static mesh [0.02s] /Game/MyContent/Meshes/Grid.Grid
+[2019.03.01-10.25.42:184][  0]LogMaterial: Display: Missing cached shader map for material M_Grey, compiling. 
+[2019.03.01-10.25.42:783][  0]LogMaterial: Display: Missing cached shader map for material M_Blue, compiling. 
+[2019.03.01-10.25.42:821][  0]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.01-10.25.42:821][  0]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.01-10.25.42:821][  0]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.01-10.25.42:821][  0]LogMaterial: Display: Missing cached shader map for material M_Black, compiling. 
+[2019.03.01-10.25.42:891][  0]LogMaterial: Display: Missing cached shader map for material M_White, compiling. 
+[2019.03.01-10.25.42:947][  0]LogAIModule: Creating AISystem for world Main
+[2019.03.01-10.25.43:950][  0]LogShaderCompilers: Display: Shaders left to compile 66
+[2019.03.01-10.25.43:950][  0]LogShaderCompilers: Display: Shaders left to compile 56
+[2019.03.01-10.25.43:978][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.01-10.25.44:473][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.01-10.25.44:650][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 176.959ms to complete.
+[2019.03.01-10.25.44:658][  0]LogFileHelpers: Loading map 'Main' took 9.454
+[2019.03.01-10.25.47:047][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-10.25.47:069][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-10.25.47:079][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-10.25.47:096][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-10.25.49:973][  0]LogCollectionManager: Loaded 0 collections in 0.004425 seconds
+[2019.03.01-10.25.51:137][  0]LogFileCache: Scanning file cache for directory 'C:/Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/Collections/' took 0.01s
+[2019.03.01-10.25.51:137][  0]LogFileCache: Scanning file cache for directory 'C:/Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/Developers/ts2crt/Collections/' took 0.01s
+[2019.03.01-10.25.51:137][  0]LogFileCache: Scanning file cache for directory 'C:/Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/Collections/' took 0.01s
+[2019.03.01-10.25.51:137][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.03.01-10.25.51:206][  0]LogContentBrowser: Native class hierarchy populated in 0.0675 seconds. Added 2575 classes and 605 folders.
+[2019.03.01-10.25.51:743][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.03.01-10.25.55:339][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.03.01-10.25.55:773][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.03.01-10.25.57:210][  0]LogSlate: Took 0.021479 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.01-10.25.57:234][  0]LogSlate: Took 0.021566 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.01-10.25.57:269][  0]LogSlate: Took 0.024315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.01-10.25.59:438][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.03.01-10.26.01:660][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-10.26.02:022][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.03.01-10.26.02:500][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.03.01-10.26.02:500][  0]LogLoad: (Engine Initialization) Total time: 153.18 seconds
+[2019.03.01-10.26.02:500][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.01-10.26.03:441][  0]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.03.01-10.26.03:442][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.01-10.26.05:843][  1]LogSlate: Took 0.108575 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.01-10.26.12:201][  2]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.01-10.26.12:478][  3]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.01-10.26.16:727][  3]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.03.01-10.26.20:622][  3]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.03.01-10.26.21:636][  3]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-10.26.21:681][  3]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.01-10.26.21:735][  3]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-10.26.22:286][  3]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.01-10.26.22:371][  3]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-10.26.22:488][  3]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.01-10.26.22:554][  3]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-10.26.22:570][  3]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.01-10.26.22:621][  3]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.01-10.26.22:691][  3]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-10.26.32:828][  6]LogAssetRegistry: Asset discovery search completed in 141.2187 seconds
+[2019.03.01-10.26.32:902][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.03.01-10.26.32:902][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000113 seconds (updated 0 objects)
+[2019.03.01-10.26.34:473][  9]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.01-10.26.34:557][  9]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.01-10.26.47:223][422]LogSlate: Took 0.143182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.01-10.27.17:218][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-10.27.17:343][665]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.01-10.27.18:283][665]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
+[2019.03.01-10.27.18:624][665]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.01-10.27.19:236][665]PIE: New page: PIE session: Main (1 Mar 2019 10:27:18)
+[2019.03.01-10.27.19:236][665]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.03.01-10.27.19:846][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.610156s)
+[2019.03.01-10.27.19:847][665]LogAIModule: Creating AISystem for world Main
+[2019.03.01-10.27.19:965][665]LogPlayLevel: PIE: World Init took: (0.119237s)
+[2019.03.01-10.27.20:094][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.857718s)
+[2019.03.01-10.27.20:663][665]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.01-10.27.20:674][665]LogInit: FAudioDevice initialized.
+[2019.03.01-10.27.21:785][665]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.03.01-10.27.22:213][665]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.03.01-10.27.22
+[2019.03.01-10.27.23:173][665]LogWorld: Bringing up level for play took: 0.961025
+[2019.03.01-10.27.25:658][665]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 10 classes and 0 folders.
+[2019.03.01-10.27.27:519][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-10.27.28:092][665]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 9.883
+[2019.03.01-10.27.28:093][665]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
+[2019.03.01-10.28.22:989][926]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
+[2019.03.01-10.28.23:332][926]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-10.28.23:482][926]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.01-10.28.23:482][926]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
+[2019.03.01-10.28.23:681][926]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-10.28.23:767][927]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.03.01-10.28.34:514][171]LogAssetEditorManager: Opening Asset editor for Class /Script/CrazyTaxiProcGen.Cell
+[2019.03.01-10.29.08:964][186]LogAssetEditorManager: Opening Asset editor for Class /Script/CrazyTaxiProcGen.GenerateGrid
+[2019.03.01-10.29.09:377][186]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Temp/TAS/SoloUE4/CrazyTaxiProcGen/Source/CrazyTaxiProcGen/GenerateGrid.h'
+[2019.03.01-10.30.17:433][683]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.01-10.30.29:622][724]Candidate modules for hot reload:
+[2019.03.01-10.30.29:623][724]  CrazyTaxiProcGen
+[2019.03.01-10.30.29:623][724]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CrazyTaxiProcGen,676 Win64 Development -TargetType=Editor -Project="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" -canskiplink "C:/Temp/TAS/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" ]
+[2019.03.01-10.30.29:634][724]Warning: Starting HotReload took  0.1s.
+[2019.03.01-10.31.16:461][ 86]CompilerResultsLog: New page: Compilation - 1 Mar 2019 10:31:16
+[2019.03.01-10.31.16:462][ 86]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.01-10.31.16:462][ 86]CompilerResultsLog: Creating makefile for hot reloading CrazyTaxiProcGenEditor (game project files are newer)
+[2019.03.01-10.31.16:462][ 86]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.01-10.31.16:462][ 86]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726) and Windows 10.0.15063.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.03.01-10.31.16:462][ 86]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.03.01-10.31.16:462][ 86]CompilerResultsLog:   [1/3] GenerateGrid.cpp
+[2019.03.01-10.31.16:462][ 86]CompilerResultsLog:   [2/3] UE4Editor-CrazyTaxiProcGen-676.lib
+[2019.03.01-10.31.16:462][ 86]CompilerResultsLog:      Creating library C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-676.lib and object C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-676.exp
+[2019.03.01-10.31.16:462][ 86]CompilerResultsLog:   [3/3] UE4Editor-CrazyTaxiProcGen-676.dll
+[2019.03.01-10.31.16:462][ 86]CompilerResultsLog:      Creating library C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-676.suppressed.lib and object C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-676.suppressed.exp
+[2019.03.01-10.31.16:462][ 86]CompilerResultsLog: Total build time: 46.18 seconds (Parallel executor: 2.15 seconds)
+[2019.03.01-10.31.16:462][ 86]LogMainFrame: MainFrame: Module compiling took 46.905 seconds
+[2019.03.01-10.31.16:528][ 86]LogContentBrowser: Native class hierarchy updated for 'CrazyTaxiProcGen' in 0.0005 seconds. Added 3 classes and 2 folders.
+[2019.03.01-10.31.16:530][ 86]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.03.01-10.31.17:012][ 86]LogContentBrowser: Native class hierarchy populated in 0.0171 seconds. Added 2576 classes and 607 folders.
+[2019.03.01-10.31.17:028][ 86]Display: HotReload took 47.5s.
+[2019.03.01-10.31.21:734][100]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.01-10.31.21:770][100]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
+[2019.03.01-10.31.21:770][100]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.01-10.31.21:770][100]PIE: New page: PIE session: Main (1 Mar 2019 10:31:21)
+[2019.03.01-10.31.21:770][100]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.03.01-10.31.21:774][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003191s)
+[2019.03.01-10.31.21:775][100]LogAIModule: Creating AISystem for world Main
+[2019.03.01-10.31.21:775][100]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2019.03.01-10.31.21:775][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.004358s)
+[2019.03.01-10.31.21:804][100]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.01-10.31.21:815][100]LogInit: FAudioDevice initialized.
+[2019.03.01-10.31.21:845][100]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.03.01-10.31.21:846][100]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.03.01-10.31.21
+[2019.03.01-10.31.21:846][100]LogWorld: Bringing up level for play took: 0.001037
+[2019.03.01-10.31.22:025][100]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-10.31.22:026][100]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.183
+[2019.03.01-10.31.22:026][100]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
+[2019.03.01-10.31.34:422][383]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
+[2019.03.01-10.31.34:423][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-10.31.34:470][383]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.01-10.31.34:470][383]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
+[2019.03.01-10.31.34:497][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-10.31.34:541][384]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.03.01-10.32.34:516][863]Candidate modules for hot reload:
+[2019.03.01-10.32.34:516][863]  CrazyTaxiProcGen
+[2019.03.01-10.32.34:516][863]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CrazyTaxiProcGen,8772 Win64 Development -TargetType=Editor -Project="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" -canskiplink "C:/Temp/TAS/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" ]
+[2019.03.01-10.32.34:528][863]Warning: Starting HotReload took  0.0s.
+[2019.03.01-10.32.39:666][469]CompilerResultsLog: New page: Compilation - 1 Mar 2019 10:32:39
+[2019.03.01-10.32.39:666][469]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.01-10.32.39:666][469]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.01-10.32.39:666][469]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.03.01-10.32.39:666][469]CompilerResultsLog:   [1/3] GenerateGrid.cpp
+[2019.03.01-10.32.39:666][469]CompilerResultsLog:   [2/3] UE4Editor-CrazyTaxiProcGen-8772.lib
+[2019.03.01-10.32.39:666][469]CompilerResultsLog:      Creating library C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-8772.lib and object C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-8772.exp
+[2019.03.01-10.32.39:666][469]CompilerResultsLog:   [3/3] UE4Editor-CrazyTaxiProcGen-8772.dll
+[2019.03.01-10.32.39:666][469]CompilerResultsLog:      Creating library C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-8772.suppressed.lib and object C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-8772.suppressed.exp
+[2019.03.01-10.32.39:666][469]CompilerResultsLog: Total build time: 4.81 seconds (Parallel executor: 2.20 seconds)
+[2019.03.01-10.32.39:666][469]LogMainFrame: MainFrame: Module compiling took 5.158 seconds
+[2019.03.01-10.32.39:708][469]LogContentBrowser: Native class hierarchy updated for 'CrazyTaxiProcGen' in 0.0005 seconds. Added 3 classes and 2 folders.
+[2019.03.01-10.32.39:710][469]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.03.01-10.32.39:757][469]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2576 classes and 607 folders.
+[2019.03.01-10.32.39:757][469]Display: HotReload took  5.3s.
+[2019.03.01-10.32.55:745][387]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.01-10.32.55:762][387]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
+[2019.03.01-10.32.55:763][387]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.01-10.32.55:763][387]PIE: New page: PIE session: Main (1 Mar 2019 10:32:55)
+[2019.03.01-10.32.55:763][387]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.03.01-10.32.55:765][387]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002301s)
+[2019.03.01-10.32.55:766][387]LogAIModule: Creating AISystem for world Main
+[2019.03.01-10.32.55:766][387]LogPlayLevel: PIE: World Init took: (0.000781s)
+[2019.03.01-10.32.55:766][387]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.003197s)
+[2019.03.01-10.32.55:787][387]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.01-10.32.55:797][387]LogInit: FAudioDevice initialized.
+[2019.03.01-10.32.55:826][387]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.03.01-10.32.55:828][387]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.03.01-10.32.55
+[2019.03.01-10.32.55:828][387]LogWorld: Bringing up level for play took: 0.000590
+[2019.03.01-10.32.56:001][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-10.32.56:002][387]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.207
+[2019.03.01-10.32.56:002][387]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
+[2019.03.01-10.33.08:691][169]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
+[2019.03.01-10.33.08:691][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-10.33.08:760][169]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.01-10.33.08:761][169]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
+[2019.03.01-10.33.08:874][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-10.33.09:112][170]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.03.01-10.34.05:235][480]Candidate modules for hot reload:
+[2019.03.01-10.34.05:235][480]  CrazyTaxiProcGen
+[2019.03.01-10.34.05:236][480]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CrazyTaxiProcGen,4769 Win64 Development -TargetType=Editor -Project="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" -canskiplink "C:/Temp/TAS/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" ]
+[2019.03.01-10.34.05:250][480]Warning: Starting HotReload took  0.0s.
+[2019.03.01-10.34.09:990][ 45]CompilerResultsLog: New page: Compilation - 1 Mar 2019 10:34:09
+[2019.03.01-10.34.09:990][ 45]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.01-10.34.09:990][ 45]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.01-10.34.09:990][ 45]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.03.01-10.34.09:990][ 45]CompilerResultsLog:   [1/3] GenerateGrid.cpp
+[2019.03.01-10.34.09:990][ 45]CompilerResultsLog:   [2/3] UE4Editor-CrazyTaxiProcGen-4769.lib
+[2019.03.01-10.34.09:990][ 45]CompilerResultsLog:      Creating library C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-4769.lib and object C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-4769.exp
+[2019.03.01-10.34.09:990][ 45]CompilerResultsLog:   [3/3] UE4Editor-CrazyTaxiProcGen-4769.dll
+[2019.03.01-10.34.09:990][ 45]CompilerResultsLog:      Creating library C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-4769.suppressed.lib and object C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-4769.suppressed.exp
+[2019.03.01-10.34.09:990][ 45]CompilerResultsLog: Total build time: 4.43 seconds (Parallel executor: 1.94 seconds)
+[2019.03.01-10.34.09:990][ 45]LogMainFrame: MainFrame: Module compiling took 4.761 seconds
+[2019.03.01-10.34.10:031][ 45]LogContentBrowser: Native class hierarchy updated for 'CrazyTaxiProcGen' in 0.0005 seconds. Added 3 classes and 2 folders.
+[2019.03.01-10.34.10:034][ 45]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.03.01-10.34.10:082][ 45]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2576 classes and 607 folders.
+[2019.03.01-10.34.10:082][ 45]Display: HotReload took  4.9s.
+[2019.03.01-10.34.13:469][451]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.01-10.34.13:485][451]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
+[2019.03.01-10.34.13:485][451]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.01-10.34.13:485][451]PIE: New page: PIE session: Main (1 Mar 2019 10:34:13)
+[2019.03.01-10.34.13:486][451]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.03.01-10.34.13:488][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002129s)
+[2019.03.01-10.34.13:488][451]LogAIModule: Creating AISystem for world Main
+[2019.03.01-10.34.13:489][451]LogPlayLevel: PIE: World Init took: (0.000888s)
+[2019.03.01-10.34.13:489][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.003123s)
+[2019.03.01-10.34.13:510][451]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.01-10.34.13:519][451]LogInit: FAudioDevice initialized.
+[2019.03.01-10.34.13:551][451]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.03.01-10.34.13:552][451]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.03.01-10.34.13
+[2019.03.01-10.34.13:552][451]LogWorld: Bringing up level for play took: 0.000456
+[2019.03.01-10.34.13:724][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-10.34.13:725][451]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.484
+[2019.03.01-10.34.13:725][451]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
+[2019.03.01-10.34.56:490][458]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
+[2019.03.01-10.34.56:490][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-10.34.56:543][458]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.01-10.34.56:543][458]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/MyContent/Maps/Main.Main_C' with ClassGeneratedBy '/Game/MyContent/Maps/Main.Main:PersistentLevel.Main'
+[2019.03.01-10.34.56:627][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-10.34.56:681][459]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.03.01-10.35.01:315][761]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.01-10.35.01:739][761]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/Main3422EA6640C936DFAEB3AD93614748EA.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap'
