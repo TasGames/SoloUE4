@@ -30,6 +30,10 @@ protected:
 
 	void SmoothCells();
 
+	void GenerateRoad();
+
+	void GenerateBuildings();
+
 public:	
 	AGenerateGrid();
 

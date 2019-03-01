@@ -19,6 +19,7 @@ void AGenerateGrid::BeginPlay()
 
 	SmoothCells();
 
+	GenerateBuildings();
 }
 
 void AGenerateGrid::Tick(float DeltaTime)
@@ -48,8 +49,11 @@ void AGenerateGrid::SetPositions()
 			cell->SetRow(row);
 			cell->SetColumn(column);
 
-			int RandT = FMath::RandRange(0, 2);
-			cell->SetType(RandT);
+			int Rand = FMath::RandRange(0, 10);
+			if (Rand == 1)
+				cell->SetType(1);
+			else
+				cell->SetType(0);
 
 			if (cell->GetPositionX() == 0 || cell->GetPositionX() == 24000 || cell->GetPositionY() == 0 || cell->GetPositionY() == 24000)
 				cell->SetType(1);
@@ -128,7 +132,7 @@ void AGenerateGrid::CheckCells(int c)
 
 void AGenerateGrid::SmoothCells()
 {
-	for (int i = 0; i < 960; i++)
+	for (int i = 0; i < 961; i++)
 	{
 		ACell* cell = ArrayOfCells[i];
 
@@ -170,6 +174,35 @@ void AGenerateGrid::SmoothCells()
 	}
 }
 
+void AGenerateGrid::GenerateRoad()
+{
+
+}
+
+void AGenerateGrid::GenerateBuildings()
+{
+	for (int i = 0; i < 961; i++)
+	{
+		ACell* cell = ArrayOfCells[i];
+
+		if (cell->GetType() == 0)
+		{
+			ACell* tlCell = ArrayOfCells[cell->GetTLCell()];
+			ACell* trCell = ArrayOfCells[cell->GetTRCell()];
+			ACell* blCell = ArrayOfCells[cell->GetBLCell()];
+			ACell* brCell = ArrayOfCells[cell->GetBRCell()];
+			ACell* tCell = ArrayOfCells[cell->GetTCell()];
+			ACell* lCell = ArrayOfCells[cell->GetLCell()];
+			ACell* bCell = ArrayOfCells[cell->GetBCell()];
+			ACell* rCell = ArrayOfCells[cell->GetRCell()];
+
+			if (tlCell->GetType() == 1 || trCell->GetType() == 1 || blCell->GetType() == 1 || brCell->GetType() == 1 || tCell->GetType() == 1 || lCell->GetType() == 1 || bCell->GetType() == 1 || rCell->GetType() == 1)
+				cell->SetType(2);
+		}
+
+	}
+}
+
 void AGenerateGrid::Regenerate()
 {
 	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "Worked");
@@ -178,4 +211,5 @@ void AGenerateGrid::Regenerate()
 	SetPositions();
 	StoreCells();
 	SmoothCells();
+	GenerateBuildings();
 }
