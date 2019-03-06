@@ -75,108 +75,118 @@ int ACell::GetRow()
 	return rowNum;
 }
 
-void ACell::SetTLCell(int c)
+void ACell::SetSECell(int c)
 {
 	if (c > 961)
-		tlCell = 961;
+		seCell = 961;
 	else
-		tlCell = c;
+		seCell = c;
 }
 
-int ACell::GetTLCell()
+int ACell::GetSECell()
 {
-	return tlCell;
+	return seCell;
 }
 
-void ACell::SetTCell(int c)
+void ACell::SetECell(int c)
 {
 	if (c > 961)
-		tCell = 961;
+		eCell = 961;
 	else
-		tCell = c;
+		eCell = c;
 }
 
-int ACell::GetTCell()
+int ACell::GetECell()
 {
-	return tCell;
+	return eCell;
 }
 
-void ACell::SetTRCell(int c)
+void ACell::SetNECell(int c)
 {
 	if (c > 961)
-		trCell = 961;
+		neCell = 961;
 	else
-		trCell = c;
+		neCell = c;
 }
 
-int ACell::GetTRCell()
+int ACell::GetNECell()
 {
-	return trCell;
+	return neCell;
 }
 
-void ACell::SetLCell(int c)
+void ACell::SetSCell(int c)
 {
 	if (c < 0)
-		lCell = 961;
+		sCell = 961;
 	else
-		lCell = c;
+		sCell = c;
 }
 
-int ACell::GetLCell()
+int ACell::GetSCell()
 {
-	return lCell;
+	return sCell;
 }
 
-void ACell::SetRCell(int c)
+void ACell::SetNCell(int c)
 {
 	if (c > 961)
-		rCell = 961;
+		nCell = 961;
 	else
-		rCell = c;
+		nCell = c;
 }
 
-int ACell::GetRCell()
+int ACell::GetNCell()
 {
-	return rCell;
+	return nCell;
 }
 
-void ACell::SetBLCell(int c)
+void ACell::SetSWCell(int c)
 {
 	if (c < 0)
-		blCell = 961;
+		swCell = 961;
 	else
-		blCell = c;
+		swCell = c;
 }
 
-int ACell::GetBLCell()
+int ACell::GetSWCell()
 {
-	return blCell;
+	return swCell;
 }
 
-void ACell::SetBCell(int c)
+void ACell::SetWCell(int c)
 {
 	if (c < 0)
-		bCell = 961;
+		wCell = 961;
 	else
-		bCell = c;
+		wCell = c;
 }
 
-int ACell::GetBCell()
+int ACell::GetWCell()
 {
-	return bCell;
+	return wCell;
 }
 
-void ACell::SetBRCell(int c)
+void ACell::SetNWCell(int c)
 {
 	if (c < 0)
-		brCell = 961;
+		nwCell = 961;
 	else
-		brCell = c;
+		nwCell = c;
 }
 
-int ACell::GetBRCell()
+int ACell::GetNWCell()
 {
-	return brCell;
+	return nwCell;
+}
+
+void ACell::SetLastCell(int c)
+{
+	lastCell = c;
+}
+
+int ACell::GetLastCell()
+{
+	return lastCell;
 }
 
 void ACell::SetType(int t)

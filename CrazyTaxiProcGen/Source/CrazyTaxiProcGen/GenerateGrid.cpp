@@ -51,11 +51,11 @@ void AGenerateGrid::SetPositions()
 			cell->SetRow(row);
 			cell->SetColumn(column);
 
-			int Rand = FMath::RandRange(0, 5);
+			/*int Rand = FMath::RandRange(0, 5);
 			if (Rand == 1)
 				cell->SetType(1);
 			else
-				cell->SetType(0);
+				cell->SetType(0);*/
 
 			if (cell->GetPositionX() == 0 || cell->GetPositionX() == 24000 || cell->GetPositionY() == 0 || cell->GetPositionY() == 24000)
 				cell->SetType(1);
@@ -97,14 +97,14 @@ void AGenerateGrid::StoreCells()
 	{
 		ACell* cell = ArrayOfCells[i];
 
-		cell->SetTCell(i + 31);
-		cell->SetTLCell(i + 30);
-		cell->SetTRCell(i + 32);
-		cell->SetBCell(i - 31);
-		cell->SetBLCell(i - 30);
-		cell->SetBRCell(i - 32);
-		cell->SetLCell(i - 1);
-		cell->SetRCell(i + 1);
+		cell->SetNCell(i + 1);
+		cell->SetNECell(i + 32);
+		cell->SetECell(i + 31);
+		cell->SetSECell(i + 30);
+		cell->SetSCell(i - 1);
+		cell->SetSWCell(i - 30);
+		cell->SetWCell(i - 31);
+		cell->SetNWCell(i - 32);
 	}
 }
 
@@ -112,14 +112,14 @@ void AGenerateGrid::CheckCells(int c)
 {
 	ACell* cell = ArrayOfCells[c];
 
-	ACell* cell1 = ArrayOfCells[cell->GetTCell()];
-	ACell* cell2 = ArrayOfCells[cell->GetTLCell()];
-	ACell* cell3 = ArrayOfCells[cell->GetTRCell()];
-	ACell* cell4 = ArrayOfCells[cell->GetLCell()];
-	ACell* cell5 = ArrayOfCells[cell->GetRCell()];
-	ACell* cell6 = ArrayOfCells[cell->GetBCell()];
-	ACell* cell7 = ArrayOfCells[cell->GetBLCell()];
-	ACell* cell8 = ArrayOfCells[cell->GetBRCell()];
+	ACell* cell1 = ArrayOfCells[cell->GetNCell()];
+	ACell* cell2 = ArrayOfCells[cell->GetNECell()];
+	ACell* cell3 = ArrayOfCells[cell->GetECell()];
+	ACell* cell4 = ArrayOfCells[cell->GetSECell()];
+	ACell* cell5 = ArrayOfCells[cell->GetSCell()];
+	ACell* cell6 = ArrayOfCells[cell->GetSWCell()];
+	ACell* cell7 = ArrayOfCells[cell->GetWCell()];
+	ACell* cell8 = ArrayOfCells[cell->GetNWCell()];
 
 	cell->SetType(2);
 	cell1->SetType(2);
@@ -138,36 +138,36 @@ void AGenerateGrid::SmoothCells()
 	{
 		ACell* cell = ArrayOfCells[i];
 
-		ACell* tlCell = ArrayOfCells[cell->GetTLCell()];
-		ACell* trCell = ArrayOfCells[cell->GetTRCell()];
-		ACell* blCell = ArrayOfCells[cell->GetBLCell()];
-		ACell* brCell = ArrayOfCells[cell->GetBRCell()];
-		ACell* tCell = ArrayOfCells[cell->GetTCell()];
-		ACell* lCell = ArrayOfCells[cell->GetLCell()];
-		ACell* bCell = ArrayOfCells[cell->GetBCell()];
-		ACell* rCell = ArrayOfCells[cell->GetRCell()];
+		ACell* nCell = ArrayOfCells[cell->GetNCell()];
+		ACell* neCell = ArrayOfCells[cell->GetNECell()];
+		ACell* eCell = ArrayOfCells[cell->GetECell()];
+		ACell* seCell = ArrayOfCells[cell->GetSECell()];
+		ACell* sCell = ArrayOfCells[cell->GetSCell()];
+		ACell* swCell = ArrayOfCells[cell->GetSWCell()];
+		ACell* wCell = ArrayOfCells[cell->GetWCell()];
+		ACell* nwCell = ArrayOfCells[cell->GetNWCell()];
 
-		if (tlCell->GetType() == 1)
+		if (seCell->GetType() == 1)
 		{
-			if (tCell->GetType() == 1 && lCell->GetType() == 1)
+			if (eCell->GetType() == 1 && sCell->GetType() == 1)
 				cell->SetType(2);
 		}
 
-		if (trCell->GetType() == 1)
+		if (neCell->GetType() == 1)
 		{
-			if (tCell->GetType() == 1 && rCell->GetType() == 1)
+			if (eCell->GetType() == 1 && nCell->GetType() == 1)
 				cell->SetType(2);
 		}
 
-		if (blCell->GetType() == 1)
+		if (swCell->GetType() == 1)
 		{
-			if (bCell->GetType() == 1 && lCell->GetType() == 1)
+			if (wCell->GetType() == 1 && sCell->GetType() == 1)
 				cell->SetType(2);
 		}
 
-		if (brCell->GetType() == 1)
+		if (nwCell->GetType() == 1)
 		{
-			if (bCell->GetType() == 1 && rCell->GetType() == 1)
+			if (wCell->GetType() == 1 && nCell->GetType() == 1)
 				cell->SetType(2);
 		}
 
@@ -181,6 +181,8 @@ void AGenerateGrid::GenerateRoad()
 	int randC1 = FMath::RandRange(3, 29);
 	int randC2 = FMath::RandRange(3, 29);
 
+	int randDir;
+
 	for (int i = 0; i < 961; i++)
 	{
 		ACell* cell = ArrayOfCells[i];
@@ -190,14 +192,14 @@ void AGenerateGrid::GenerateRoad()
 			{
 				cell->SetType(1);
 
-				ACell* tCell = ArrayOfCells[cell->GetTCell()];
-				ACell* bCell = ArrayOfCells[cell->GetBCell()];
-				ACell* rCell = ArrayOfCells[cell->GetRCell()];
-				ACell* lCell = ArrayOfCells[cell->GetLCell()];
+				ACell* nCell = ArrayOfCells[cell->GetNCell()];
+				ACell* eCell = ArrayOfCells[cell->GetECell()];
+				ACell* sCell = ArrayOfCells[cell->GetSCell()];
+				ACell* wCell = ArrayOfCells[cell->GetWCell()];
 
 				for (int j = 0; j < 10; j++)
 				{
-
+					randDir = FMath::RandRange(1, 3);
 				}
 			}
 		}
@@ -212,19 +214,14 @@ void AGenerateGrid::GenerateBuildings()
 
 		if (cell->GetType() == 0)
 		{
-			//ACell* tlCell = ArrayOfCells[cell->GetTLCell()];
-			//ACell* trCell = ArrayOfCells[cell->GetTRCell()];
-			//ACell* blCell = ArrayOfCells[cell->GetBLCell()];
-			//ACell* brCell = ArrayOfCells[cell->GetBRCell()];
-			ACell* tCell = ArrayOfCells[cell->GetTCell()];
-			ACell* lCell = ArrayOfCells[cell->GetLCell()];
-			ACell* bCell = ArrayOfCells[cell->GetBCell()];
-			ACell* rCell = ArrayOfCells[cell->GetRCell()];
+			ACell* nCell = ArrayOfCells[cell->GetNCell()];
+			ACell* eCell = ArrayOfCells[cell->GetECell()];
+			ACell* sCell = ArrayOfCells[cell->GetSCell()];
+			ACell* wCell = ArrayOfCells[cell->GetWCell()];
 
-			if (/*tlCell->GetType() == 1 || trCell->GetType() == 1 || blCell->GetType() == 1 || brCell->GetType() == 1 || */tCell->GetType() == 1 || lCell->GetType() == 1 || bCell->GetType() == 1 || rCell->GetType() == 1)
+			if (nCell->GetType() == 1 || eCell->GetType() == 1 || sCell->GetType() == 1 || wCell->GetType() == 1)
 				cell->SetType(2);
 		}
-
 	}
 }
 
@@ -236,6 +233,6 @@ void AGenerateGrid::Regenerate()
 	SetPositions();
 	StoreCells();
 	GenerateRoad();
-	SmoothCells();
-	GenerateBuildings();
+	//SmoothCells();
+	//GenerateBuildings();
 }
