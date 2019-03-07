@@ -32,6 +32,8 @@ protected:
 
 	void GenerateRoad();
 
+	void RoadDirection(ACell* cell);
+
 	void GenerateBuildings();
 
 public:	
