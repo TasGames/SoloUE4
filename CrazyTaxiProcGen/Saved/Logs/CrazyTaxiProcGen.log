@@ -1026,3 +1026,864 @@ LogInit: Object subsystem initialized
 [2019.03.15-10.52.07:940][141]LogPlayLevel: Display: Destroying online subsystem :Context_33
 [2019.03.15-10.52.21:719][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/TestGrid" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestGrid.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
 [2019.03.15-10.52.21:974][ 88]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/TestGrid996E1DB04AFC5BE9ADBC21823381F2FC.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestGrid.umap'
+[2019.03.15-10.54.35:818][914]LogAIModule: Creating AISystem for world Main
+[2019.03.15-10.54.35:825][914]LogAssetEditorManager: Opening Asset editor for World /Game/MyContent/Maps/Main.Main
+[2019.03.15-10.54.35:857][914]Cmd: MAP LOAD FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-10.54.35:857][914]LightingResults: New page: Lighting Build
+[2019.03.15-10.54.35:857][914]LoadErrors: New page: Loading map: Main.umap
+[2019.03.15-10.54.35:858][914]MapCheck: New page: Map Check
+[2019.03.15-10.54.35:858][914]LightingResults: New page: Lighting Build
+[2019.03.15-10.54.35:891][914]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.15-10.54.35:956][914]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-10.54.36:114][914]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 158.634ms to complete.
+[2019.03.15-10.54.36:116][914]LogFileHelpers: Loading map 'Main' took 0.260
+[2019.03.15-10.54.37:289][ 44]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-10.54.37:319][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-10.54.37:320][ 44]PIE: New page: PIE session: Main (15 Mar 2019 10:54:37)
+[2019.03.15-10.54.37:320][ 44]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.03.15-10.54.37:323][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002801s)
+[2019.03.15-10.54.37:323][ 44]LogAIModule: Creating AISystem for world Main
+[2019.03.15-10.54.37:324][ 44]LogPlayLevel: PIE: World Init took: (0.000937s)
+[2019.03.15-10.54.37:324][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.003959s)
+[2019.03.15-10.54.37:359][ 44]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.15-10.54.37:370][ 44]LogInit: FAudioDevice initialized.
+[2019.03.15-10.54.37:406][ 44]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.03.15-10.54.37:406][ 44]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.03.15-10.54.37
+[2019.03.15-10.54.37:407][ 44]LogWorld: Bringing up level for play took: 0.000483
+[2019.03.15-10.54.37:563][ 44]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.708
+[2019.03.15-10.56.17:160][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-10.56.17:206][826]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-10.56.17:233][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-10.56.17:272][827]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2019.03.15-10.56.21:116][288]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-10.56.21:373][315]LogAIModule: Creating AISystem for world TestGrid
+[2019.03.15-10.56.21:377][315]LogAssetEditorManager: Opening Asset editor for World /Game/MyContent/Maps/TestGrid.TestGrid
+[2019.03.15-10.56.21:406][315]Cmd: MAP LOAD FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestGrid.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-10.56.21:406][315]LightingResults: New page: Lighting Build
+[2019.03.15-10.56.21:406][315]LoadErrors: New page: Loading map: TestGrid.umap
+[2019.03.15-10.56.21:407][315]MapCheck: New page: Map Check
+[2019.03.15-10.56.21:407][315]LightingResults: New page: Lighting Build
+[2019.03.15-10.56.21:441][315]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.15-10.56.21:499][315]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-10.56.21:623][315]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 123.693ms to complete.
+[2019.03.15-10.56.21:624][315]LogFileHelpers: Loading map 'TestGrid' took 0.218
+[2019.03.15-10.56.22:940][453]LogAIModule: Creating AISystem for world Main
+[2019.03.15-10.56.22:945][453]LogAssetEditorManager: Opening Asset editor for World /Game/MyContent/Maps/Main.Main
+[2019.03.15-10.56.22:974][453]Cmd: MAP LOAD FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-10.56.22:974][453]LightingResults: New page: Lighting Build
+[2019.03.15-10.56.22:974][453]LoadErrors: New page: Loading map: Main.umap
+[2019.03.15-10.56.22:975][453]MapCheck: New page: Map Check
+[2019.03.15-10.56.22:975][453]LightingResults: New page: Lighting Build
+[2019.03.15-10.56.23:006][453]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.15-10.56.23:063][453]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-10.56.23:163][453]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 100.451ms to complete.
+[2019.03.15-10.56.23:164][453]LogFileHelpers: Loading map 'Main' took 0.191
+[2019.03.15-10.56.31:235][394]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-10.56.59:361][736]BlueprintLog: New page: Compile Bp_LevelCell
+[2019.03.15-10.57.00:095][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_LevelCell" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_LevelCell.uasset" SILENT=true
+[2019.03.15-10.57.00:155][797]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/Bp_LevelCell9D02541040D6FE95DCC2A3B4CF01042F.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_LevelCell.uasset'
+[2019.03.15-10.57.03:008][138]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-10.57.03:031][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-10.57.03:031][138]PIE: New page: PIE session: Main (15 Mar 2019 10:57:03)
+[2019.03.15-10.57.03:031][138]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.03.15-10.57.03:034][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002522s)
+[2019.03.15-10.57.03:035][138]LogAIModule: Creating AISystem for world Main
+[2019.03.15-10.57.03:035][138]LogPlayLevel: PIE: World Init took: (0.001069s)
+[2019.03.15-10.57.03:035][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.003792s)
+[2019.03.15-10.57.03:070][138]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.15-10.57.03:081][138]LogInit: FAudioDevice initialized.
+[2019.03.15-10.57.03:116][138]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.03.15-10.57.03:117][138]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.03.15-10.57.03
+[2019.03.15-10.57.03:117][138]LogWorld: Bringing up level for play took: 0.000494
+[2019.03.15-10.57.03:272][138]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 1.002
+[2019.03.15-10.57.15:205][544]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-10.57.15:250][544]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-10.57.15:280][544]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-10.57.15:323][545]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2019.03.15-10.57.15:991][623]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-10.57.16:115][638]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-10.57.16:141][638]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-10.57.16:141][638]PIE: New page: PIE session: Main (15 Mar 2019 10:57:16)
+[2019.03.15-10.57.16:141][638]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.03.15-10.57.16:143][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001567s)
+[2019.03.15-10.57.16:143][638]LogAIModule: Creating AISystem for world Main
+[2019.03.15-10.57.16:143][638]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2019.03.15-10.57.16:143][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.002569s)
+[2019.03.15-10.57.16:175][638]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.15-10.57.16:184][638]LogInit: FAudioDevice initialized.
+[2019.03.15-10.57.16:216][638]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.03.15-10.57.16:217][638]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.03.15-10.57.16
+[2019.03.15-10.57.16:217][638]LogWorld: Bringing up level for play took: 0.000495
+[2019.03.15-10.57.16:388][638]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.119
+[2019.03.15-10.58.05:406][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-10.58.05:454][491]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-10.58.05:519][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-10.58.05:548][492]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2019.03.15-11.03.27:341][502]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.03.34:304][330]LogAIModule: Creating AISystem for world TestGrid
+[2019.03.15-11.03.34:308][330]LogAssetEditorManager: Opening Asset editor for World /Game/MyContent/Maps/TestGrid.TestGrid
+[2019.03.15-11.03.34:335][330]Cmd: MAP LOAD FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestGrid.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-11.03.34:335][330]LightingResults: New page: Lighting Build
+[2019.03.15-11.03.34:336][330]LoadErrors: New page: Loading map: TestGrid.umap
+[2019.03.15-11.03.34:337][330]MapCheck: New page: Map Check
+[2019.03.15-11.03.34:337][330]LightingResults: New page: Lighting Build
+[2019.03.15-11.03.34:366][330]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.15-11.03.34:426][330]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-11.03.34:536][330]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 110.072ms to complete.
+[2019.03.15-11.03.34:537][330]LogFileHelpers: Loading map 'TestGrid' took 0.202
+[2019.03.15-11.03.35:660][441]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-11.03.35:705][441]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid' with GeneratedClass '/Game/MyContent/Maps/TestGrid.TestGrid_C' with ClassGeneratedBy '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid'
+[2019.03.15-11.03.35:706][441]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-11.03.35:706][441]PIE: New page: PIE session: TestGrid (15 Mar 2019 11:03:35)
+[2019.03.15-11.03.35:706][441]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestGrid
+[2019.03.15-11.03.35:709][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003140s)
+[2019.03.15-11.03.35:710][441]LogAIModule: Creating AISystem for world TestGrid
+[2019.03.15-11.03.35:710][441]LogPlayLevel: PIE: World Init took: (0.001300s)
+[2019.03.15-11.03.35:711][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestGrid.TestGrid to /Game/MyContent/Maps/UEDPIE_0_TestGrid.TestGrid (0.004634s)
+[2019.03.15-11.03.35:742][441]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.15-11.03.35:753][441]LogInit: FAudioDevice initialized.
+[2019.03.15-11.03.35:783][441]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.03.15-11.03.35:784][441]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestGrid.TestGrid up for play (max tick rate 0) at 2019.03.15-11.03.35
+[2019.03.15-11.03.35:784][441]LogWorld: Bringing up level for play took: 0.000449
+[2019.03.15-11.03.35:955][441]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.03.35:956][441]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestGrid -0.306
+[2019.03.15-11.03.35:956][441]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid' with GeneratedClass '/Game/MyContent/Maps/TestGrid.TestGrid_C' with ClassGeneratedBy '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid'
+[2019.03.15-11.04.09:438][615]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid' with GeneratedClass '/Game/MyContent/Maps/TestGrid.TestGrid_C' with ClassGeneratedBy '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid'
+[2019.03.15-11.04.09:438][615]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.04.09:488][615]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-11.04.09:488][615]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid' with GeneratedClass '/Game/MyContent/Maps/TestGrid.TestGrid_C' with ClassGeneratedBy '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid'
+[2019.03.15-11.04.09:526][615]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.04.09:595][616]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2019.03.15-11.04.54:774][529]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.15-11.06.35:235][ 37]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.08.22:623][739]LogAIModule: Creating AISystem for world Main
+[2019.03.15-11.08.22:627][739]LogAssetEditorManager: Opening Asset editor for World /Game/MyContent/Maps/Main.Main
+[2019.03.15-11.08.22:656][739]Cmd: MAP LOAD FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-11.08.22:656][739]LightingResults: New page: Lighting Build
+[2019.03.15-11.08.22:657][739]LoadErrors: New page: Loading map: Main.umap
+[2019.03.15-11.08.22:658][739]MapCheck: New page: Map Check
+[2019.03.15-11.08.22:658][739]LightingResults: New page: Lighting Build
+[2019.03.15-11.08.22:688][739]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.15-11.08.22:746][739]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-11.08.22:853][739]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 107.012ms to complete.
+[2019.03.15-11.08.22:854][739]LogFileHelpers: Loading map 'Main' took 0.198
+[2019.03.15-11.08.25:862][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.08.31:046][697]LogActorFactory: Actor Factory created Cube
+[2019.03.15-11.08.31:665][769]LogActorFactory: Actor Factory created Cube
+[2019.03.15-11.08.37:099][414]Cmd: DELETE
+[2019.03.15-11.08.37:099][414]Cmd: ACTOR DELETE
+[2019.03.15-11.08.37:101][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.15-11.08.37:130][414]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.03.15-11.08.39:354][681]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.08.40:839][857]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.03.15-11.08.50:041][958]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.09.04:345][672]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.09.11:684][551]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.09.31:117][881]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.09.40:861][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.09.57:288][985]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.10.01:494][482]LogStaticMesh: Building static mesh CubeGrid2...
+[2019.03.15-11.10.01:530][482]LogStaticMesh: Built static mesh [0.04s] /Game/MyContent/Meshes/CubeGrid2.CubeGrid2
+[2019.03.15-11.10.01:672][495]LogActorFactory: Actor Factory created CubeGrid2
+[2019.03.15-11.10.02:311][571]LogActorFactory: Actor Factory created CubeGrid2
+[2019.03.15-11.10.06:210][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.10.16:995][288]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.10.25:930][306]Cmd: EDIT COPY
+[2019.03.15-11.10.26:493][361]Cmd: EDIT PASTE
+[2019.03.15-11.10.46:810][740]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.10.50:642][189]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.15-11.11.05:468][908]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.11.45:657][590]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.11.59:602][136]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CubeGrid3)
+[2019.03.15-11.12.10:717][432]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.12.15:803][ 40]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CubeGrid3)
+[2019.03.15-11.12.16:824][156]Cmd: DELETE
+[2019.03.15-11.12.16:824][156]Cmd: ACTOR DELETE
+[2019.03.15-11.12.16:826][156]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.15-11.12.16:858][156]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2019.03.15-11.12.18:010][294]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CubeGrid2)
+[2019.03.15-11.12.18:439][339]Cmd: DELETE
+[2019.03.15-11.12.18:439][339]Cmd: ACTOR DELETE
+[2019.03.15-11.12.18:440][339]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.15-11.12.18:467][339]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.03.15-11.12.19:319][441]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.12.19:436][455]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-11.12.19:457][455]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-11.12.19:457][455]PIE: New page: PIE session: Main (15 Mar 2019 11:12:19)
+[2019.03.15-11.12.19:457][455]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.03.15-11.12.19:460][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002901s)
+[2019.03.15-11.12.19:461][455]LogAIModule: Creating AISystem for world Main
+[2019.03.15-11.12.19:461][455]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2019.03.15-11.12.19:461][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.004027s)
+[2019.03.15-11.12.19:500][455]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.15-11.12.19:534][455]LogInit: FAudioDevice initialized.
+[2019.03.15-11.12.19:567][455]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.03.15-11.12.19:568][455]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.03.15-11.12.19
+[2019.03.15-11.12.19:568][455]LogWorld: Bringing up level for play took: 0.000775
+[2019.03.15-11.12.19:713][455]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.537
+[2019.03.15-11.12.27:487][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.12.27:530][372]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-11.12.27:568][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.12.27:599][373]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2019.03.15-11.12.47:416][673]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.12.47:532][687]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-11.12.47:555][687]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-11.12.47:555][687]PIE: New page: PIE session: Main (15 Mar 2019 11:12:47)
+[2019.03.15-11.12.47:555][687]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.03.15-11.12.47:559][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003747s)
+[2019.03.15-11.12.47:560][687]LogAIModule: Creating AISystem for world Main
+[2019.03.15-11.12.47:560][687]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2019.03.15-11.12.47:560][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.004783s)
+[2019.03.15-11.12.47:596][687]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.15-11.12.47:606][687]LogInit: FAudioDevice initialized.
+[2019.03.15-11.12.47:638][687]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.03.15-11.12.47:639][687]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.03.15-11.12.47
+[2019.03.15-11.12.47:639][687]LogWorld: Bringing up level for play took: 0.000553
+[2019.03.15-11.12.47:795][687]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.453
+[2019.03.15-11.12.52:945][277]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.12.52:991][277]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-11.12.53:025][277]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.12.53:053][278]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2019.03.15-11.12.58:939][936]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.13.03:858][525]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-11.13.03:880][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-11.13.03:880][525]PIE: New page: PIE session: Main (15 Mar 2019 11:13:03)
+[2019.03.15-11.13.03:880][525]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.03.15-11.13.03:883][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003403s)
+[2019.03.15-11.13.03:885][525]LogAIModule: Creating AISystem for world Main
+[2019.03.15-11.13.03:885][525]LogPlayLevel: PIE: World Init took: (0.001827s)
+[2019.03.15-11.13.03:885][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.005517s)
+[2019.03.15-11.13.03:920][525]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.15-11.13.03:931][525]LogInit: FAudioDevice initialized.
+[2019.03.15-11.13.03:961][525]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.03.15-11.13.03:962][525]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.03.15-11.13.03
+[2019.03.15-11.13.03:963][525]LogWorld: Bringing up level for play took: 0.000721
+[2019.03.15-11.13.04:119][525]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.129
+[2019.03.15-11.13.10:221][237]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.13.10:270][237]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-11.13.10:325][237]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.13.10:354][238]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2019.03.15-11.13.27:354][217]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.13.41:459][895]Cmd: EDIT COPY
+[2019.03.15-11.13.42:113][971]Cmd: EDIT PASTE
+[2019.03.15-11.14.21:662][665]Cmd: EDIT COPY
+[2019.03.15-11.14.22:468][761]Cmd: EDIT PASTE
+[2019.03.15-11.14.27:017][274]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.14.33:351][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.15.04:366][686]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.15.28:129][494]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.15.36:077][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.15.45:400][543]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.16.09:907][452]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.16.10:349][503]LogActorFactory: Actor Factory created CubeGrid2
+[2019.03.15-11.16.10:903][569]LogActorFactory: Actor Factory created CubeGrid2
+[2019.03.15-11.16.14:297][968]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.16.27:549][549]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CubeGrid2)
+[2019.03.15-11.16.29:506][776]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.16.36:113][556]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.17.07:352][101]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CubeGrid2)
+[2019.03.15-11.17.12:019][652]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.17.50:053][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.15-11.18.22:508][931]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.18.22:633][946]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-11.18.22:656][946]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-11.18.22:657][946]PIE: New page: PIE session: Main (15 Mar 2019 11:18:22)
+[2019.03.15-11.18.22:657][946]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.03.15-11.18.22:663][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005833s)
+[2019.03.15-11.18.22:663][946]LogAIModule: Creating AISystem for world Main
+[2019.03.15-11.18.22:664][946]LogPlayLevel: PIE: World Init took: (0.000721s)
+[2019.03.15-11.18.22:664][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.006748s)
+[2019.03.15-11.18.22:702][946]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.15-11.18.22:712][946]LogInit: FAudioDevice initialized.
+[2019.03.15-11.18.22:739][946]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.03.15-11.18.22:741][946]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.03.15-11.18.22
+[2019.03.15-11.18.22:741][946]LogWorld: Bringing up level for play took: 0.000852
+[2019.03.15-11.18.22:883][946]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.637
+[2019.03.15-11.18.37:591][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.18.37:637][695]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-11.18.37:673][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.18.37:702][696]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2019.03.15-11.18.42:812][305]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.18.45:366][606]Cmd: DELETE
+[2019.03.15-11.18.45:366][606]Cmd: ACTOR DELETE
+[2019.03.15-11.18.45:370][606]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.15-11.18.45:398][606]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.03.15-11.18.50:840][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.18.50:962][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.15-11.18.51:132][272]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/MainD17668E644072F1A734C8FB05BA8D67C.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap'
+[2019.03.15-11.22.06:008][929]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.22.27:091][357]LogAssetEditorManager: Opening Asset editor for Material /Game/MyContent/Materials/M_Dynamic.M_Dynamic
+[2019.03.15-11.22.27:107][357]LogMaterial: Display: Missing cached shader map for material M_Dynamic, compiling. 
+[2019.03.15-11.22.27:500][357]LogMaterial: Display: Missing cached shader map for material M_Dynamic, compiling. 
+[2019.03.15-11.22.27:516][357]LogMaterial: Display: Missing cached shader map for material M_Dynamic, compiling. 
+[2019.03.15-11.22.27:532][357]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-11.22.27:532][357]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.15-11.22.27:532][357]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.15-11.22.27:532][357]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-11.22.28:287][389]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.15-11.22.28:297][390]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.15-11.22.28:309][391]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.15-11.22.28:332][393]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.15-11.22.28:497][407]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.15-11.22.28:498][407]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.15-11.22.28:518][409]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.15-11.22.28:518][409]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.15-11.22.28:722][424]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.15-11.22.28:881][435]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.15-11.22.29:024][447]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.15-11.22.29:067][451]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.15-11.22.29:195][458]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.15-11.22.29:286][466]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.15-11.22.29:325][469]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.15-11.22.29:552][486]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.15-11.22.29:610][490]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.15-11.22.29:975][507]MaterialEditorStats: Base pass shader: 99 instructions
+[2019.03.15-11.22.29:976][507]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2019.03.15-11.22.29:976][507]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.03.15-11.22.29:976][507]MaterialEditorStats: Texture samplers: 3/16
+[2019.03.15-11.22.40:982][816]LogMaterial: Display: Missing cached shader map for material M_Dynamic, compiling. 
+[2019.03.15-11.22.40:995][816]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-11.22.40:996][816]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.15-11.22.40:996][816]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.15-11.22.40:996][816]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-11.22.40:996][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.15-11.22.41:001][816]LogMaterial: Display: Missing cached shader map for material M_Dynamic, compiling. 
+[2019.03.15-11.22.41:039][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.15-11.22.41:232][826]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.15-11.22.41:245][827]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.15-11.22.41:256][828]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-11.22.41:267][829]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.15-11.22.41:482][848]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.15-11.22.41:495][849]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-11.22.41:520][851]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.15-11.22.41:520][851]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.15-11.22.41:689][864]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.15-11.22.41:698][865]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.15-11.22.41:698][865]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.15-11.22.41:724][867]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.15-11.22.41:906][883]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.15-11.22.41:994][890]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.15-11.22.42:144][902]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.15-11.22.42:168][904]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.15-11.22.42:330][917]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.15-11.22.42:386][922]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.15-11.22.42:465][929]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.15-11.22.42:679][948]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.15-11.22.42:690][949]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.15-11.22.42:830][961]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.15-11.22.42:901][967]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.15-11.22.43:119][986]MaterialEditorStats: Base pass shader: 101 instructions
+[2019.03.15-11.22.43:119][986]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2019.03.15-11.22.43:119][986]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.03.15-11.22.43:119][986]MaterialEditorStats: Texture samplers: 3/16
+[2019.03.15-11.22.45:618][267]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.15-11.22.48:040][552]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.15-11.22.59:366][891]LogMaterial: Display: Missing cached shader map for material M_Dynamic, compiling. 
+[2019.03.15-11.22.59:382][891]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.15-11.22.59:396][891]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.15-11.22.59:396][891]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.15-11.22.59:396][891]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-11.22.59:396][891]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.15-11.22.59:641][907]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.15-11.22.59:665][909]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-11.22.59:676][910]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.15-11.22.59:676][910]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.15-11.22.59:834][923]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.15-11.22.59:845][924]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.15-11.22.59:870][926]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.15-11.22.59:881][927]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.15-11.23.00:018][938]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.15-11.23.00:135][946]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.15-11.23.00:277][956]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.15-11.23.00:318][959]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.15-11.23.00:433][967]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.15-11.23.00:541][975]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.15-11.23.00:592][978]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.15-11.23.00:785][992]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.15-11.23.00:810][994]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.15-11.23.00:939][  3]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.15-11.23.00:981][  6]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.15-11.23.01:199][ 23]MaterialEditorStats: Base pass shader: 101 instructions
+[2019.03.15-11.23.01:200][ 23]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2019.03.15-11.23.01:200][ 23]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.03.15-11.23.01:200][ 23]MaterialEditorStats: Texture samplers: 3/16
+[2019.03.15-11.23.01:490][ 56]LogMaterial: Display: Missing cached shader map for material M_Dynamic, compiling. 
+[2019.03.15-11.23.01:506][ 56]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-11.23.01:506][ 56]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.15-11.23.01:506][ 56]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.15-11.23.01:506][ 56]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-11.23.01:509][ 56]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.15-11.23.01:535][ 56]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.15-11.23.01:754][ 73]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.15-11.23.01:791][ 76]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-11.23.01:801][ 77]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.15-11.23.01:811][ 78]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.15-11.23.01:948][ 89]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.15-11.23.01:981][ 92]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.15-11.23.02:003][ 94]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.15-11.23.02:020][ 96]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.15-11.23.02:155][107]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.15-11.23.02:299][117]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.15-11.23.02:417][126]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.15-11.23.02:473][131]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.15-11.23.02:581][140]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.15-11.23.02:667][148]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.15-11.23.02:744][154]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.15-11.23.02:926][169]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.15-11.23.02:940][170]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.15-11.23.03:078][182]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.15-11.23.03:143][186]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.15-11.23.03:368][204]MaterialEditorStats: Base pass shader: 101 instructions
+[2019.03.15-11.23.03:368][204]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2019.03.15-11.23.03:368][204]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.03.15-11.23.03:368][204]MaterialEditorStats: Texture samplers: 3/16
+[2019.03.15-11.23.05:567][466]LogMaterialEditor: Saving and Compiling material M_Dynamic
+[2019.03.15-11.23.06:246][466]LogMaterial: Display: Missing cached shader map for material M_Dynamic, compiling. 
+[2019.03.15-11.23.06:289][466]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-11.23.06:289][466]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.15-11.23.06:289][466]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.15-11.23.06:289][466]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-11.23.06:306][466]LogMaterial: Display: Missing cached shader map for material M_Dynamic, compiling. 
+[2019.03.15-11.23.06:331][466]LogMaterial: Display: Missing cached shader map for material M_Dynamic, compiling. 
+[2019.03.15-11.23.06:404][466]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Dynamic, compiling. 
+[2019.03.15-11.23.07:746][466]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.03.15-11.23.07:746][466]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.03.15-11.23.07:746][466]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.03.15-11.23.07:746][466]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.03.15-11.23.07:746][466]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.03.15-11.23.07:746][466]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.03.15-11.23.07:746][466]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.03.15-11.23.07:746][466]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.03.15-11.23.07:746][466]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.03.15-11.23.07:746][466]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.03.15-11.23.07:746][466]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.03.15-11.23.07:746][466]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.03.15-11.23.07:746][466]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.03.15-11.23.07:746][466]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.03.15-11.23.07:746][466]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.03.15-11.23.07:746][466]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.03.15-11.23.07:746][466]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.03.15-11.23.07:746][466]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.15-11.23.07:746][466]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.15-11.23.07:746][466]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.15-11.23.07:746][466]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.15-11.23.07:759][466]TextureStreamingBuild: Display: Compiling optional shaders took 1.373 seconds.
+[2019.03.15-11.23.10:274][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Materials/M_Dynamic" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Materials/M_Dynamic.uasset" SILENT=true
+[2019.03.15-11.23.10:295][466]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/M_DynamicB616D93742DDF23717202182AE0837C0.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Materials/M_Dynamic.uasset'
+[2019.03.15-11.23.18:731][464]LogSlate: Window 'M_Dynamic' being destroyed
+[2019.03.15-11.28.51:289][455]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/Maps/Main' took 0.044
+[2019.03.15-11.29.23:433][357]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-11.29.23:455][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-11.29.23:455][357]PIE: New page: PIE session: Main (15 Mar 2019 11:29:23)
+[2019.03.15-11.29.23:456][357]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.03.15-11.29.23:461][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005012s)
+[2019.03.15-11.29.23:461][357]LogAIModule: Creating AISystem for world Main
+[2019.03.15-11.29.23:461][357]LogPlayLevel: PIE: World Init took: (0.000726s)
+[2019.03.15-11.29.23:462][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.005936s)
+[2019.03.15-11.29.23:499][357]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.15-11.29.23:510][357]LogInit: FAudioDevice initialized.
+[2019.03.15-11.29.23:538][357]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.03.15-11.29.23:540][357]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.03.15-11.29.23
+[2019.03.15-11.29.23:540][357]LogWorld: Bringing up level for play took: 0.001216
+[2019.03.15-11.29.23:681][357]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.542
+[2019.03.15-11.29.39:878][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.29.39:925][284]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-11.29.39:960][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.29.39:987][285]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2019.03.15-11.29.42:098][538]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.29.59:493][608]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2019.03.15-11.29.59:493][608]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2019.03.15-11.29.59:493][608]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2019.03.15-11.29.59:493][608]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2019.03.15-11.30.06:072][385]BlueprintLog: New page: Compile Bp_LevelCell
+[2019.03.15-11.30.06:769][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_LevelCell" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_LevelCell.uasset" SILENT=true
+[2019.03.15-11.30.06:852][445]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/Bp_LevelCell6B29E038465F801842476FBFE27CB4E2.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_LevelCell.uasset'
+[2019.03.15-11.30.08:468][638]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-11.30.08:489][638]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-11.30.08:490][638]PIE: New page: PIE session: Main (15 Mar 2019 11:30:08)
+[2019.03.15-11.30.08:490][638]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.03.15-11.30.08:495][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005704s)
+[2019.03.15-11.30.08:496][638]LogAIModule: Creating AISystem for world Main
+[2019.03.15-11.30.08:496][638]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2019.03.15-11.30.08:496][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.006535s)
+[2019.03.15-11.30.08:530][638]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.15-11.30.08:539][638]LogInit: FAudioDevice initialized.
+[2019.03.15-11.30.08:568][638]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.03.15-11.30.08:570][638]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.03.15-11.30.08
+[2019.03.15-11.30.08:570][638]LogWorld: Bringing up level for play took: 0.000758
+[2019.03.15-11.30.08:693][638]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.472
+[2019.03.15-11.31.21:186][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.31.21:229][327]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-11.31.21:265][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.31.21:294][328]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2019.03.15-11.31.33:116][741]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.31.42:537][868]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.31.48:821][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.31.53:953][209]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.31.58:217][691]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.32.03:964][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.32.37:508][326]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.32.53:963][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.15-11.32.54:159][249]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/Main75E05DF048CA3435A4E31E99DF8D78ED.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap'
+[2019.03.15-11.33.33:529][834]LogAssetEditorManager: Opening Asset editor for TextureRenderTarget2D /Game/MyContent/TopDownRenderTarget.TopDownRenderTarget
+[2019.03.15-11.33.33:650][834]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.03.15-11.33.36:067][ 59]LogSlate: Window 'TopDownRenderTarget*' being destroyed
+[2019.03.15-11.33.36:974][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/TopDownRenderTarget" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/TopDownRenderTarget.uasset" SILENT=true
+[2019.03.15-11.33.36:999][166]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/TopDownRenderTarget529A6FA44F1C0DED8AABB79415EF6AF1.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/TopDownRenderTarget.uasset'
+[2019.03.15-11.34.05:362][540]LogAssetEditorManager: Opening Asset editor for TextureRenderTarget2D /Game/MyContent/TopDownRenderTarget.TopDownRenderTarget
+[2019.03.15-11.35.23:794][258]LogEditor: Attempting to add actor of class 'SceneCapture2D' to level at 39605.00,3945.00,14085.00
+[2019.03.15-11.35.24:675][338]LogEditor: Attempting to add actor of class 'SceneCapture2D' to level at 39345.00,3720.00,14035.00
+[2019.03.15-11.35.27:016][604]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.35.47:061][984]LogEditorActor: Deleted Actor: CameraActor
+[2019.03.15-11.35.47:092][984]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2019.03.15-11.35.56:736][130]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.36.02:072][769]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.36.06:087][237]Cmd: SELECT NONE
+[2019.03.15-11.36.08:142][482]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.36.15:185][321]LogEditorViewport: Clicking on Actor (LMB): SceneCapture2D (SceneCapture2D1)
+[2019.03.15-11.36.17:713][615]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.36.36:372][829]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.36.36:510][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.15-11.36.36:592][844]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/Main2404A6E74A040B208D31F797FB49469F.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap'
+[2019.03.15-11.40.45:157][866]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/MyContent/Widgets/WigetTopDownMap.WigetTopDownMap
+[2019.03.15-11.40.48:546][ 36]LogSlate: Window 'WigetTopDownMap*' being destroyed
+[2019.03.15-11.40.50:017][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/WigetTopDownMap" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Widgets/WigetTopDownMap.uasset" SILENT=true
+[2019.03.15-11.40.50:062][207]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/WigetTopDownMap0BB852D343406EB252C60F87CC479557.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Widgets/WigetTopDownMap.uasset'
+[2019.03.15-11.41.23:565][554]LogSlate: Window 'Save Asset As' being destroyed
+[2019.03.15-11.41.51:462][458]BlueprintLog: New page: Compile WigetTopDownMap
+[2019.03.15-11.41.52:963][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/WigetTopDownMap" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Widgets/WigetTopDownMap.uasset" SILENT=true
+[2019.03.15-11.41.53:049][587]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/WigetTopDownMap30B336DB413F014DF1CFE9A1DBEB9437.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Widgets/WigetTopDownMap.uasset'
+[2019.03.15-11.41.59:747][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.42.02:088][606]LogAssetEditorManager: Opening Asset editor for TextureRenderTarget2D /Game/MyContent/TopDownRenderTarget.TopDownRenderTarget
+[2019.03.15-11.42.47:353][962]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_PlayerCar.Bp_PlayerCar
+[2019.03.15-11.42.51:533][358]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_PlayerCar.Bp_PlayerCar
+[2019.03.15-11.43.20:600][670]BlueprintLog: New page: Compile Bp_PlayerCar
+[2019.03.15-11.43.21:228][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_PlayerCar" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_PlayerCar.uasset" SILENT=true
+[2019.03.15-11.43.21:280][719]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/Bp_PlayerCarC5304FEA4047EC9B02E5A7BB661DE690.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_PlayerCar.uasset'
+[2019.03.15-11.43.28:757][594]LogAIModule: Creating AISystem for world TestGrid
+[2019.03.15-11.43.28:760][594]LogAssetEditorManager: Opening Asset editor for World /Game/MyContent/Maps/TestGrid.TestGrid
+[2019.03.15-11.43.28:793][594]Cmd: MAP LOAD FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestGrid.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-11.43.28:793][594]LightingResults: New page: Lighting Build
+[2019.03.15-11.43.28:793][594]LoadErrors: New page: Loading map: TestGrid.umap
+[2019.03.15-11.43.28:793][594]MapCheck: New page: Map Check
+[2019.03.15-11.43.28:793][594]LightingResults: New page: Lighting Build
+[2019.03.15-11.43.28:827][594]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.15-11.43.28:900][594]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-11.43.29:015][594]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 114.091ms to complete.
+[2019.03.15-11.43.29:017][594]LogFileHelpers: Loading map 'TestGrid' took 0.226
+[2019.03.15-11.43.35:972][383]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid
+[2019.03.15-11.44.13:730][844]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.15-11.44.25:827][275]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid
+[2019.03.15-11.44.55:500][763]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid
+[2019.03.15-11.45.12:060][707]BlueprintLog: New page: Compile Bp_PlayerCar
+[2019.03.15-11.45.13:049][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_PlayerCar" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_PlayerCar.uasset" SILENT=true
+[2019.03.15-11.45.13:102][796]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/Bp_PlayerCarC2C680B4414507572CBDFBB6897FA4AA.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_PlayerCar.uasset'
+[2019.03.15-11.45.16:817][237]LogAIModule: Creating AISystem for world Main
+[2019.03.15-11.45.16:821][237]LogAssetEditorManager: Opening Asset editor for World /Game/MyContent/Maps/Main.Main
+[2019.03.15-11.45.16:854][237]Cmd: MAP LOAD FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-11.45.16:855][237]LightingResults: New page: Lighting Build
+[2019.03.15-11.45.16:855][237]LoadErrors: New page: Loading map: Main.umap
+[2019.03.15-11.45.16:856][237]MapCheck: New page: Map Check
+[2019.03.15-11.45.16:856][237]LightingResults: New page: Lighting Build
+[2019.03.15-11.45.16:888][237]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.15-11.45.16:953][237]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-11.45.17:062][237]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 108.756ms to complete.
+[2019.03.15-11.45.17:064][237]LogFileHelpers: Loading map 'Main' took 0.210
+[2019.03.15-11.45.18:262][358]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-11.45.18:295][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-11.45.18:295][358]PIE: New page: PIE session: Main (15 Mar 2019 11:45:18)
+[2019.03.15-11.45.18:295][358]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.03.15-11.45.18:301][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005739s)
+[2019.03.15-11.45.18:302][358]LogAIModule: Creating AISystem for world Main
+[2019.03.15-11.45.18:302][358]LogPlayLevel: PIE: World Init took: (0.000702s)
+[2019.03.15-11.45.18:302][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.006628s)
+[2019.03.15-11.45.18:343][358]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.15-11.45.18:354][358]LogInit: FAudioDevice initialized.
+[2019.03.15-11.45.18:383][358]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.03.15-11.45.18:385][358]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.03.15-11.45.18
+[2019.03.15-11.45.18:385][358]LogWorld: Bringing up level for play took: 0.000747
+[2019.03.15-11.45.18:535][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.45.18:535][358]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.344
+[2019.03.15-11.45.22:811][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.45.22:862][771]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-11.45.22:916][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.45.22:938][772]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2019.03.15-11.45.26:250][164]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.45.56:341][749]BlueprintLog: New page: Compile Bp_PlayerCar
+[2019.03.15-11.45.57:454][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_PlayerCar" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_PlayerCar.uasset" SILENT=true
+[2019.03.15-11.45.57:493][853]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/Bp_PlayerCarBA7ACF904765A83B37F8A385DF0E4E72.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_PlayerCar.uasset'
+[2019.03.15-11.45.59:065][ 39]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-11.45.59:093][ 39]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-11.45.59:093][ 39]PIE: New page: PIE session: Main (15 Mar 2019 11:45:59)
+[2019.03.15-11.45.59:093][ 39]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.03.15-11.45.59:098][ 39]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004978s)
+[2019.03.15-11.45.59:098][ 39]LogAIModule: Creating AISystem for world Main
+[2019.03.15-11.45.59:099][ 39]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2019.03.15-11.45.59:099][ 39]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.005774s)
+[2019.03.15-11.45.59:138][ 39]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.15-11.45.59:147][ 39]LogInit: FAudioDevice initialized.
+[2019.03.15-11.45.59:178][ 39]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.03.15-11.45.59:181][ 39]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.03.15-11.45.59
+[2019.03.15-11.45.59:181][ 39]LogWorld: Bringing up level for play took: 0.001322
+[2019.03.15-11.45.59:337][ 39]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 1.147
+[2019.03.15-11.46.00:788][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.46.00:841][175]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-11.46.00:888][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.46.00:918][176]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2019.03.15-11.48.38:328][743]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.48.38:559][767]LogAIModule: Creating AISystem for world TestGrid
+[2019.03.15-11.48.38:562][767]LogAssetEditorManager: Opening Asset editor for World /Game/MyContent/Maps/TestGrid.TestGrid
+[2019.03.15-11.48.38:596][767]Cmd: MAP LOAD FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestGrid.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-11.48.38:596][767]LightingResults: New page: Lighting Build
+[2019.03.15-11.48.38:597][767]LoadErrors: New page: Loading map: TestGrid.umap
+[2019.03.15-11.48.38:597][767]MapCheck: New page: Map Check
+[2019.03.15-11.48.38:597][767]LightingResults: New page: Lighting Build
+[2019.03.15-11.48.38:629][767]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.15-11.48.38:696][767]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-11.48.38:808][767]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 112.337ms to complete.
+[2019.03.15-11.48.38:810][767]LogFileHelpers: Loading map 'TestGrid' took 0.215
+[2019.03.15-11.48.40:385][940]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-11.48.40:413][940]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid' with GeneratedClass '/Game/MyContent/Maps/TestGrid.TestGrid_C' with ClassGeneratedBy '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid'
+[2019.03.15-11.48.40:413][940]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-11.48.40:413][940]PIE: New page: PIE session: TestGrid (15 Mar 2019 11:48:40)
+[2019.03.15-11.48.40:413][940]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestGrid
+[2019.03.15-11.48.40:416][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003007s)
+[2019.03.15-11.48.40:417][940]LogAIModule: Creating AISystem for world TestGrid
+[2019.03.15-11.48.40:417][940]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2019.03.15-11.48.40:417][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestGrid.TestGrid to /Game/MyContent/Maps/UEDPIE_0_TestGrid.TestGrid (0.003983s)
+[2019.03.15-11.48.40:455][940]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.15-11.48.40:465][940]LogInit: FAudioDevice initialized.
+[2019.03.15-11.48.40:499][940]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.03.15-11.48.40:500][940]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestGrid.TestGrid up for play (max tick rate 0) at 2019.03.15-11.48.40
+[2019.03.15-11.48.40:500][940]LogWorld: Bringing up level for play took: 0.000464
+[2019.03.15-11.48.40:752][940]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.48.40:752][940]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestGrid 0.564
+[2019.03.15-11.48.40:752][940]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid' with GeneratedClass '/Game/MyContent/Maps/TestGrid.TestGrid_C' with ClassGeneratedBy '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid'
+[2019.03.15-11.49.10:665][817]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid' with GeneratedClass '/Game/MyContent/Maps/TestGrid.TestGrid_C' with ClassGeneratedBy '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid'
+[2019.03.15-11.49.10:666][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.49.10:713][817]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-11.49.10:713][817]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid' with GeneratedClass '/Game/MyContent/Maps/TestGrid.TestGrid_C' with ClassGeneratedBy '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid'
+[2019.03.15-11.49.10:787][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.49.10:803][818]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2019.03.15-11.50.03:464][727]LogLinker: Warning: Can't find file '/Game/MyContent/Maps/TestDrive_BuiltData'
+[2019.03.15-11.50.03:464][727]LogLinker: Warning: Can't find file for asset '/Game/MyContent/Maps/TestDrive_BuiltData' while loading ../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestDrive.umap.
+[2019.03.15-11.50.03:464][727]LoadErrors: Error: /Game/MyContent/Maps/TestDrive : Can't find file for asset. /Game/MyContent/Maps/TestDrive_BuiltData
+[2019.03.15-11.50.03:466][727]LogLinker: Warning: Can't find file '/Game/MyContent/Maps/TestDrive_BuiltData'
+[2019.03.15-11.50.03:466][727]LogLinker: Warning: Can't find file for asset '/Game/MyContent/Maps/TestDrive_BuiltData' while loading ../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestDrive.umap.
+[2019.03.15-11.50.03:471][727]LogLinker: Warning: Can't find file '/Game/MyContent/Maps/TestDrive_BuiltData'
+[2019.03.15-11.50.03:471][727]LoadErrors: Failed to load /Game/MyContent/Maps/TestDrive_BuiltData.TestDrive_BuiltData Referenced by PersistentLevel
+[2019.03.15-11.50.03:471][727]LogLinker: Warning: Can't find file for asset '/Game/MyContent/Maps/TestDrive_BuiltData' while loading NULL.
+[2019.03.15-11.50.03:497][727]LogAIModule: Creating AISystem for world TestDrive
+[2019.03.15-11.50.03:500][727]LogAssetEditorManager: Opening Asset editor for World /Game/MyContent/Maps/TestDrive.TestDrive
+[2019.03.15-11.50.03:533][727]Cmd: MAP LOAD FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestDrive.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-11.50.03:533][727]LightingResults: New page: Lighting Build
+[2019.03.15-11.50.03:533][727]LoadErrors: New page: Loading map: TestDrive.umap
+[2019.03.15-11.50.03:534][727]MapCheck: New page: Map Check
+[2019.03.15-11.50.03:534][727]LightingResults: New page: Lighting Build
+[2019.03.15-11.50.03:567][727]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.15-11.50.03:630][727]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-11.50.03:750][727]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 119.021ms to complete.
+[2019.03.15-11.50.03:751][727]LogFileHelpers: Loading map 'TestDrive' took 0.219
+[2019.03.15-11.50.06:298][ 18]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-11.50.06:327][ 18]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-11.50.06:327][ 18]PIE: New page: PIE session: TestDrive (15 Mar 2019 11:50:06)
+[2019.03.15-11.50.06:327][ 18]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestDrive
+[2019.03.15-11.50.06:331][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004051s)
+[2019.03.15-11.50.06:332][ 18]LogAIModule: Creating AISystem for world TestDrive
+[2019.03.15-11.50.06:332][ 18]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2019.03.15-11.50.06:332][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestDrive.TestDrive to /Game/MyContent/Maps/UEDPIE_0_TestDrive.TestDrive (0.004871s)
+[2019.03.15-11.50.06:368][ 18]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.15-11.50.06:378][ 18]LogInit: FAudioDevice initialized.
+[2019.03.15-11.50.06:411][ 18]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.03.15-11.50.06:412][ 18]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestDrive.TestDrive up for play (max tick rate 0) at 2019.03.15-11.50.06
+[2019.03.15-11.50.06:412][ 18]LogWorld: Bringing up level for play took: 0.000625
+[2019.03.15-11.50.06:425][ 18]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestDrive 0.239
+[2019.03.15-11.50.13:675][883]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.50.13:711][883]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-11.50.13:783][883]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.50.13:801][884]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2019.03.15-11.50.14:780][998]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.50.15:057][ 28]LogAIModule: Creating AISystem for world Main
+[2019.03.15-11.50.15:061][ 28]LogAssetEditorManager: Opening Asset editor for World /Game/MyContent/Maps/Main.Main
+[2019.03.15-11.50.15:094][ 28]Cmd: MAP LOAD FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-11.50.15:094][ 28]LightingResults: New page: Lighting Build
+[2019.03.15-11.50.15:095][ 28]LoadErrors: New page: Loading map: Main.umap
+[2019.03.15-11.50.15:095][ 28]MapCheck: New page: Map Check
+[2019.03.15-11.50.15:096][ 28]LightingResults: New page: Lighting Build
+[2019.03.15-11.50.15:128][ 28]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.15-11.50.15:207][ 28]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-11.50.15:327][ 28]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 119.899ms to complete.
+[2019.03.15-11.50.15:329][ 28]LogFileHelpers: Loading map 'Main' took 0.236
+[2019.03.15-11.50.17:925][320]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-11.50.17:953][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-11.50.17:953][320]PIE: New page: PIE session: Main (15 Mar 2019 11:50:17)
+[2019.03.15-11.50.17:953][320]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.03.15-11.50.17:959][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005781s)
+[2019.03.15-11.50.17:959][320]LogAIModule: Creating AISystem for world Main
+[2019.03.15-11.50.17:960][320]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2019.03.15-11.50.17:960][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.006689s)
+[2019.03.15-11.50.18:000][320]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.15-11.50.18:010][320]LogInit: FAudioDevice initialized.
+[2019.03.15-11.50.18:040][320]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.03.15-11.50.18:042][320]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.03.15-11.50.18
+[2019.03.15-11.50.18:042][320]LogWorld: Bringing up level for play took: 0.000841
+[2019.03.15-11.50.18:171][320]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.015
+[2019.03.15-11.50.26:219][160]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.50.26:273][160]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-11.50.26:308][160]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.50.26:335][161]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2019.03.15-11.50.27:230][266]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-11.50.27:467][291]LogAIModule: Creating AISystem for world TestGrid
+[2019.03.15-11.50.27:470][291]LogAssetEditorManager: Opening Asset editor for World /Game/MyContent/Maps/TestGrid.TestGrid
+[2019.03.15-11.50.27:500][291]Cmd: MAP LOAD FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestGrid.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-11.50.27:500][291]LightingResults: New page: Lighting Build
+[2019.03.15-11.50.27:501][291]LoadErrors: New page: Loading map: TestGrid.umap
+[2019.03.15-11.50.27:502][291]MapCheck: New page: Map Check
+[2019.03.15-11.50.27:502][291]LightingResults: New page: Lighting Build
+[2019.03.15-11.50.27:533][291]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.15-11.50.27:598][291]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-11.50.27:711][291]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 112.975ms to complete.
+[2019.03.15-11.50.27:712][291]LogFileHelpers: Loading map 'TestGrid' took 0.214
+[2019.03.15-11.50.31:648][745]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-11.50.31:676][745]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid' with GeneratedClass '/Game/MyContent/Maps/TestGrid.TestGrid_C' with ClassGeneratedBy '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid'
+[2019.03.15-11.50.31:676][745]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-11.50.31:676][745]PIE: New page: PIE session: TestGrid (15 Mar 2019 11:50:31)
+[2019.03.15-11.50.31:677][745]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestGrid
+[2019.03.15-11.50.31:680][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003222s)
+[2019.03.15-11.50.31:681][745]LogAIModule: Creating AISystem for world TestGrid
+[2019.03.15-11.50.31:681][745]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2019.03.15-11.50.31:681][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestGrid.TestGrid to /Game/MyContent/Maps/UEDPIE_0_TestGrid.TestGrid (0.004198s)
+[2019.03.15-11.50.31:724][745]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.15-11.50.31:733][745]LogInit: FAudioDevice initialized.
+[2019.03.15-11.50.31:768][745]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.03.15-11.50.31:769][745]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestGrid.TestGrid up for play (max tick rate 0) at 2019.03.15-11.50.31
+[2019.03.15-11.50.31:769][745]LogWorld: Bringing up level for play took: 0.000596
+[2019.03.15-11.50.31:967][745]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.50.31:968][745]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestGrid -0.219
+[2019.03.15-11.50.31:968][745]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid' with GeneratedClass '/Game/MyContent/Maps/TestGrid.TestGrid_C' with ClassGeneratedBy '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid'
+[2019.03.15-11.51.49:973][159]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid' with GeneratedClass '/Game/MyContent/Maps/TestGrid.TestGrid_C' with ClassGeneratedBy '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid'
+[2019.03.15-11.51.49:973][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.51.50:023][159]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-11.51.50:023][159]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid' with GeneratedClass '/Game/MyContent/Maps/TestGrid.TestGrid_C' with ClassGeneratedBy '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid'
+[2019.03.15-11.51.50:057][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.51.50:091][160]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2019.03.15-11.52.40:810][482]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-11.52.40:850][482]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid' with GeneratedClass '/Game/MyContent/Maps/TestGrid.TestGrid_C' with ClassGeneratedBy '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid'
+[2019.03.15-11.52.40:850][482]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-11.52.40:851][482]PIE: New page: PIE session: TestGrid (15 Mar 2019 11:52:40)
+[2019.03.15-11.52.40:851][482]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestGrid
+[2019.03.15-11.52.40:854][482]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003061s)
+[2019.03.15-11.52.40:855][482]LogAIModule: Creating AISystem for world TestGrid
+[2019.03.15-11.52.40:855][482]LogPlayLevel: PIE: World Init took: (0.001113s)
+[2019.03.15-11.52.40:855][482]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestGrid.TestGrid to /Game/MyContent/Maps/UEDPIE_0_TestGrid.TestGrid (0.004412s)
+[2019.03.15-11.52.40:903][482]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.15-11.52.40:914][482]LogInit: FAudioDevice initialized.
+[2019.03.15-11.52.40:944][482]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.03.15-11.52.40:946][482]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestGrid.TestGrid up for play (max tick rate 0) at 2019.03.15-11.52.40
+[2019.03.15-11.52.40:946][482]LogWorld: Bringing up level for play took: 0.000614
+[2019.03.15-11.52.41:132][482]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.52.41:133][482]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestGrid 0.947
+[2019.03.15-11.52.41:133][482]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid' with GeneratedClass '/Game/MyContent/Maps/TestGrid.TestGrid_C' with ClassGeneratedBy '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid'
+[2019.03.15-11.58.08:295][ 60]LogAIModule: Creating AISystem for world Main
+[2019.03.15-11.58.08:297][ 60]LogAssetEditorManager: Opening Asset editor for World /Game/MyContent/Maps/Main.Main
+[2019.03.15-11.58.10:819][ 60]LogSlate: Window 'Message' being destroyed
+[2019.03.15-11.58.10:824][ 60]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid' with GeneratedClass '/Game/MyContent/Maps/TestGrid.TestGrid_C' with ClassGeneratedBy '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid'
+[2019.03.15-11.58.10:824][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.58.10:873][ 60]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-11.58.10:873][ 60]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel' has LevelScriptBlueprint '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid' with GeneratedClass '/Game/MyContent/Maps/TestGrid.TestGrid_C' with ClassGeneratedBy '/Game/MyContent/Maps/TestGrid.TestGrid:PersistentLevel.TestGrid'
+[2019.03.15-11.58.10:933][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-11.58.10:955][ 60]Cmd: MAP LOAD FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-11.58.10:970][ 60]LightingResults: New page: Lighting Build
+[2019.03.15-11.58.10:971][ 60]LoadErrors: New page: Loading map: Main.umap
+[2019.03.15-11.58.10:971][ 60]MapCheck: New page: Map Check
+[2019.03.15-11.58.10:971][ 60]LightingResults: New page: Lighting Build
+[2019.03.15-11.58.11:008][ 60]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.15-11.58.11:082][ 60]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-11.58.11:195][ 60]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 112.474ms to complete.
+[2019.03.15-11.58.11:195][ 60]LogFileHelpers: Loading map 'Main' took 2.869
+[2019.03.15-11.58.11:327][ 61]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2019.03.15-11.58.12:634][211]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-11.58.12:661][211]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-11.58.12:661][211]PIE: New page: PIE session: Main (15 Mar 2019 11:58:12)
+[2019.03.15-11.58.12:661][211]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.03.15-11.58.12:667][211]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005429s)
+[2019.03.15-11.58.12:667][211]LogAIModule: Creating AISystem for world Main
+[2019.03.15-11.58.12:668][211]LogPlayLevel: PIE: World Init took: (0.000624s)
+[2019.03.15-11.58.12:668][211]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.006226s)
+[2019.03.15-11.58.12:705][211]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.15-11.58.12:714][211]LogInit: FAudioDevice initialized.
+[2019.03.15-11.58.12:747][211]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.03.15-11.58.12:750][211]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.03.15-11.58.12
+[2019.03.15-11.58.12:750][211]LogWorld: Bringing up level for play took: 0.001669
+[2019.03.15-11.58.12:921][211]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.751
+[2019.03.15-12.00.11:522][984]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-12.00.11:576][984]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-12.00.11:607][984]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-12.00.11:638][985]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2019.03.15-12.10.07:595][333]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/Maps/Main' took 0.058
+[2019.03.15-12.18.59:318][102]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-12.18.59:551][102]Candidate modules for hot reload:
+[2019.03.15-12.18.59:551][102]  CrazyTaxiProcGen
+[2019.03.15-12.18.59:551][102]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CrazyTaxiProcGen,1031 Win64 Development -TargetType=Editor -Project="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" -canskiplink "C:/Temp/TAS/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" ]
+[2019.03.15-12.18.59:559][102]Warning: Starting HotReload took  0.0s.
+[2019.03.15-12.19.23:034][915]CompilerResultsLog: New page: Compilation - 15 Mar 2019 12:19:23
+[2019.03.15-12.19.23:034][915]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.15-12.19.23:034][915]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.15-12.19.23:034][915]CompilerResultsLog: Parsing headers for CrazyTaxiProcGenEditor
+[2019.03.15-12.19.23:034][915]CompilerResultsLog:   Running UnrealHeaderTool "C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\CrazyTaxiProcGen.uproject" "C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\CrazyTaxiProcGenEditor\Development\CrazyTaxiProcGenEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.03.15-12.19.23:034][915]CompilerResultsLog: Reflection code generated for CrazyTaxiProcGenEditor in 17.0901837 seconds
+[2019.03.15-12.19.23:034][915]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.03.15-12.19.23:034][915]CompilerResultsLog:   [1/4] GenerateGrid.gen.cpp
+[2019.03.15-12.19.23:034][915]CompilerResultsLog:   [2/4] GenerateGrid.cpp
+[2019.03.15-12.19.23:035][915]CompilerResultsLog:   [3/4] UE4Editor-CrazyTaxiProcGen-1031.lib
+[2019.03.15-12.19.23:035][915]CompilerResultsLog:      Creating library C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-1031.lib and object C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-1031.exp
+[2019.03.15-12.19.23:035][915]CompilerResultsLog:   [4/4] UE4Editor-CrazyTaxiProcGen-1031.dll
+[2019.03.15-12.19.23:035][915]CompilerResultsLog:      Creating library C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-1031.suppressed.lib and object C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-1031.suppressed.exp
+[2019.03.15-12.19.23:035][915]CompilerResultsLog: Total build time: 22.92 seconds (Parallel executor: 2.80 seconds)
+[2019.03.15-12.19.23:035][915]LogMainFrame: MainFrame: Module compiling took 23.491 seconds
+[2019.03.15-12.19.23:093][915]LogClass: Could not find existing class GenerateGrid in package /Script/CrazyTaxiProcGen for HotReload, assuming new class
+[2019.03.15-12.19.23:093][915]LogClass: Function Regenerate is new.
+[2019.03.15-12.19.23:093][915]LogClass: Function SmoothCells is new.
+[2019.03.15-12.19.23:118][915]LogHotReload: Re-instancing GenerateGrid after hot-reload.
+[2019.03.15-12.19.23:399][915]LogContentBrowser: Native class hierarchy updated for 'CrazyTaxiProcGen' in 0.0005 seconds. Added 4 classes and 2 folders.
+[2019.03.15-12.19.23:403][915]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.03.15-12.19.23:745][915]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2588 classes and 616 folders.
+[2019.03.15-12.19.23:745][915]Display: HotReload took 24.2s.
+[2019.03.15-12.20.20:527][431]Candidate modules for hot reload:
+[2019.03.15-12.20.20:527][431]  CrazyTaxiProcGen
+[2019.03.15-12.20.20:528][431]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CrazyTaxiProcGen,4622 Win64 Development -TargetType=Editor -Project="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" -canskiplink "C:/Temp/TAS/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" ]
+[2019.03.15-12.20.20:534][431]Warning: Starting HotReload took  0.0s.
+[2019.03.15-12.20.24:218][871]CompilerResultsLog: New page: Compilation - 15 Mar 2019 12:20:24
+[2019.03.15-12.20.24:218][871]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.15-12.20.24:218][871]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.15-12.20.24:218][871]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.03.15-12.20.24:218][871]CompilerResultsLog:   [1/3] GenerateGrid.cpp
+[2019.03.15-12.20.24:218][871]CompilerResultsLog:    C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Source\CrazyTaxiProcGen\GenerateGrid.cpp(361) : error C2064: term does not evaluate to a function taking 0 arguments
+[2019.03.15-12.20.24:218][871]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Binaries\Win64\UE4Editor-CrazyTaxiProcGen-4622.dll
+[2019.03.15-12.20.24:219][871]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.03.15-12.20.24:219][871]CompilerResultsLog: Total build time: 3.36 seconds (Parallel executor: 0.00 seconds)
+[2019.03.15-12.20.24:219][871]LogMainFrame: MainFrame: Module compiling took 3.698 seconds
+[2019.03.15-12.20.24:219][871]Warning: HotReload failed, recompile failed
+[2019.03.15-12.20.57:703][ 47]LogSlate: Window 'Message Log' being destroyed
+[2019.03.15-12.20.57:707][ 47]LogSlate: Window 'Message Log' being destroyed
+[2019.03.15-12.20.58:854][183]Candidate modules for hot reload:
+[2019.03.15-12.20.58:854][183]  CrazyTaxiProcGen
+[2019.03.15-12.20.58:854][183]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CrazyTaxiProcGen,7489 Win64 Development -TargetType=Editor -Project="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" -canskiplink "C:/Temp/TAS/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" ]
+[2019.03.15-12.20.58:874][183]Warning: Starting HotReload took  0.0s.
+[2019.03.15-12.21.03:896][785]CompilerResultsLog: New page: Compilation - 15 Mar 2019 12:21:03
+[2019.03.15-12.21.03:896][785]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.15-12.21.03:896][785]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.15-12.21.03:896][785]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.03.15-12.21.03:896][785]CompilerResultsLog:   [1/3] GenerateGrid.cpp
+[2019.03.15-12.21.03:896][785]CompilerResultsLog:   [2/3] UE4Editor-CrazyTaxiProcGen-7489.lib
+[2019.03.15-12.21.03:896][785]CompilerResultsLog:      Creating library C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-7489.lib and object C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-7489.exp
+[2019.03.15-12.21.03:896][785]CompilerResultsLog:   [3/3] UE4Editor-CrazyTaxiProcGen-7489.dll
+[2019.03.15-12.21.03:896][785]CompilerResultsLog:      Creating library C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-7489.suppressed.lib and object C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-7489.suppressed.exp
+[2019.03.15-12.21.03:896][785]CompilerResultsLog: Total build time: 4.69 seconds (Parallel executor: 2.04 seconds)
+[2019.03.15-12.21.03:896][785]LogMainFrame: MainFrame: Module compiling took 5.049 seconds
+[2019.03.15-12.21.03:980][785]LogContentBrowser: Native class hierarchy updated for 'CrazyTaxiProcGen' in 0.0005 seconds. Added 4 classes and 2 folders.
+[2019.03.15-12.21.03:984][785]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.03.15-12.21.04:330][785]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2588 classes and 616 folders.
+[2019.03.15-12.21.04:330][785]Display: HotReload took  5.5s.
+[2019.03.15-12.21.07:971][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.15-12.21.08:104][210]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/MainF8ABF9EE4969F635D5E80C9328D74BDD.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap'

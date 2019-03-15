@@ -23,6 +23,8 @@ protected:
 	int randDir;
 	bool fails;
 
+	const int maxCells = 961;
+
 	void SetPositions();
 
 	void RemoveCells();

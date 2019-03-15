@@ -178,7 +178,7 @@ void AGenerateGrid::Repeat()
 
 void AGenerateGrid::SmoothCells()
 {
-	for (int i = 0; i < 961; i++)
+	for (int i = 0; i < maxCells; i++)
 	{
 		ACell* cell = ArrayOfCells[i];
 
@@ -231,7 +231,7 @@ void AGenerateGrid::GenerateRoad()
 	int randR3 = FMath::RandRange(3, 29);
 	int randR4 = FMath::RandRange(3, 29);
 
-	for (int i = 0; i < 961; i++)
+	for (int i = 0; i < maxCells; i++)
 	{
 		ACell* cell = ArrayOfCells[i];
 		if (cell->GetRow() == 2)
@@ -358,7 +358,7 @@ void AGenerateGrid::RoadDirection(ACell* cell)
 
 void AGenerateGrid::GenerateBuildings()
 {
-	for (int i = 0; i < 961; i++)
+	for (int i = 0; i < maxCells; i++)
 	{
 		ACell* cell = ArrayOfCells[i];
 
