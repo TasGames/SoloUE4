@@ -15,6 +15,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_13_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execSmoothCells) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SmoothCells(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execRegenerate) \
 	{ \
 		P_FINISH; \
@@ -25,6 +33,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_GenerateGrid_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSmoothCells) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SmoothCells(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execRegenerate) \
 	{ \

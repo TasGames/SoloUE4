@@ -7,6 +7,8 @@ AGenerateGrid::AGenerateGrid()
 {
 	PrimaryActorTick.bCanEverTick = true;
 
+	fails = false;
+
 }
 
 void AGenerateGrid::BeginPlay()
@@ -132,6 +134,47 @@ void AGenerateGrid::CheckCells(int c)
 	cell8->SetType(2);
 }
 
+void AGenerateGrid::CheckAdjacent(ACell* cell)
+{
+	ACell* nCell = ArrayOfCells[cell->GetNCell()];
+	ACell* neCell = ArrayOfCells[cell->GetNECell()];
+	ACell* eCell = ArrayOfCells[cell->GetECell()];
+	ACell* seCell = ArrayOfCells[cell->GetSECell()];
+	ACell* sCell = ArrayOfCells[cell->GetSCell()];
+	ACell* swCell = ArrayOfCells[cell->GetSWCell()];
+	ACell* wCell = ArrayOfCells[cell->GetWCell()];
+	ACell* nwCell = ArrayOfCells[cell->GetNWCell()];
+
+	if (seCell->GetType() == 1)
+	{
+		if (eCell->GetType() == 1 && sCell->GetType() == 1)
+			cell->SetType(2);
+	}
+
+	if (neCell->GetType() == 1)
+	{
+		if (eCell->GetType() == 1 && nCell->GetType() == 1)
+			cell->SetType(2);
+	}
+
+	if (swCell->GetType() == 1)
+	{
+		if (wCell->GetType() == 1 && sCell->GetType() == 1)
+			cell->SetType(2);
+	}
+
+	if (nwCell->GetType() == 1)
+	{
+		if (wCell->GetType() == 1 && nCell->GetType() == 1)
+			cell->SetType(2);
+	}
+}
+
+void AGenerateGrid::Repeat()
+{
+	randDir = FMath::RandRange(1, 6);
+}
+
 void AGenerateGrid::SmoothCells()
 {
 	for (int i = 0; i < 961; i++)
@@ -223,20 +266,18 @@ void AGenerateGrid::GenerateRoad()
 
 void AGenerateGrid::RoadDirection(ACell* cell)
 {
-	int randDir;
-
 	cell->SetType(1);
 
 	cell->SetLastCell(cell->GetSCell());
 
-	for (int j = 0; j < 100; j++)
+	for (int j = 0; j < 50; j++)
 	{
 		ACell* nCell = ArrayOfCells[cell->GetNCell()];
 		ACell* eCell = ArrayOfCells[cell->GetECell()];
 		ACell* sCell = ArrayOfCells[cell->GetSCell()];
 		ACell* wCell = ArrayOfCells[cell->GetWCell()];
 
-		randDir = FMath::RandRange(1, 3);
+		randDir = FMath::RandRange(1, 6);
 
 		if (cell->GetLastCell() == cell->GetSCell())
 		{
@@ -278,8 +319,8 @@ void AGenerateGrid::RoadDirection(ACell* cell)
 		{
 			if (randDir == 1)
 			{
-				cell = wCell;
-				cell->SetLastCell(cell->GetECell());
+				cell = sCell;
+				cell->SetLastCell(cell->GetNCell());
 			}
 			else if (randDir == 2)
 			{
@@ -288,16 +329,16 @@ void AGenerateGrid::RoadDirection(ACell* cell)
 			}
 			else
 			{
-				cell = sCell;
-				cell->SetLastCell(cell->GetNCell());
+				cell = wCell;
+				cell->SetLastCell(cell->GetECell());
 			}
 		}
 		else if (cell->GetLastCell() == cell->GetWCell())
 		{
 			if (randDir == 1)
 			{
-				cell = eCell;
-				cell->SetLastCell(cell->GetWCell());
+				cell = sCell;
+				cell->SetLastCell(cell->GetNCell());
 			}
 			else if (randDir == 2)
 			{
@@ -306,8 +347,8 @@ void AGenerateGrid::RoadDirection(ACell* cell)
 			}
 			else
 			{
-				cell = sCell;
-				cell->SetLastCell(cell->GetNCell());
+				cell = eCell;
+				cell->SetLastCell(cell->GetWCell());
 			}
 		}
 		cell->SetType(1);
@@ -341,8 +382,8 @@ void AGenerateGrid::Regenerate()
 	SetPositions();
 	StoreCells();
 	GenerateRoad();
-	SmoothCells();
-	SmoothCells();
-	SmoothCells();
-	GenerateBuildings();
+	//SmoothCells();
+	//SmoothCells();
+	//SmoothCells();
+	//GenerateBuildings();
 }

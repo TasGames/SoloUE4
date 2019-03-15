@@ -20,6 +20,9 @@ protected:
 
 	TArray<ACell*> ArrayOfCells;
 
+	int randDir;
+	bool fails;
+
 	void SetPositions();
 
 	void RemoveCells();
@@ -28,7 +31,9 @@ protected:
 
 	void CheckCells(int c);
 
-	void SmoothCells();
+	void CheckAdjacent(ACell* cell);
+
+	void Repeat();
 
 	void GenerateRoad();
 
@@ -44,5 +49,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Regenerate")
 	void Regenerate();
 
-	
+	UFUNCTION(BlueprintCallable, Category = "Smooth")
+	void SmoothCells();
+
 };

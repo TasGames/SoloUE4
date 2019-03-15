@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeGenerateGrid() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_CrazyTaxiProcGen();
 	CRAZYTAXIPROCGEN_API UFunction* Z_Construct_UFunction_AGenerateGrid_Regenerate();
+	CRAZYTAXIPROCGEN_API UFunction* Z_Construct_UFunction_AGenerateGrid_SmoothCells();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	CRAZYTAXIPROCGEN_API UClass* Z_Construct_UClass_ACell_NoRegister();
 // End Cross Module References
@@ -26,6 +27,7 @@ void EmptyLinkFunctionForGeneratedCodeGenerateGrid() {}
 		UClass* Class = AGenerateGrid::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "Regenerate", &AGenerateGrid::execRegenerate },
+			{ "SmoothCells", &AGenerateGrid::execSmoothCells },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -49,6 +51,29 @@ void EmptyLinkFunctionForGeneratedCodeGenerateGrid() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGenerateGrid_Regenerate_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AGenerateGrid_SmoothCells_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGenerateGrid_SmoothCells_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Smooth" },
+		{ "ModuleRelativePath", "GenerateGrid.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGenerateGrid_SmoothCells_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGenerateGrid, "SmoothCells", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGenerateGrid_SmoothCells_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGenerateGrid_SmoothCells_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGenerateGrid_SmoothCells()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGenerateGrid_SmoothCells_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -77,6 +102,7 @@ void EmptyLinkFunctionForGeneratedCodeGenerateGrid() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AGenerateGrid_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AGenerateGrid_Regenerate, "Regenerate" }, // 2065178244
+		{ &Z_Construct_UFunction_AGenerateGrid_SmoothCells, "SmoothCells" }, // 581380121
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGenerateGrid_Statics::Class_MetaDataParams[] = {
@@ -117,7 +143,7 @@ void EmptyLinkFunctionForGeneratedCodeGenerateGrid() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGenerateGrid, 1730901297);
+	IMPLEMENT_CLASS(AGenerateGrid, 430090114);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AGenerateGrid(Z_Construct_UClass_AGenerateGrid, &AGenerateGrid::StaticClass, TEXT("/Script/CrazyTaxiProcGen"), TEXT("AGenerateGrid"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AGenerateGrid);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
