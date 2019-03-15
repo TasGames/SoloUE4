@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeCrazyTaxiProcGen_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/CrazyTaxiProcGen",
 				PKG_CompiledIn | 0x00000000,
-				0x52AB97A9,
-				0x9980B46D,
+				0x86B8FC66,
+				0xB9BE580F,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

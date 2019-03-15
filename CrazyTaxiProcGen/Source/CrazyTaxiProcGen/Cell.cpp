@@ -75,84 +75,118 @@ int ACell::GetRow()
 	return rowNum;
 }
 
-void ACell::SetTLCell(int c)
+void ACell::SetSECell(int c)
 {
-	tlCell = c;
+	if (c > 961)
+		seCell = 961;
+	else
+		seCell = c;
 }
 
-int ACell::GetTLCell()
+int ACell::GetSECell()
 {
-	return tlCell;
+	return seCell;
 }
 
-void ACell::SetTCell(int c)
+void ACell::SetECell(int c)
 {
-	tCell = c;
+	if (c > 961)
+		eCell = 961;
+	else
+		eCell = c;
 }
 
-int ACell::GetTCell()
+int ACell::GetECell()
 {
-	return tCell;
+	return eCell;
 }
 
-void ACell::SetTRCell(int c)
+void ACell::SetNECell(int c)
 {
-	trCell = c;
+	if (c > 961)
+		neCell = 961;
+	else
+		neCell = c;
 }
 
-int ACell::GetTRCell()
+int ACell::GetNECell()
 {
-	return trCell;
+	return neCell;
 }
 
-void ACell::SetLCell(int c)
+void ACell::SetSCell(int c)
 {
-	lCell = c;
+	if (c < 0)
+		sCell = 961;
+	else
+		sCell = c;
 }
 
-int ACell::GetLCell()
+int ACell::GetSCell()
 {
-	return lCell;
+	return sCell;
 }
 
-void ACell::SetRCell(int c)
+void ACell::SetNCell(int c)
 {
-	rCell = c;
+	if (c > 961)
+		nCell = 961;
+	else
+		nCell = c;
 }
 
-int ACell::GetRCell()
+int ACell::GetNCell()
 {
-	return rCell;
+	return nCell;
 }
 
-void ACell::SetBLCell(int c)
+void ACell::SetSWCell(int c)
 {
-	blCell = c;
+	if (c < 0)
+		swCell = 961;
+	else
+		swCell = c;
 }
 
-int ACell::GetBLCell()
+int ACell::GetSWCell()
 {
-	return blCell;
+	return swCell;
 }
 
-void ACell::SetBCell(int c)
+void ACell::SetWCell(int c)
 {
-	bCell = c;
+	if (c < 0)
+		wCell = 961;
+	else
+		wCell = c;
 }
 
-int ACell::GetBCell()
+int ACell::GetWCell()
 {
-	return bCell;
+	return wCell;
 }
 
-void ACell::SetBRCell(int c)
+void ACell::SetNWCell(int c)
 {
-	brCell = c;
+	if (c < 0)
+		nwCell = 961;
+	else
+		nwCell = c;
 }
 
-int ACell::GetBRCell()
+int ACell::GetNWCell()
 {
-	return brCell;
+	return nwCell;
+}
+
+void ACell::SetLastCell(int c)
+{
+	lastCell = c;
+}
+
+int ACell::GetLastCell()
+{
+	return lastCell;
 }
 
 void ACell::SetType(int t)

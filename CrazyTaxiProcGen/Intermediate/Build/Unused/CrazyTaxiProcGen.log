@@ -1,17 +1,23 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for CrazyTaxiProcGenEditor (ini files are newer than UBTMakefile)
+  Creating makefile for hot reloading CrazyTaxiProcGenEditor (game project files are newer)
+  Compiling game modules for hot reload
   Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Binaries\Win64\UE4Editor-CrazyTaxiProcGen-8239.dll".
-  Unable to delete old hot reload file: "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Binaries\Win64\UE4Editor-CrazyTaxiProcGen-8239.dll". Error: Access to the path 'A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Binaries\Win64\UE4Editor-CrazyTaxiProcGen-8239.dll' is denied.
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Binaries\Win64\UE4Editor-CrazyTaxiProcGen-8239.pdb".
-  Unable to delete old hot reload file: "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Binaries\Win64\UE4Editor-CrazyTaxiProcGen-8239.pdb". Error: Access to the path 'A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Binaries\Win64\UE4Editor-CrazyTaxiProcGen-8239.pdb' is denied.
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Binaries\Win64\UE4Editor-CrazyTaxiProcGen-8403.dll".
-  Deleting old hot reload file: "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Binaries\Win64\UE4Editor-CrazyTaxiProcGen-8403.pdb".
-  Building 3 actions with 4 processes...
-    [1/3] Cell.cpp
-    [2/3] UE4Editor-CrazyTaxiProcGen.lib
-       Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen.exp
-    [3/3] UE4Editor-CrazyTaxiProcGen.dll
-       Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen.suppressed.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen.suppressed.exp
+  Parsing headers for CrazyTaxiProcGenEditor
+    Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\CrazyTaxiProcGen.uproject" "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\CrazyTaxiProcGenEditor\Development\CrazyTaxiProcGenEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for CrazyTaxiProcGenEditor in 11.1973345 seconds
+  Building 11 actions with 4 processes...
+    [1/11] SharedPCH.Engine.cpp
+    [2/11] CrazyTaxiProcGen.cpp
+    [3/11] Cell.gen.cpp
+    [4/11] GenerateGrid.cpp
+    [5/11] CrazyTaxiProcGenGameModeBase.cpp
+    [6/11] CrazyTaxiProcGen.init.gen.cpp
+    [7/11] Cell.cpp
+    [8/11] GenerateGrid.gen.cpp
+    [9/11] CrazyTaxiProcGenGameModeBase.gen.cpp
+    [10/11] UE4Editor-CrazyTaxiProcGen-1898.lib
+       Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-1898.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-1898.exp
+    [11/11] UE4Editor-CrazyTaxiProcGen-1898.dll
+       Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-1898.suppressed.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-1898.suppressed.exp
   Deploying CrazyTaxiProcGenEditor Win64 Development...
-  Total build time: 7.52 seconds (Parallel executor: 1.54 seconds)
+  Total build time: 61.66 seconds (Parallel executor: 40.37 seconds)

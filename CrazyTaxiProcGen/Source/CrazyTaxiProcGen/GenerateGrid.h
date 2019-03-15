@@ -15,18 +15,41 @@ class CRAZYTAXIPROCGEN_API AGenerateGrid : public AActor
 protected:
 	virtual void BeginPlay() override;
 
-	void SetPositions();
-
 	UPROPERTY(EditAnywhere, Category = Cell)
 	TSubclassOf<class ACell> cellClass;
 
 	TArray<ACell*> ArrayOfCells;
+
+	int randDir;
+	bool fails;
+
+	void SetPositions();
+
+	void RemoveCells();
+
+	void StoreCells();
+
+	void CheckCells(int c);
+
+	void CheckAdjacent(ACell* cell);
+
+	void Repeat();
+
+	void GenerateRoad();
+
+	void RoadDirection(ACell* cell);
+
+	void GenerateBuildings();
 
 public:	
 	AGenerateGrid();
 
 	virtual void Tick(float DeltaTime) override;
 
-	
-	
+	UFUNCTION(BlueprintCallable, Category = "Regenerate")
+	void Regenerate();
+
+	UFUNCTION(BlueprintCallable, Category = "Smooth")
+	void SmoothCells();
+
 };

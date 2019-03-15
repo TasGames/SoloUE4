@@ -34,14 +34,16 @@ protected:
 	int columnNum;
 	int rowNum;
 
-	int tlCell;
-	int tCell;
-	int trCell;
-	int lCell;
-	int rCell;
-	int blCell;
-	int bCell;
-	int brCell;
+	int nCell;
+	int neCell;
+	int eCell;
+	int seCell;
+	int sCell;
+	int swCell;
+	int wCell;
+	int nwCell;
+
+	int lastCell;
 
 	int cellType = 0;
 
@@ -60,29 +62,32 @@ public:
 	void SetRow(int n);
 	int GetRow();
 
-	void SetTLCell(int c);
-	int GetTLCell();
+	void SetNCell(int c);
+	int GetNCell();
 
-	void SetTCell(int c);
-	int GetTCell();
+	void SetNECell(int c);
+	int GetNECell();
 
-	void SetTRCell(int c);
-	int GetTRCell();
+	void SetECell(int c);
+	int GetECell();
 
-	void SetLCell(int c);
-	int GetLCell();
+	void SetSECell(int c);
+	int GetSECell();
 
-	void SetRCell(int c);
-	int GetRCell();
+	void SetSCell(int c);
+	int GetSCell();
 
-	void SetBLCell(int c);
-	int GetBLCell();
+	void SetSWCell(int c);
+	int GetSWCell();
 
-	void SetBCell(int c);
-	int GetBCell();
+	void SetWCell(int c);
+	int GetWCell();
 
-	void SetBRCell(int c);
-	int GetBRCell();
+	void SetNWCell(int c);
+	int GetNWCell();
+
+	void SetLastCell(int c);
+	int GetLastCell();
 
 	void SetType(int t);
 	int GetType();
