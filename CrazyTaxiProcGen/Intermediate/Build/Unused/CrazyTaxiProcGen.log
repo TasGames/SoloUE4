@@ -1,23 +1,8 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build.
+﻿  Performing full C++ include scan (hot reloading a new target)
+  Using 'git status' to determine working set for adaptive non-unity build.
   Creating makefile for hot reloading CrazyTaxiProcGenEditor (game project files are newer)
   Compiling game modules for hot reload
-  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for CrazyTaxiProcGenEditor
-    Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\CrazyTaxiProcGen.uproject" "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\CrazyTaxiProcGenEditor\Development\CrazyTaxiProcGenEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for CrazyTaxiProcGenEditor in 11.1973345 seconds
-  Building 11 actions with 4 processes...
-    [1/11] SharedPCH.Engine.cpp
-    [2/11] CrazyTaxiProcGen.cpp
-    [3/11] Cell.gen.cpp
-    [4/11] GenerateGrid.cpp
-    [5/11] CrazyTaxiProcGenGameModeBase.cpp
-    [6/11] CrazyTaxiProcGen.init.gen.cpp
-    [7/11] Cell.cpp
-    [8/11] GenerateGrid.gen.cpp
-    [9/11] CrazyTaxiProcGenGameModeBase.gen.cpp
-    [10/11] UE4Editor-CrazyTaxiProcGen-1898.lib
-       Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-1898.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-1898.exp
-    [11/11] UE4Editor-CrazyTaxiProcGen-1898.dll
-       Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-1898.suppressed.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-1898.suppressed.exp
+  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726) and Windows 10.0.15063.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Target is up to date
   Deploying CrazyTaxiProcGenEditor Win64 Development...
-  Total build time: 61.66 seconds (Parallel executor: 40.37 seconds)
+  Total build time: 6.85 seconds (NoActionsToExecute executor: 0.00 seconds)

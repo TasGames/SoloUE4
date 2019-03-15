@@ -193,22 +193,25 @@ void ACell::SetType(int t)
 {
 	cellType = t;
 
+	currentMesh->SetVisibility(false);
+	currentMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
 	if (cellType == 0)
 	{
-	currentMesh->SetVisibility(false);
 	cellMesh->SetVisibility(true);
+	cellMesh->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 	currentMesh = cellMesh;
 	}
 	else if (cellType == 1)
 	{
-		currentMesh->SetVisibility(false);
 		cellMeshRoad->SetVisibility(true);
+		cellMeshRoad->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 		currentMesh = cellMeshRoad;
 	}
 	else if (cellType == 2)
 	{
-		currentMesh->SetVisibility(false);
 		cellMeshBuilding->SetVisibility(true);
+		cellMeshBuilding->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 		currentMesh = cellMeshBuilding;
 	}
 }

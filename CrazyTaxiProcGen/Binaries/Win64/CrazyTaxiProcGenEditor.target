@@ -16,11 +16,11 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-CrazyTaxiProcGen-1898.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-CrazyTaxiProcGen-9172.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-CrazyTaxiProcGen-1898.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-CrazyTaxiProcGen-9172.pdb",
 			"Type": "SymbolFile"
 		},
 		{
