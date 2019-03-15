@@ -173,6 +173,7 @@ void AGenerateGrid::CheckAdjacent(ACell* cell)
 void AGenerateGrid::Repeat()
 {
 	randDir = FMath::RandRange(1, 6);
+	fails = true;
 }
 
 void AGenerateGrid::SmoothCells()

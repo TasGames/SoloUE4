@@ -792,3 +792,62 @@ LogInit: Object subsystem initialized
 [2019.03.15-06.25.58:206][263]LogInit: No audio devices found!
 [2019.03.15-06.26.01:582][273]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{2d2aba44-9921-48e1-bb43-657c45584903} was removed. Shutting down audio device.
 [2019.03.15-06.26.01:582][273]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.15-06.42.16:533][206]Candidate modules for hot reload:
+[2019.03.15-06.42.16:533][206]  CrazyTaxiProcGen
+[2019.03.15-06.42.16:533][206]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CrazyTaxiProcGen,7234 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" ]
+[2019.03.15-06.42.16:540][206]Warning: Starting HotReload took  0.0s.
+[2019.03.15-06.42.32:870][153]CompilerResultsLog: New page: Compilation - 15 Mar 2019 06:42:32
+[2019.03.15-06.42.32:870][153]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.15-06.42.32:870][153]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.15-06.42.32:870][153]CompilerResultsLog: Parsing headers for CrazyTaxiProcGenEditor
+[2019.03.15-06.42.32:870][153]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\CrazyTaxiProcGen.uproject" "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\CrazyTaxiProcGenEditor\Development\CrazyTaxiProcGenEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.03.15-06.42.32:870][153]CompilerResultsLog: Reflection code generated for CrazyTaxiProcGenEditor in 11.0753826 seconds
+[2019.03.15-06.42.32:870][153]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.03.15-06.42.32:870][153]CompilerResultsLog:   [1/4] GenerateGrid.gen.cpp
+[2019.03.15-06.42.32:870][153]CompilerResultsLog:   [2/4] GenerateGrid.cpp
+[2019.03.15-06.42.32:870][153]CompilerResultsLog:   [3/4] UE4Editor-CrazyTaxiProcGen-7234.lib
+[2019.03.15-06.42.32:870][153]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-7234.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-7234.exp
+[2019.03.15-06.42.32:870][153]CompilerResultsLog:   [4/4] UE4Editor-CrazyTaxiProcGen-7234.dll
+[2019.03.15-06.42.32:870][153]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-7234.suppressed.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-7234.suppressed.exp
+[2019.03.15-06.42.32:870][153]CompilerResultsLog: Total build time: 16.05 seconds (Parallel executor: 2.92 seconds)
+[2019.03.15-06.42.32:870][153]LogMainFrame: MainFrame: Module compiling took 16.352 seconds
+[2019.03.15-06.42.32:920][153]LogClass: Could not find existing class GenerateGrid in package /Script/CrazyTaxiProcGen for HotReload, assuming new class
+[2019.03.15-06.42.32:920][153]LogClass: Function Regenerate is new.
+[2019.03.15-06.42.32:920][153]LogClass: Function SmoothCells is new.
+[2019.03.15-06.42.32:929][153]LogHotReload: Re-instancing GenerateGrid after hot-reload.
+[2019.03.15-06.42.33:043][153]LogContentBrowser: Native class hierarchy updated for 'CrazyTaxiProcGen' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2019.03.15-06.42.33:047][153]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.03.15-06.42.33:359][153]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2576 classes and 607 folders.
+[2019.03.15-06.42.33:359][153]Display: HotReload took 16.8s.
+[2019.03.15-06.52.09:703][248]Candidate modules for hot reload:
+[2019.03.15-06.52.09:703][248]  CrazyTaxiProcGen
+[2019.03.15-06.52.09:704][248]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CrazyTaxiProcGen,1405 Win64 Development -TargetType=Editor -Project="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" -canskiplink "A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" ]
+[2019.03.15-06.52.09:710][248]Warning: Starting HotReload took  1.4s.
+[2019.03.15-06.53.07:993][380]CompilerResultsLog: New page: Compilation - 15 Mar 2019 06:53:07
+[2019.03.15-06.53.07:993][380]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.03.15-06.53.07:993][380]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.15-06.53.07:993][380]CompilerResultsLog: Parsing headers for CrazyTaxiProcGenEditor
+[2019.03.15-06.53.07:993][380]CompilerResultsLog:   Running UnrealHeaderTool "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\CrazyTaxiProcGen.uproject" "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\CrazyTaxiProcGenEditor\Development\CrazyTaxiProcGenEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.03.15-06.53.07:993][380]CompilerResultsLog: Reflection code generated for CrazyTaxiProcGenEditor in 14.5382455 seconds
+[2019.03.15-06.53.07:993][380]CompilerResultsLog: Building 11 actions with 4 processes...
+[2019.03.15-06.53.07:993][380]CompilerResultsLog:   [1/11] SharedPCH.Engine.cpp
+[2019.03.15-06.53.07:993][380]CompilerResultsLog:   [2/11] CrazyTaxiProcGen.cpp
+[2019.03.15-06.53.07:993][380]CompilerResultsLog:   [3/11] GenerateGrid.cpp
+[2019.03.15-06.53.07:993][380]CompilerResultsLog:   [4/11] CrazyTaxiProcGenGameModeBase.cpp
+[2019.03.15-06.53.07:993][380]CompilerResultsLog:   [5/11] Cell.gen.cpp
+[2019.03.15-06.53.07:993][380]CompilerResultsLog:   [6/11] CrazyTaxiProcGen.init.gen.cpp
+[2019.03.15-06.53.07:993][380]CompilerResultsLog:   [7/11] Cell.cpp
+[2019.03.15-06.53.07:993][380]CompilerResultsLog:   [8/11] GenerateGrid.gen.cpp
+[2019.03.15-06.53.07:993][380]CompilerResultsLog:   [9/11] CrazyTaxiProcGenGameModeBase.gen.cpp
+[2019.03.15-06.53.07:993][380]CompilerResultsLog:   [10/11] UE4Editor-CrazyTaxiProcGen-1405.lib
+[2019.03.15-06.53.07:993][380]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-1405.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-1405.exp
+[2019.03.15-06.53.07:993][380]CompilerResultsLog:   [11/11] UE4Editor-CrazyTaxiProcGen-1405.dll
+[2019.03.15-06.53.07:993][380]CompilerResultsLog:      Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-1405.suppressed.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-1405.suppressed.exp
+[2019.03.15-06.53.07:993][380]CompilerResultsLog: Total build time: 57.93 seconds (Parallel executor: 40.84 seconds)
+[2019.03.15-06.53.07:993][380]LogMainFrame: MainFrame: Module compiling took 58.305 seconds
+[2019.03.15-06.53.08:081][380]LogContentBrowser: Native class hierarchy updated for 'CrazyTaxiProcGen' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2019.03.15-06.53.08:085][380]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.03.15-06.53.08:432][380]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2576 classes and 607 folders.
+[2019.03.15-06.53.08:432][380]Display: HotReload took 60.1s.
+[2019.03.15-06.53.11:404][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.15-06.53.11:636][732]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Main24E573B949CE3B5E2C1D6AA4B2DA049C.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap'
