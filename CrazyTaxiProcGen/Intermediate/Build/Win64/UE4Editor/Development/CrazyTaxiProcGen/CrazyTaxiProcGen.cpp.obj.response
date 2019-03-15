@@ -401,6 +401,18 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
+/I ..\Plugins\Runtime\PhysXVehicles\Intermediate\Build\Win64\UE4Editor\Inc\PhysXVehicles
+/I ..\Plugins\Runtime\PhysXVehicles\Source
+/I ..\Plugins\Runtime\PhysXVehicles\Source\PhysXVehicles\Public
+/I ..\Plugins\Runtime\PhysXVehicles\Source\PhysXVehicles
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\AnimGraphRuntime
+/I Runtime\AnimGraphRuntime\Public
+/I Runtime\AnimGraphRuntime
+/I Runtime\AnimGraphRuntime\Public\AnimNodes
+/I Runtime\AnimGraphRuntime\Public\AnimNotifies
+/I Runtime\AnimGraphRuntime\Public\BoneControllers
+/I Runtime\AnimGraphRuntime\Public\RBF
+/I ..\Plugins\Runtime\PhysXVehicles\Source\ThirdParty
 /I "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Inc\CrazyTaxiProcGen"
 /I "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Source"
 /I "A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Source\CrazyTaxiProcGen"
