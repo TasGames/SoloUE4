@@ -25,7 +25,7 @@ APlayerCar::APlayerCar()
 	Camera->bUsePawnControlRotation = false;
 	Camera->FieldOfView = 90.f;
 
-	UWheeledVehicleMovementComponent4W* Vehicle4W = CastChecked<UWheeledVehicleMovementComponent4W>(GetVehicleMovement());
+	//UWheeledVehicleMovementComponent4W* Vehicle4W = CastChecked<UWheeledVehicleMovementComponent4W>(GetVehicleMovement());
 }
 
 void APlayerCar::BeginPlay()
@@ -41,6 +41,9 @@ void APlayerCar::Tick(float DeltaTime)
 void APlayerCar::MoveForward(float Val)
 {
 	GetVehicleMovementComponent()->SetThrottleInput(Val);
+
+	/*if (Val > 0.9)
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "works");*/
 }
 
 void APlayerCar::MoveRight(float Val)
