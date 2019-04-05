@@ -997,3 +997,572 @@ LogInit: Object subsystem initialized
 [2019.04.05-09.12.47:081][849]LogPlayLevel: Display: Shutting down PIE online subsystems
 [2019.04.05-09.12.47:116][849]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.04.05-09.12.47:154][850]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.04.05-09.15.13:414][970]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.05-09.15.44:141][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.05-09.15.45:718][786]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/MyContent/Widgets/WigetTopDownMap.WigetTopDownMap
+[2019.04.05-09.15.48:805][978]LogSlate: Window 'WigetTopDownMap' being destroyed
+[2019.04.05-09.25.55:851][903]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.25.55:898][904]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.04.05-09.25.55:899][904]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.05-09.25.55:899][904]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.05-09.25.57:140][ 19]LogAssetEditorManager: Opening Asset editor for Material /Game/MyContent/M_TopDownRenderTarget.M_TopDownRenderTarget
+[2019.04.05-09.25.57:143][ 19]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.25.57:155][ 19]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.05-09.25.57:155][ 19]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.04.05-09.25.57:292][ 19]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.25.57:316][ 19]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.25.57:367][ 19]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.04.05-09.25.57:525][ 20]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.04.05-09.25.57:710][ 35]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.04.05-09.25.57:848][ 50]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.05-09.25.58:000][ 64]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.04.05-09.25.58:159][ 79]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.04.05-09.25.58:252][ 89]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.04.05-09.25.58:392][104]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.04.05-09.25.58:516][118]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.04.05-09.25.58:641][130]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.04.05-09.25.58:708][137]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.04.05-09.25.58:724][139]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.04.05-09.25.58:851][153]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.05-09.25.59:166][187]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.05-09.25.59:186][189]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.04.05-09.25.59:273][199]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.04.05-09.25.59:569][231]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.04.05-09.25.59:621][237]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.04.05-09.25.59:667][242]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.04.05-09.25.59:767][253]LogMaterialEditor: Saving and Compiling material M_TopDownRenderTarget
+[2019.04.05-09.26.00:278][253]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.04.05-09.26.00:278][253]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.04.05-09.26.00:278][253]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.04.05-09.26.00:278][253]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.05-09.26.00:310][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/M_TopDownRenderTarget" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/M_TopDownRenderTarget.uasset" SILENT=true
+[2019.04.05-09.26.00:362][253]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.05-09.26.00:362][253]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/M_TopDownRenderTarget60546C3649CFA1250D4276AF346367B2.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/M_TopDownRenderTarget.uasset'
+[2019.04.05-09.26.00:505][265]MaterialEditorStats: Base pass shader: 102 instructions
+[2019.04.05-09.26.00:505][265]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2019.04.05-09.26.00:505][265]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.04.05-09.26.00:505][265]MaterialEditorStats: Texture samplers: 4/16
+[2019.04.05-09.26.00:505][265]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.04.05-09.26.00:505][265]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.04.05-09.26.40:693][724]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.26.40:732][725]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.04.05-09.26.40:733][725]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.04.05-09.27.23:981][248]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/Maps/Main' took 0.115
+[2019.04.05-09.27.23:983][248]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyContent/Widgets/WigetTopDownMap] ([1] browsable assets)...
+[2019.04.05-09.27.23:983][248]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/Widgets/WigetTopDownMap]
+[2019.04.05-09.27.24:045][248]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/WigetTopDownMap_Auto23AEA92C140DE4FF6BD9D09A8FEEE4E40.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/Autosaves/Game/MyContent/Widgets/WigetTopDownMap_Auto2.uasset'
+[2019.04.05-09.27.24:048][248]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/M_TopDownRenderTarget] ([1] browsable assets)...
+[2019.04.05-09.27.24:060][248]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MyContent/M_TopDownRenderTarget.M_TopDownRenderTarget]
+[2019.04.05-09.27.24:060][248]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/M_TopDownRenderTarget]
+[2019.04.05-09.27.24:097][248]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/M_TopDownRenderTarget_Auto2D8717E1B4DBF362D2688AFA97165293E.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/Autosaves/Game/MyContent/M_TopDownRenderTarget_Auto2.uasset'
+[2019.04.05-09.27.24:099][248]LogFileHelpers: Auto-saving content packages took 0.116
+[2019.04.05-09.29.30:130][597]LogAssetEditorManager: Opening Asset editor for Material /Game/MyContent/M_TopDownRenderTarget.M_TopDownRenderTarget
+[2019.04.05-09.29.30:133][597]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.29.30:221][597]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.29.30:228][597]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.29.30:255][597]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.04.05-09.29.30:255][597]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.05-09.29.30:255][597]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.05-09.29.30:255][597]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.04.05-09.29.30:270][597]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.04.05-09.29.30:875][647]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.05-09.29.30:901][650]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.04.05-09.29.30:978][659]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.04.05-09.29.31:051][668]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.04.05-09.29.31:059][669]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.04.05-09.29.31:076][671]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.04.05-09.29.31:150][680]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.04.05-09.29.31:229][689]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.04.05-09.29.31:236][690]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.04.05-09.29.31:243][691]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.05-09.29.31:304][698]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.05-09.29.31:392][707]MaterialEditorStats: Default UI Pixel Shader: 15 instructions
+[2019.04.05-09.29.31:392][707]MaterialEditorStats: Default UI Vertex Shader: 17 instructions
+[2019.04.05-09.29.31:392][707]MaterialEditorStats: Instanced UI Vertex Shader: 17 instructions
+[2019.04.05-09.29.31:392][707]MaterialEditorStats: Texture samplers: 1/16
+[2019.04.05-09.30.04:784][798]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.05-09.30.08:910][239]BlueprintLog: New page: Compile WigetTopDownMap
+[2019.04.05-09.30.09:659][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/WigetTopDownMap" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Widgets/WigetTopDownMap.uasset" SILENT=true
+[2019.04.05-09.30.09:707][320]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/WigetTopDownMap485E4CD048A01F3C5CA127931628D82C.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Widgets/WigetTopDownMap.uasset'
+[2019.04.05-09.30.13:001][561]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.05-09.30.28:269][344]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.30.28:295][345]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.04.05-09.30.28:295][345]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.05-09.30.28:295][345]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.05-09.30.29:475][451]LogAssetEditorManager: Opening Asset editor for Material /Game/MyContent/M_TopDownRenderTarget.M_TopDownRenderTarget
+[2019.04.05-09.30.29:478][451]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.30.29:489][451]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.05-09.30.29:490][451]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.04.05-09.30.29:583][451]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.30.29:604][451]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.30.29:653][451]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.04.05-09.30.29:825][452]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.04.05-09.30.30:092][478]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.04.05-09.30.30:214][491]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.05-09.30.30:353][507]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.04.05-09.30.30:461][520]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.04.05-09.30.30:549][529]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.04.05-09.30.30:665][542]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.04.05-09.30.30:757][553]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.04.05-09.30.30:911][570]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.04.05-09.30.30:938][573]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.04.05-09.30.30:982][578]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.04.05-09.30.31:143][594]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.05-09.30.31:448][627]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.05-09.30.31:455][628]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.04.05-09.30.31:519][635]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.04.05-09.30.31:839][669]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.04.05-09.30.31:967][683]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.04.05-09.30.31:977][684]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.04.05-09.30.32:308][721]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.04.05-09.30.32:399][731]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.04.05-09.30.32:577][751]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.04.05-09.30.32:763][773]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.05-09.30.32:795][776]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.05-09.30.32:902][782]MaterialEditorStats: Base pass shader: 102 instructions
+[2019.04.05-09.30.32:902][782]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2019.04.05-09.30.32:902][782]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.04.05-09.30.32:902][782]MaterialEditorStats: Texture samplers: 4/16
+[2019.04.05-09.30.32:902][782]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.04.05-09.30.32:902][782]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.04.05-09.30.52:292][ 73]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.30.52:314][ 75]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.05-09.30.52:314][ 75]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.04.05-09.30.52:314][ 75]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.04.05-09.30.52:314][ 75]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.04.05-09.30.52:561][102]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.04.05-09.30.52:569][103]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.04.05-09.30.52:578][104]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.04.05-09.30.52:585][105]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.04.05-09.30.52:746][123]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.04.05-09.30.52:753][124]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.05-09.30.52:778][127]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.05-09.30.52:804][130]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.04.05-09.30.52:921][143]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.04.05-09.30.53:054][158]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.04.05-09.30.53:185][173]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.04.05-09.30.53:209][176]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.04.05-09.30.53:358][193]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.04.05-09.30.53:443][203]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.04.05-09.30.53:477][205]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.04.05-09.30.53:643][224]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.05-09.30.53:694][230]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.05-09.30.54:026][269]MaterialEditorStats: Base pass shader: 99 instructions
+[2019.04.05-09.30.54:026][269]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2019.04.05-09.30.54:026][269]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.04.05-09.30.54:026][269]MaterialEditorStats: Texture samplers: 3/16
+[2019.04.05-09.30.54:969][382]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.30.54:985][382]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.04.05-09.30.55:000][382]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.05-09.30.55:000][382]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.04.05-09.30.55:000][382]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.04.05-09.30.55:000][382]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.04.05-09.30.55:229][406]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.04.05-09.30.55:249][408]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.04.05-09.30.55:264][410]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.04.05-09.30.55:273][411]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.04.05-09.30.55:412][425]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.04.05-09.30.55:437][428]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.04.05-09.30.55:452][430]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.04.05-09.30.55:468][432]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.05-09.30.55:595][446]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.05-09.30.55:735][462]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.04.05-09.30.55:878][478]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.04.05-09.30.55:903][481]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.04.05-09.30.56:035][495]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.04.05-09.30.56:142][507]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.04.05-09.30.56:211][515]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.04.05-09.30.56:371][532]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.04.05-09.30.56:414][537]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.04.05-09.30.56:522][549]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.05-09.30.56:621][560]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.05-09.30.56:794][580]MaterialEditorStats: Base pass shader: 101 instructions
+[2019.04.05-09.30.56:794][580]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2019.04.05-09.30.56:794][580]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.04.05-09.30.56:794][580]MaterialEditorStats: Texture samplers: 4/16
+[2019.04.05-09.30.56:794][580]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.04.05-09.30.56:794][580]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.04.05-09.30.58:397][772]LogMaterialEditor: Saving and Compiling material M_TopDownRenderTarget
+[2019.04.05-09.30.59:025][772]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.30.59:073][772]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.05-09.30.59:073][772]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.04.05-09.30.59:073][772]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.04.05-09.30.59:073][772]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.04.05-09.30.59:080][772]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.30.59:104][772]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.30.59:191][772]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.31.00:584][772]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.04.05-09.31.00:584][772]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.04.05-09.31.00:584][772]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.04.05-09.31.00:584][772]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.04.05-09.31.00:584][772]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.04.05-09.31.00:584][772]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.04.05-09.31.00:584][772]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.04.05-09.31.00:584][772]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.04.05-09.31.00:584][772]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.04.05-09.31.00:584][772]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.05-09.31.00:584][772]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.04.05-09.31.00:584][772]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.04.05-09.31.00:584][772]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.04.05-09.31.00:584][772]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.04.05-09.31.00:584][772]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.04.05-09.31.00:584][772]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.04.05-09.31.00:584][772]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.04.05-09.31.00:584][772]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.04.05-09.31.00:584][772]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.04.05-09.31.00:584][772]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.05-09.31.00:584][772]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.05-09.31.00:615][772]TextureStreamingBuild: Display: Compiling optional shaders took 1.451 seconds.
+[2019.04.05-09.31.03:198][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/M_TopDownRenderTarget" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/M_TopDownRenderTarget.uasset" SILENT=true
+[2019.04.05-09.31.03:242][772]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/M_TopDownRenderTarget9E83A767436D466D33997FAF9450D036.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/M_TopDownRenderTarget.uasset'
+[2019.04.05-09.32.23:036][233]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.32.23:051][233]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.04.05-09.32.23:066][233]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.05-09.32.23:066][233]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.04.05-09.32.23:066][233]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.04.05-09.32.23:066][233]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.04.05-09.32.23:746][309]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.04.05-09.32.23:754][310]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.04.05-09.32.23:788][314]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.04.05-09.32.23:791][314]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.04.05-09.32.23:966][334]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.04.05-09.32.23:972][335]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.04.05-09.32.23:972][335]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.04.05-09.32.23:990][337]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.05-09.32.24:169][357]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.05-09.32.24:277][369]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.04.05-09.32.24:454][389]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.04.05-09.32.24:460][390]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.04.05-09.32.24:667][414]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.04.05-09.32.24:741][422]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.04.05-09.32.24:749][423]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.04.05-09.32.24:932][444]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.04.05-09.32.25:009][453]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.04.05-09.32.25:161][471]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.05-09.32.25:183][473]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.05-09.32.25:365][492]MaterialEditorStats: Base pass shader: 103 instructions
+[2019.04.05-09.32.25:365][492]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 176 instructions
+[2019.04.05-09.32.25:365][492]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.04.05-09.32.25:365][492]MaterialEditorStats: Texture samplers: 4/16
+[2019.04.05-09.32.25:365][492]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.04.05-09.32.25:365][492]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.04.05-09.32.26:193][591]LogMaterialEditor: Saving and Compiling material M_TopDownRenderTarget
+[2019.04.05-09.32.27:336][591]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.32.27:386][591]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.05-09.32.27:386][591]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.04.05-09.32.27:386][591]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.04.05-09.32.27:386][591]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.04.05-09.32.27:397][591]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.32.27:419][591]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.32.27:480][591]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.32.28:968][591]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.04.05-09.32.28:968][591]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.04.05-09.32.28:968][591]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.04.05-09.32.28:968][591]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.04.05-09.32.28:968][591]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.04.05-09.32.28:968][591]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.04.05-09.32.28:968][591]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.04.05-09.32.28:968][591]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.04.05-09.32.28:968][591]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.04.05-09.32.28:968][591]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.05-09.32.28:968][591]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.04.05-09.32.28:968][591]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.04.05-09.32.28:968][591]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.04.05-09.32.28:968][591]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.04.05-09.32.28:968][591]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.04.05-09.32.28:968][591]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.04.05-09.32.28:968][591]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.04.05-09.32.28:968][591]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.04.05-09.32.28:968][591]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.04.05-09.32.28:968][591]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.05-09.32.28:968][591]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.05-09.32.28:970][591]TextureStreamingBuild: Display: Compiling optional shaders took 1.497 seconds.
+[2019.04.05-09.32.31:417][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/M_TopDownRenderTarget" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/M_TopDownRenderTarget.uasset" SILENT=true
+[2019.04.05-09.32.31:478][591]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/M_TopDownRenderTargetBEA8C59A431F6E2BD4EAEE88001F204D.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/M_TopDownRenderTarget.uasset'
+[2019.04.05-09.33.47:380][767]LogSlate: Window 'Save Asset As' being destroyed
+[2019.04.05-09.33.51:530][767]LogSlate: Window 'Message' being destroyed
+[2019.04.05-09.34.32:871][486]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.34.32:896][487]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.04.05-09.34.32:896][487]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.04.05-09.34.34:680][651]MaterialEditorStats: Default UI Pixel Shader: 18 instructions
+[2019.04.05-09.34.34:680][651]MaterialEditorStats: Default UI Vertex Shader: 17 instructions
+[2019.04.05-09.34.34:680][651]MaterialEditorStats: Instanced UI Vertex Shader: 17 instructions
+[2019.04.05-09.34.34:680][651]MaterialEditorStats: Texture samplers: 2/16
+[2019.04.05-09.34.34:680][651]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.04.05-09.34.34:680][651]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.04.05-09.34.39:735][217]LogAssetEditorManager: Opening Asset editor for Material /Game/MyContent/M_TopDownRenderTarget.M_TopDownRenderTarget
+[2019.04.05-09.34.39:737][217]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.04.05-09.34.39:816][217]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.04.05-09.34.39:825][217]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.04.05-09.34.39:848][217]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.04.05-09.34.39:848][217]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.05-09.34.39:848][217]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.05-09.34.39:848][217]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.04.05-09.34.39:861][217]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.04.05-09.34.40:033][219]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.05-09.34.40:046][221]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.04.05-09.34.40:173][236]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.04.05-09.34.40:197][239]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.04.05-09.34.40:378][259]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.04.05-09.34.40:423][264]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.04.05-09.34.40:589][282]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.04.05-09.34.40:621][286]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.04.05-09.34.40:622][286]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.04.05-09.34.40:697][295]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.05-09.34.40:763][303]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.05-09.34.40:799][307]MaterialEditorStats: Default UI Pixel Shader: 18 instructions
+[2019.04.05-09.34.40:799][307]MaterialEditorStats: Default UI Vertex Shader: 17 instructions
+[2019.04.05-09.34.40:799][307]MaterialEditorStats: Instanced UI Vertex Shader: 17 instructions
+[2019.04.05-09.34.40:799][307]MaterialEditorStats: Texture samplers: 2/16
+[2019.04.05-09.34.40:799][307]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.04.05-09.34.40:799][307]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.04.05-09.34.42:577][520]LogMaterialEditor: Saving and Compiling material M_TopDownRenderTarget
+[2019.04.05-09.34.42:601][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/M_TopDownRenderTarget" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/M_TopDownRenderTarget.uasset" SILENT=true
+[2019.04.05-09.34.42:631][520]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/M_TopDownRenderTarget3928035747613D71342E1FAFE5F68004.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/M_TopDownRenderTarget.uasset'
+[2019.04.05-09.36.26:982][ 65]LogSlate: Window 'Color Picker' being destroyed
+[2019.04.05-09.37.55:281][862]LogEditorTransaction: Undo Edit Right
+[2019.04.05-09.38.30:527][394]LogEditorTransaction: Undo Move Widget
+[2019.04.05-09.38.30:988][428]LogEditorTransaction: Undo Move Widget
+[2019.04.05-09.38.31:418][468]LogEditorTransaction: Undo Move Widget
+[2019.04.05-09.38.31:828][506]LogEditorTransaction: Undo Edit Bottom
+[2019.04.05-09.38.32:277][548]LogEditorTransaction: Undo Edit Right
+[2019.04.05-09.38.32:733][590]LogEditorTransaction: Undo Move Widget
+[2019.04.05-09.38.33:222][635]LogEditorTransaction: Undo Move Widget
+[2019.04.05-09.38.33:625][672]LogEditorTransaction: Undo Changed Anchors
+[2019.04.05-09.38.34:069][711]LogEditorTransaction: Undo Changed Anchors
+[2019.04.05-09.38.34:494][750]LogEditorTransaction: Undo Changed Anchors
+[2019.04.05-09.38.35:070][805]LogEditorTransaction: Undo Edit Left
+[2019.04.05-09.38.35:709][864]LogEditorTransaction: Undo Move Widget
+[2019.04.05-09.38.43:233][590]BlueprintLog: New page: Compile WigetTopDownMap
+[2019.04.05-09.38.43:898][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/WigetTopDownMap" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Widgets/WigetTopDownMap.uasset" SILENT=true
+[2019.04.05-09.38.43:969][651]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/WigetTopDownMapE5E1E3EA4ABF1298FB0E7287F532E9FF.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Widgets/WigetTopDownMap.uasset'
+[2019.04.05-09.40.16:281][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.05-09.40.16:465][537]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/MainEA2511244C7FAB11373225996F9F9101.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap'
+[2019.04.05-09.40.23:715][361]LogAssetEditorManager: Opening Asset editor for Material /Game/MyContent/M_TopDownRenderTarget.M_TopDownRenderTarget
+[2019.04.05-09.40.23:717][361]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.04.05-09.40.23:802][361]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.04.05-09.40.23:809][361]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.04.05-09.40.23:830][361]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.04.05-09.40.23:830][361]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.05-09.40.23:830][361]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.05-09.40.23:830][361]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.04.05-09.40.23:843][361]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.04.05-09.40.24:463][416]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.05-09.40.24:487][419]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.04.05-09.40.24:578][430]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.04.05-09.40.24:613][434]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.04.05-09.40.24:629][436]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.04.05-09.40.24:654][439]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.04.05-09.40.24:741][449]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.04.05-09.40.24:798][456]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.04.05-09.40.24:799][456]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.04.05-09.40.24:815][458]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.05-09.40.24:909][469]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.05-09.40.24:944][473]MaterialEditorStats: Default UI Pixel Shader: 18 instructions
+[2019.04.05-09.40.24:944][473]MaterialEditorStats: Default UI Vertex Shader: 17 instructions
+[2019.04.05-09.40.24:944][473]MaterialEditorStats: Instanced UI Vertex Shader: 17 instructions
+[2019.04.05-09.40.24:944][473]MaterialEditorStats: Texture samplers: 2/16
+[2019.04.05-09.40.24:944][473]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.04.05-09.40.24:944][473]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.04.05-09.40.30:817][150]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/MyContent/Widgets/WigetTopDownMap.WigetTopDownMap
+[2019.04.05-09.40.45:353][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.05-09.40.45:456][840]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/MainD3A1276541D7DB55C3CEA7BFB844372A.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap'
+[2019.04.05-09.40.57:378][257]LogAssetEditorManager: Opening Asset editor for Material /Game/MyContent/M_TopDownRenderTarget.M_TopDownRenderTarget
+[2019.04.05-09.40.57:380][257]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.40.57:451][257]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.40.57:459][257]LogMaterial: Display: Missing cached shader map for material M_TopDownRenderTarget, compiling. 
+[2019.04.05-09.40.57:482][257]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.04.05-09.40.57:482][257]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.05-09.40.57:482][257]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.05-09.40.57:482][257]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.04.05-09.40.57:495][257]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.04.05-09.40.58:093][309]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.05-09.40.58:134][314]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.04.05-09.40.58:221][324]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.04.05-09.40.58:263][329]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.04.05-09.40.58:279][331]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.04.05-09.40.58:296][333]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.04.05-09.40.58:377][343]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.04.05-09.40.58:433][349]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.04.05-09.40.58:456][352]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.04.05-09.40.58:463][353]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.05-09.40.58:557][364]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.05-09.40.58:585][367]MaterialEditorStats: Default UI Pixel Shader: 18 instructions
+[2019.04.05-09.40.58:585][367]MaterialEditorStats: Default UI Vertex Shader: 17 instructions
+[2019.04.05-09.40.58:585][367]MaterialEditorStats: Instanced UI Vertex Shader: 17 instructions
+[2019.04.05-09.40.58:585][367]MaterialEditorStats: Texture samplers: 2/16
+[2019.04.05-09.40.58:585][367]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.04.05-09.40.58:585][367]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.04.05-09.41.38:305][ 62]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.05-09.42.07:710][511]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.05-09.47.19:086][871]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.05-09.47.19:244][888]Candidate modules for hot reload:
+[2019.04.05-09.47.19:244][888]  CrazyTaxiProcGen
+[2019.04.05-09.47.19:244][888]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CrazyTaxiProcGen,5239 Win64 Development -TargetType=Editor -Project="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" -canskiplink "C:/Temp/TAS/SoloUE4/CrazyTaxiProcGen/CrazyTaxiProcGen.uproject" ]
+[2019.04.05-09.47.19:517][888]Warning: Starting HotReload took  0.3s.
+[2019.04.05-09.48.06:474][341]CompilerResultsLog: New page: Compilation - 5 Apr 2019 11:48:06
+[2019.04.05-09.48.06:474][341]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2019.04.05-09.48.06:474][341]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.04.05-09.48.06:474][341]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.05-09.48.06:474][341]CompilerResultsLog: Parsing headers for CrazyTaxiProcGenEditor
+[2019.04.05-09.48.06:474][341]CompilerResultsLog:   Running UnrealHeaderTool "C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\CrazyTaxiProcGen.uproject" "C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\CrazyTaxiProcGenEditor\Development\CrazyTaxiProcGenEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.04.05-09.48.06:474][341]CompilerResultsLog: Reflection code generated for CrazyTaxiProcGenEditor in 13.5584749 seconds
+[2019.04.05-09.48.06:474][341]CompilerResultsLog: Building 5 actions with 8 processes...
+[2019.04.05-09.48.06:474][341]CompilerResultsLog:   [1/5] CrazyTaxiProcGen.init.gen.cpp
+[2019.04.05-09.48.06:474][341]CompilerResultsLog:   [2/5] CrazyTaxiProcGenGameModeBase.gen.cpp
+[2019.04.05-09.48.06:474][341]CompilerResultsLog:   [3/5] CrazyTaxiProcGenGameModeBase.cpp
+[2019.04.05-09.48.06:474][341]CompilerResultsLog:   [4/5] UE4Editor-CrazyTaxiProcGen-5239.lib
+[2019.04.05-09.48.06:474][341]CompilerResultsLog:      Creating library C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-5239.lib and object C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-5239.exp
+[2019.04.05-09.48.06:474][341]CompilerResultsLog:   [5/5] UE4Editor-CrazyTaxiProcGen-5239.dll
+[2019.04.05-09.48.06:474][341]CompilerResultsLog:      Creating library C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-5239.suppressed.lib and object C:\Temp\TAS\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-5239.suppressed.exp
+[2019.04.05-09.48.06:474][341]CompilerResultsLog: Total build time: 46.36 seconds (Parallel executor: 28.36 seconds)
+[2019.04.05-09.48.06:474][341]LogMainFrame: MainFrame: Module compiling took 47.239 seconds
+[2019.04.05-09.48.06:543][341]LogClass: Could not find existing class CrazyTaxiProcGenGameModeBase in package /Script/CrazyTaxiProcGen for HotReload, assuming new class
+[2019.04.05-09.48.06:561][341]LogHotReload: Re-instancing CrazyTaxiProcGenGameModeBase after hot-reload.
+[2019.04.05-09.48.06:733][341]LogContentBrowser: Native class hierarchy updated for 'CrazyTaxiProcGen' in 0.0006 seconds. Added 4 classes and 2 folders.
+[2019.04.05-09.48.06:738][341]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.04.05-09.48.07:140][341]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2577 classes and 607 folders.
+[2019.04.05-09.48.07:140][341]Display: HotReload took 47.9s.
+[2019.04.05-09.48.30:014][ 92]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_CrazyTaxiProcGenGameModeBase.Bp_CrazyTaxiProcGenGameModeBase
+[2019.04.05-09.48.34:563][584]BlueprintLog: New page: Compile Bp_CrazyTaxiProcGenGameModeBase
+[2019.04.05-09.48.35:363][645]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/Bp_CrazyTaxiProcGenGameModeBase3AC06D46428D3DFB6CB2D982885D5ED5.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_CrazyTaxiProcGenGameModeBase.uasset'
+[2019.04.05-09.48.39:586][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.05-09.48.39:699][124]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/MainAA0D5FAB4F882D571953A78538D4F3BF.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap'
+[2019.04.05-09.48.40:756][242]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.05-09.48.40:784][242]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.05-09.48.40:785][242]PIE: New page: PIE session: Main (5 Apr 2019 11:48:40)
+[2019.04.05-09.48.40:785][242]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.04.05-09.48.40:790][242]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004992s)
+[2019.04.05-09.48.40:790][242]LogAIModule: Creating AISystem for world Main
+[2019.04.05-09.48.40:790][242]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2019.04.05-09.48.40:790][242]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.005693s)
+[2019.04.05-09.48.40:832][242]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.05-09.48.40:843][242]LogInit: FAudioDevice initialized.
+[2019.04.05-09.48.40:875][242]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.04.05-09.48.40:878][242]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.04.05-10.48.40
+[2019.04.05-09.48.40:878][242]LogWorld: Bringing up level for play took: 0.002006
+[2019.04.05-09.48.41:045][242]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.35
+[2019.04.05-09.48.47:365][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.05-09.48.47:409][840]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.05-09.48.47:471][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.05-09.48.47:505][841]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2019.04.05-09.48.48:362][941]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.05-09.50.24:282][232]BlueprintLog: New page: Compile WigetTopDownMap
+[2019.04.05-09.50.24:890][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/WigetTopDownMap" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Widgets/WigetTopDownMap.uasset" SILENT=true
+[2019.04.05-09.50.24:964][297]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/WigetTopDownMap9BF76FE5432C56C2BE22D1B72E7486A2.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Widgets/WigetTopDownMap.uasset'
+[2019.04.05-09.50.30:790][983]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.05-09.50.30:821][983]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.05-09.50.30:821][983]PIE: New page: PIE session: Main (5 Apr 2019 11:50:30)
+[2019.04.05-09.50.30:821][983]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.04.05-09.50.30:826][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004994s)
+[2019.04.05-09.50.30:827][983]LogAIModule: Creating AISystem for world Main
+[2019.04.05-09.50.30:827][983]LogPlayLevel: PIE: World Init took: (0.000766s)
+[2019.04.05-09.50.30:827][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.005891s)
+[2019.04.05-09.50.30:872][983]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.05-09.50.30:883][983]LogInit: FAudioDevice initialized.
+[2019.04.05-09.50.30:915][983]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.04.05-09.50.30:917][983]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.04.05-10.50.30
+[2019.04.05-09.50.30:917][983]LogWorld: Bringing up level for play took: 0.001271
+[2019.04.05-09.50.31:076][983]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.317
+[2019.04.05-09.50.35:289][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.05-09.50.35:343][384]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.05-09.50.35:383][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.05-09.50.35:414][385]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2019.04.05-09.50.54:463][403]BlueprintLog: New page: Compile WigetTopDownMap
+[2019.04.05-09.50.55:179][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Widgets/WigetTopDownMap" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Widgets/WigetTopDownMap.uasset" SILENT=true
+[2019.04.05-09.50.55:232][464]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/WigetTopDownMap462317974467C45973D0C0B331B569EE.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Widgets/WigetTopDownMap.uasset'
+[2019.04.05-09.50.56:750][631]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.05-09.50.56:780][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.05-09.50.56:780][631]PIE: New page: PIE session: Main (5 Apr 2019 11:50:56)
+[2019.04.05-09.50.56:780][631]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.04.05-09.50.56:785][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004976s)
+[2019.04.05-09.50.56:786][631]LogAIModule: Creating AISystem for world Main
+[2019.04.05-09.50.56:786][631]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2019.04.05-09.50.56:786][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.005706s)
+[2019.04.05-09.50.56:823][631]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.05-09.50.56:833][631]LogInit: FAudioDevice initialized.
+[2019.04.05-09.50.56:869][631]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.04.05-09.50.56:874][631]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.04.05-10.50.56
+[2019.04.05-09.50.56:875][631]LogWorld: Bringing up level for play took: 0.002761
+[2019.04.05-09.50.57:239][631]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.155
+[2019.04.05-09.51.11:715][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.05-09.51.11:769][173]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.05-09.51.11:815][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.05-09.51.11:846][174]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2019.04.05-09.51.13:392][359]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.05-09.51.34:996][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.05-09.51.35:090][834]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/MainE952763D482E30E0F4D3D280B1FB0FFF.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap'
+[2019.04.05-09.51.36:601][  4]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.05-09.51.36:633][  4]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.05-09.51.36:633][  4]PIE: New page: PIE session: Main (5 Apr 2019 11:51:36)
+[2019.04.05-09.51.36:633][  4]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.04.05-09.51.36:638][  4]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004734s)
+[2019.04.05-09.51.36:638][  4]LogAIModule: Creating AISystem for world Main
+[2019.04.05-09.51.36:638][  4]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2019.04.05-09.51.36:638][  4]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.005448s)
+[2019.04.05-09.51.36:677][  4]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.05-09.51.36:686][  4]LogInit: FAudioDevice initialized.
+[2019.04.05-09.51.36:716][  4]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.04.05-09.51.36:717][  4]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.04.05-10.51.36
+[2019.04.05-09.51.36:718][  4]LogWorld: Bringing up level for play took: 0.000734
+[2019.04.05-09.51.36:884][  4]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main -0.509
+[2019.04.05-09.52.04:626][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.05-09.52.04:680][  1]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.05-09.52.04:741][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.05-09.52.04:767][  2]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2019.04.05-09.52.05:525][ 93]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.05-09.52.05:556][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.05-09.52.05:556][ 93]PIE: New page: PIE session: Main (5 Apr 2019 11:52:05)
+[2019.04.05-09.52.05:556][ 93]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.04.05-09.52.05:560][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004458s)
+[2019.04.05-09.52.05:561][ 93]LogAIModule: Creating AISystem for world Main
+[2019.04.05-09.52.05:561][ 93]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2019.04.05-09.52.05:561][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.005172s)
+[2019.04.05-09.52.05:601][ 93]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.05-09.52.05:612][ 93]LogInit: FAudioDevice initialized.
+[2019.04.05-09.52.05:644][ 93]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.04.05-09.52.05:646][ 93]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.04.05-10.52.05
+[2019.04.05-09.52.05:646][ 93]LogWorld: Bringing up level for play took: 0.000851
+[2019.04.05-09.52.05:799][ 93]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.407
+[2019.04.05-09.52.06:494][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.05-09.52.06:545][156]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.05-09.52.06:590][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.05-09.52.06:613][157]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2019.04.05-09.52.07:188][226]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.05-09.52.07:218][226]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.05-09.52.07:218][226]PIE: New page: PIE session: Main (5 Apr 2019 11:52:07)
+[2019.04.05-09.52.07:218][226]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.04.05-09.52.07:224][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005264s)
+[2019.04.05-09.52.07:224][226]LogAIModule: Creating AISystem for world Main
+[2019.04.05-09.52.07:224][226]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2019.04.05-09.52.07:224][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.005950s)
+[2019.04.05-09.52.07:263][226]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.05-09.52.07:272][226]LogInit: FAudioDevice initialized.
+[2019.04.05-09.52.07:306][226]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.04.05-09.52.07:310][226]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.04.05-10.52.07
+[2019.04.05-09.52.07:311][226]LogWorld: Bringing up level for play took: 0.002398
+[2019.04.05-09.52.07:479][226]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 0.087
+[2019.04.05-09.52.09:629][420]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.05-09.52.09:687][420]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.05-09.52.09:733][420]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.05-09.52.09:767][421]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2019.04.05-09.52.10:326][488]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.05-09.52.10:359][488]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.05-09.52.10:359][488]PIE: New page: PIE session: Main (5 Apr 2019 11:52:10)
+[2019.04.05-09.52.10:359][488]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_Main
+[2019.04.05-09.52.10:363][488]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004394s)
+[2019.04.05-09.52.10:364][488]LogAIModule: Creating AISystem for world Main
+[2019.04.05-09.52.10:364][488]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2019.04.05-09.52.10:364][488]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/Main.Main to /Game/MyContent/Maps/UEDPIE_0_Main.Main (0.005104s)
+[2019.04.05-09.52.10:402][488]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.05-09.52.10:412][488]LogInit: FAudioDevice initialized.
+[2019.04.05-09.52.10:440][488]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.04.05-09.52.10:442][488]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.04.05-10.52.10
+[2019.04.05-09.52.10:442][488]LogWorld: Bringing up level for play took: 0.000801
+[2019.04.05-09.52.10:582][488]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_Main 1.19
+[2019.04.05-09.52.13:270][779]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.05-09.52.13:313][779]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.05-09.52.13:359][779]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.05-09.52.13:384][780]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2019.04.05-09.52.24:427][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/Main" FILE="../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.05-09.52.24:549][ 57]LogSavePackage: Moving '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Saved/Main57C66D164C065A8A2060BD9BBC9EA7BE.tmp' to '../../../../../../Temp/TAS/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap'
