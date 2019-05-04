@@ -25,6 +25,8 @@ class CRAZYTAXIPROCGEN_API ACell : public AActor
 
 	class UStaticMeshComponent* currentMesh;
 
+	UMaterialInterface* M;
+
 protected:
 	virtual void BeginPlay() override;
 
@@ -91,4 +93,6 @@ public:
 
 	void SetType(int t);
 	int GetType();
+
+	void ChangeMaterial();
 };

@@ -193,22 +193,26 @@ void ACell::SetType(int t)
 {
 	cellType = t;
 
+	currentMesh->SetVisibility(false);
+	currentMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
 	if (cellType == 0)
 	{
-	currentMesh->SetVisibility(false);
 	cellMesh->SetVisibility(true);
+	cellMesh->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 	currentMesh = cellMesh;
 	}
 	else if (cellType == 1)
 	{
-		currentMesh->SetVisibility(false);
 		cellMeshRoad->SetVisibility(true);
+		cellMeshRoad->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 		currentMesh = cellMeshRoad;
 	}
 	else if (cellType == 2)
 	{
-		currentMesh->SetVisibility(false);
 		cellMeshBuilding->SetVisibility(true);
+		cellMeshBuilding->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+		ChangeMaterial();
 		currentMesh = cellMeshBuilding;
 	}
 }
@@ -216,5 +220,24 @@ void ACell::SetType(int t)
 int ACell::GetType()
 {
 	return cellType;
+}
+
+void ACell::ChangeMaterial()
+{
+	if (cellMeshBuilding->GetMaterial(0))
+	{
+		if (M == NULL)
+			M = cellMeshBuilding->GetMaterial(0);
+
+		UMaterialInstanceDynamic* MDynamic = UMaterialInstanceDynamic::Create(M, this);
+
+		float RandR = FMath::RandRange(0.0f, 1.0f);
+		float RandG = FMath::RandRange(0.0f, 1.0f);
+		float RandB = FMath::RandRange(0.0f, 1.0f);
+
+		MDynamic->SetVectorParameterValue(FName(TEXT("Colour")), FLinearColor(RandR, RandG, RandB));
+		cellMeshBuilding->SetMaterial(0, MDynamic);
+	}
+
 }
 
