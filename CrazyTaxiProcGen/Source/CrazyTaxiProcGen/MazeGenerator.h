@@ -18,7 +18,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	UPROPERTY(EditAnywhere, Category = Maze)
+	UPROPERTY(EditAnywhere, Category = Maze, meta = (ClampMin = "3.0", ClampMax = "20.0", UIMin = "3.0", UIMax = "20.0"))
 	int Size;
 
 	UPROPERTY(EditAnywhere, Category = Maze)
@@ -46,14 +46,12 @@ protected:
 
 	bool CurrentFreeSide;
 
-	void PopulateBoarder(int Size, TArray<int> BoarderArray);
+	void PopulateBoarder(TArray<int> BoarderArray);
+	//void SetInitialTile();
 
 public:	
 	// Sets default values for this actor's properties
 	AMazeGenerator();
-
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION(BlueprintCallable)
 	void Construction();

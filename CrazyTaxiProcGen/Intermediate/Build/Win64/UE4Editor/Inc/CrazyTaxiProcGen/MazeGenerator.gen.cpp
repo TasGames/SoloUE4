@@ -149,7 +149,11 @@ void EmptyLinkFunctionForGeneratedCodeMazeGenerator() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMazeGenerator_Statics::NewProp_Size_MetaData[] = {
 		{ "Category", "Maze" },
+		{ "ClampMax", "20.0" },
+		{ "ClampMin", "3.0" },
 		{ "ModuleRelativePath", "MazeGenerator.h" },
+		{ "UIMax", "20.0" },
+		{ "UIMin", "3.0" },
 	};
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AMazeGenerator_Statics::NewProp_Size = { UE4CodeGen_Private::EPropertyClass::Int, "Size", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000001, 1, nullptr, STRUCT_OFFSET(AMazeGenerator, Size), METADATA_PARAMS(Z_Construct_UClass_AMazeGenerator_Statics::NewProp_Size_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMazeGenerator_Statics::NewProp_Size_MetaData)) };
@@ -192,7 +196,7 @@ void EmptyLinkFunctionForGeneratedCodeMazeGenerator() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMazeGenerator, 2419199033);
+	IMPLEMENT_CLASS(AMazeGenerator, 3674139519);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AMazeGenerator(Z_Construct_UClass_AMazeGenerator, &AMazeGenerator::StaticClass, TEXT("/Script/CrazyTaxiProcGen"), TEXT("AMazeGenerator"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AMazeGenerator);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
