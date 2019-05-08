@@ -1,0 +1,1381 @@
+﻿Log file open, 05/04/19 05:02:43
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: CrazyTaxiProcGen
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.611302
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.134s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.05.04-04.02.44:873][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.04-04.02.44:873][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.04-04.02.44:887][  0]LogHAL: Display: Platform has ~ 16 GB [17116667904 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.04-04.02.44:887][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.05.04-04.02.44:887][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.04-04.02.44:890][  0]LogInit: Computer: DESKTOP-C6U4EA4
+[2019.05.04-04.02.44:890][  0]LogInit: User: ThomasSimon
+[2019.05.04-04.02.44:890][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.05.04-04.02.44:891][  0]LogInit: High frequency timer resolution =3.234378 MHz
+[2019.05.04-04.02.44:891][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.05.04-04.02.44:891][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.04-04.02.44:891][  0]LogMemory: Process Physical Memory: 100.51 MB used, 100.51 MB peak
+[2019.05.04-04.02.44:891][  0]LogMemory: Process Virtual Memory: 84.20 MB used, 84.20 MB peak
+[2019.05.04-04.02.44:891][  0]LogMemory: Physical Memory: 5607.09 MB used,  10716.64 MB free, 16323.73 MB total
+[2019.05.04-04.02.44:891][  0]LogMemory: Virtual Memory: 4625.70 MB used,  10716.64 MB free, 134217728.00 MB total
+[2019.05.04-04.02.45:090][  0]LogInit: Using OS detected language (en-GB).
+[2019.05.04-04.02.45:090][  0]LogInit: Using OS detected locale (en-GB).
+[2019.05.04-04.02.45:091][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.05.04-04.02.45:514][  0]LogStreaming: Display: Took  0.423s to InitEngineTextLocalization.
+[2019.05.04-04.02.45:514][  0]LogInit: Setting process to per monitor DPI aware
+[2019.05.04-04.02.45:586][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.04-04.02.45:586][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.04-04.02.45:981][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.04-04.02.45:981][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.04-04.02.46:032][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.05.04-04.02.46:032][  0]LogD3D11RHI:       4043/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2019.05.04-04.02.46:035][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.04-04.02.46:035][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.04-04.02.46:035][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.04-04.02.46:043][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.04-04.02.46:043][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.05.04-04.02.46:044][  0]LogWindows: EnumDisplayDevices:
+[2019.05.04-04.02.46:044][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.05.04-04.02.46:044][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.05.04-04.02.46:044][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.05.04-04.02.46:044][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.05.04-04.02.46:044][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.05.04-04.02.46:044][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.05.04-04.02.46:044][  0]LogD3D11RHI:   Driver Version: 398.11 (internal:24.21.13.9811, unified:398.11)
+[2019.05.04-04.02.46:045][  0]LogD3D11RHI:      Driver Date: 6-1-2018
+[2019.05.04-04.02.46:045][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.05.04-04.02.46:079][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.04-04.02.46:107][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.05.04-04.02.46:161][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Intermediate/Shaders/WorkingDirectory/9372/).
+[2019.05.04-04.02.46:161][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thomas Simon/AppData/Local/Temp/UnrealShaderWorkingDir/6653A3C0442D6D7C253B5EA25E626CA3/'.
+[2019.05.04-04.02.46:576][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.05.04-04.02.46:601][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.05.04-04.02.46:625][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.05.04-04.02.46:651][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.05.04-04.02.46:680][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.05.04-04.02.46:707][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.05.04-04.02.46:734][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.05.04-04.02.46:762][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.05.04-04.02.46:783][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.05.04-04.02.46:883][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.04-04.02.46:883][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.04-04.02.46:883][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.04-04.02.46:883][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.04-04.02.46:883][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.04-04.02.46:883][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.04-04.02.46:883][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.04-04.02.46:883][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.04-04.02.46:883][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.04-04.02.46:883][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.04-04.02.46:883][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.04-04.02.46:883][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.04-04.02.46:883][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.04-04.02.46:883][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.04-04.02.46:883][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.04-04.02.46:883][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.04-04.02.46:883][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.04-04.02.46:883][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.04-04.02.46:898][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.05.04-04.02.47:024][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.04-04.02.47:024][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.04-04.02.47:063][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.04-04.02.47:063][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.04-04.02.47:092][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.05.04-04.02.47:124][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.05.04-04.02.47:173][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.05.04-04.02.47:211][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.05.04-04.02.47:238][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.04-04.02.47:238][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.04-04.02.47:660][  0]LogXGEController: Cleaning working directory: C:/Users/Thomas Simon/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.05.04-04.02.47:660][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.04-04.02.47:660][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.04-04.02.47:660][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.04-04.02.48:609][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.04-04.02.48:991][  0]LogDerivedDataCache: Loaded boot cache 0.38s 71MB C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.05.04-04.02.48:992][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.05.04-04.02.48:992][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.04-04.02.48:992][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.04-04.02.48:992][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.04-04.02.48:992][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.04-04.02.49:011][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.04-04.02.49:030][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thomas Simon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.04-04.02.49:030][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.04-04.02.49:030][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.04-04.02.49:051][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.04-04.02.49:056][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.04-04.02.49:061][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.04-04.02.49:402][  0]LogAssetRegistry: FAssetRegistry took 0.0285 seconds to start up
+[2019.05.04-04.02.49:792][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.04-04.02.50:162][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.05.04-04.02.50:214][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.05.04-04.02.50:214][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.05.04-04.02.50:214][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.04-04.02.50:214][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.05.04-04.02.50:259][  0]LogNetVersion: CrazyTaxiProcGen 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1195376751)
+[2019.05.04-04.02.51:051][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.143761 seconds
+[2019.05.04-04.02.51:060][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.05.04-04.02.51:060][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.05.04-04.02.51:060][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.04-04.02.55:549][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.04-04.02.55:576][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.04-04.02.56:102][  0]SourceControl: Source control is disabled
+[2019.05.04-04.02.56:102][  0]SourceControl: Source control is disabled
+[2019.05.04-04.02.56:151][  0]SourceControl: Source control is disabled
+[2019.05.04-04.02.56:167][  0]SourceControl: Source control is disabled
+[2019.05.04-04.02.56:905][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.04-04.02.57:042][  0]LogOcInput: OculusInput pre-init called
+[2019.05.04-04.02.57:191][  0]LogEngine: Initializing Engine...
+[2019.05.04-04.02.57:192][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.04-04.02.57:195][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.04-04.02.57:195][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.04-04.02.57:195][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.04-04.02.57:195][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.04-04.02.57:403][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.04-04.02.57:475][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.04-04.02.57:501][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.04-04.02.57:520][  0]LogInit: FAudioDevice initialized.
+[2019.05.04-04.02.57:520][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.04-04.02.57:585][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/Thomas Simon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.05.04-04.02.57:585][  0]LogInit: Texture streaming: Enabled
+[2019.05.04-04.02.57:655][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.04-04.02.57:742][  0]LogInit: Transaction tracking system initialized
+[2019.05.04-04.02.57:892][  0]BlueprintLog: New page: Editor Load
+[2019.05.04-04.02.58:387][  0]LocalizationService: Localization service is disabled
+[2019.05.04-04.02.58:979][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.04-04.02.58:979][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.04-04.02.58:980][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/' took 0.01s
+[2019.05.04-04.02.58:980][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.05.04-04.02.58:980][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.04-04.02.58:980][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.04-04.02.58:980][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.04-04.02.58:980][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.04-04.02.59:653][  0]SourceControl: Source control is disabled
+[2019.05.04-04.02.59:654][  0]Cmd: MAP LOAD FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.04-04.02.59:656][  0]LightingResults: New page: Lighting Build
+[2019.05.04-04.02.59:671][  0]MapCheck: New page: Map Check
+[2019.05.04-04.02.59:671][  0]LightingResults: New page: Lighting Build
+[2019.05.04-04.03.00:043][  0]LogAIModule: Creating AISystem for world Main
+[2019.05.04-04.03.00:061][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.04-04.03.00:097][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.04-04.03.00:160][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.499ms to complete.
+[2019.05.04-04.03.00:160][  0]LogFileHelpers: Loading map 'Main' took 0.507
+[2019.05.04-04.03.00:359][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-04.03.00:367][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-04.03.00:374][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-04.03.00:381][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-04.03.00:405][  0]LogCollectionManager: Loaded 0 collections in 0.001388 seconds
+[2019.05.04-04.03.00:461][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Collections/' took 0.01s
+[2019.05.04-04.03.00:461][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/Developers/ThomasSimon/Collections/' took 0.01s
+[2019.05.04-04.03.00:461][  0]LogFileCache: Scanning file cache for directory 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/Collections/' took 0.00s
+[2019.05.04-04.03.00:461][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.05.04-04.03.00:473][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2578 classes and 607 folders.
+[2019.05.04-04.03.00:495][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.04-04.03.00:697][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.04-04.03.01:943][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.05.04-04.03.01:984][  0]LogSlate: Took 0.015430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.04-04.03.01:992][  0]LogSlate: Took 0.002786 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.04-04.03.01:999][  0]LogSlate: Took 0.002867 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.04-04.03.02:085][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CrazyTaxiProcGen
+[2019.05.04-04.03.02:085][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.05.04-04.03.02:085][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2019.05.04-04.03.02:085][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.05.04-04.03.02:085][  0]LogTemp: BranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-C6U4EA4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2019.05.04-04.03.02:085][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Thomas Simon\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.05.04-04.03.02:085][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2019.05.04-04.03.02:117][  0]LogRenderer: Reallocating scene render targets to support 1152x600 Format 10 NumSamples 1 (Frame:1).
+[2019.05.04-04.03.02:328][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.04-04.03.02:328][  0]LogLoad: (Engine Initialization) Total time: 20.45 seconds
+[2019.05.04-04.03.02:328][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.04-04.03.02:372][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.05.04-04.03.02:421][  1]LogAssetRegistry: Asset discovery search completed in 13.0430 seconds
+[2019.05.04-04.03.02:427][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.05.04-04.03.02:427][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000166 seconds (updated 0 objects)
+[2019.05.04-04.03.03:750][  5]LogSlate: Took 0.004646 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.04-04.03.06:439][ 13]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.04-04.03.13:152][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-04.04.34:661][750]LogHotReload: New module detected: UE4Editor-CrazyTaxiProcGen-694.dll
+[2019.05.04-04.04.35:570][753]LogHotReload: Starting Hot-Reload from IDE
+[2019.05.04-04.04.35:862][753]LogContentBrowser: Native class hierarchy updated for 'CrazyTaxiProcGen' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2019.05.04-04.04.35:864][753]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.05.04-04.04.35:955][753]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2578 classes and 607 folders.
+[2019.05.04-04.04.35:985][753]Display: HotReload took  0.4s.
+[2019.05.04-04.08.33:279][737]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-04.08.56:813][995]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.05.04-04.09.46:180][886]LogMetaData: Removing '/Game/MyContent/Blueprints/Bp_MazeCube.Bp_MazeCube:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/MyContent/Blueprints/Bp_.PackageMetaData'
+[2019.05.04-04.09.46:180][886]LogMetaData: Removing '/Game/MyContent/Blueprints/Bp_MazeCube.SKEL_Bp_MazeCube_C' ref from Metadata '/Game/MyContent/Blueprints/Bp_.PackageMetaData'
+[2019.05.04-04.09.46:180][886]LogMetaData: Removing '/Game/MyContent/Blueprints/Bp_MazeCube.Bp_MazeCube_C' ref from Metadata '/Game/MyContent/Blueprints/Bp_.PackageMetaData'
+[2019.05.04-04.09.46:180][886]LogMetaData: Removing '/Game/MyContent/Blueprints/Bp_MazeCube.Bp_MazeCube:EventGraph.K2Node_Event_0' ref from Metadata '/Game/MyContent/Blueprints/Bp_.PackageMetaData'
+[2019.05.04-04.09.46:180][886]LogMetaData: Removing '/Game/MyContent/Blueprints/Bp_MazeCube.Bp_MazeCube:EventGraph.K2Node_Event_1' ref from Metadata '/Game/MyContent/Blueprints/Bp_.PackageMetaData'
+[2019.05.04-04.09.46:181][886]LogMetaData: Removing '/Game/MyContent/Blueprints/Bp_MazeCube.Bp_MazeCube:EventGraph.K2Node_Event_2' ref from Metadata '/Game/MyContent/Blueprints/Bp_.PackageMetaData'
+[2019.05.04-04.09.46:210][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_MazeCube" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset" SILENT=true
+[2019.05.04-04.09.46:225][886]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Bp_MazeCube7EDA78FB475EB5E8EA4E56A9DEAAFD43.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset'
+[2019.05.04-04.09.48:078][ 86]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_MazeCube.Bp_MazeCube
+[2019.05.04-04.09.48:604][ 86]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2019.05.04-04.09.51:516][301]LogRenderer: Reallocating scene render targets to support 1152x900 Format 10 NumSamples 1 (Frame:192).
+[2019.05.04-04.09.51:908][348]LogSlate: Window 'Bp_MazeCube' being destroyed
+[2019.05.04-04.10.05:171][923]LogSlate: Took 0.004228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.05.04-04.11.01:444][639]BlueprintLog: New page: Compile Bp_MazeCube
+[2019.05.04-04.11.02:758][772]LogSlate: Took 0.005220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.05.04-04.15.29:209][543]LogSlate: Took 0.002937 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.05.04-04.17.01:852][823]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/Maps/Main' took 0.033
+[2019.05.04-04.17.01:855][823]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/Blueprints/Bp_MazeCube] ([1] browsable assets)...
+[2019.05.04-04.17.01:884][823]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyContent/Blueprints/Bp_MazeCube.Bp_MazeCube]
+[2019.05.04-04.17.01:884][823]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/Blueprints/Bp_MazeCube]
+[2019.05.04-04.17.01:909][823]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Bp_MazeCube_Auto1E4C5D9094C855DF9DA5059BF8C7A608C.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Autosaves/Game/MyContent/Blueprints/Bp_MazeCube_Auto1.uasset'
+[2019.05.04-04.17.01:916][823]LogFileHelpers: Auto-saving content packages took 0.064
+[2019.05.04-04.22.29:918][131]BlueprintLog: New page: Compile Bp_MazeCube
+[2019.05.04-04.23.07:733][635]BlueprintLog: New page: Compile Bp_MazeCube
+[2019.05.04-04.30.27:125][297]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UKismetMathLibrary::Multiply_IntInt' [Element not found.]
+[2019.05.04-04.32.07:797][314]BlueprintLog: New page: Compile Bp_MazeCube
+[2019.05.04-04.35.52:464][625]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/Maps/Main' took 0.034
+[2019.05.04-04.35.52:468][625]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/Blueprints/Bp_MazeCube] ([1] browsable assets)...
+[2019.05.04-04.35.52:493][625]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyContent/Blueprints/Bp_MazeCube.Bp_MazeCube]
+[2019.05.04-04.35.52:493][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/Blueprints/Bp_MazeCube]
+[2019.05.04-04.35.52:547][625]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Bp_MazeCube_Auto29568ECA04DC1D61FD54437A378F9F109.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Autosaves/Game/MyContent/Blueprints/Bp_MazeCube_Auto2.uasset'
+[2019.05.04-04.35.52:552][625]LogFileHelpers: Auto-saving content packages took 0.087
+[2019.05.04-04.38.16:627][370]BlueprintLog: New page: Compile Bp_MazeCube
+[2019.05.04-04.38.17:914][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_MazeCube" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset" SILENT=true
+[2019.05.04-04.38.17:950][498]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Bp_MazeCube122C248948B0A34C6BB3228A03ACACE5.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset'
+[2019.05.04-04.41.41:290][179]BlueprintLog: New page: Compile Bp_MazeCube
+[2019.05.04-04.41.42:109][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_MazeCube" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset" SILENT=true
+[2019.05.04-04.41.42:150][251]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Bp_MazeCube3D1C542A45D38D80DF8E12A4A8497008.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset'
+[2019.05.04-04.44.46:049][241]BlueprintLog: New page: Compile Bp_MazeCube
+[2019.05.04-04.44.46:632][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_MazeCube" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset" SILENT=true
+[2019.05.04-04.44.46:673][287]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Bp_MazeCube92D56064440B1E60EA2590B3753022B5.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset'
+[2019.05.04-04.48.02:238][907]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/Maps/Main' took 0.039
+[2019.05.04-04.48.02:239][907]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/Blueprints/Bp_MazeCube] ([1] browsable assets)...
+[2019.05.04-04.48.02:266][907]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyContent/Blueprints/Bp_MazeCube.Bp_MazeCube]
+[2019.05.04-04.48.02:266][907]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/Blueprints/Bp_MazeCube]
+[2019.05.04-04.48.02:313][907]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Bp_MazeCube_Auto36B0B18A34509F6D940BBFAA8E61574A2.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Autosaves/Game/MyContent/Blueprints/Bp_MazeCube_Auto3.uasset'
+[2019.05.04-04.48.02:316][907]LogFileHelpers: Auto-saving content packages took 0.078
+[2019.05.04-04.55.17:547][621]BlueprintLog: New page: Compile Bp_MazeCube
+[2019.05.04-04.55.18:158][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_MazeCube" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset" SILENT=true
+[2019.05.04-04.55.18:204][667]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Bp_MazeCubeFC74294949DD8A3C7BCE25B8192D63CD.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset'
+[2019.05.04-04.55.25:045][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_MazeCube" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset" SILENT=true
+[2019.05.04-04.55.25:083][483]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Bp_MazeCube2E233B714C9743F26EF770821692075F.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset'
+[2019.05.04-04.59.17:710][270]BlueprintLog: New page: Compile Bp_MazeCube
+[2019.05.04-04.59.18:477][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_MazeCube" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset" SILENT=true
+[2019.05.04-04.59.18:523][334]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Bp_MazeCube1A658B9C4F4AA3AAEED3B98A2EDC048E.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset'
+[2019.05.04-05.00.36:718][642]BlueprintLog: New page: Compile Bp_MazeCube
+[2019.05.04-05.00.37:744][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_MazeCube" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset" SILENT=true
+[2019.05.04-05.00.37:794][738]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Bp_MazeCube3E2F2E574CF17B685DC8458BB0702943.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset'
+[2019.05.04-05.05.48:176][847]BlueprintLog: New page: Compile Bp_MazeCube
+[2019.05.04-05.05.48:829][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_MazeCube" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset" SILENT=true
+[2019.05.04-05.05.48:892][899]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Bp_MazeCube54DA3F7F4391FCE14EB106940D73F2E6.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset'
+[2019.05.04-05.09.00:036][711]BlueprintLog: New page: Compile Bp_MazeCube
+[2019.05.04-05.09.00:070][711]LogBlueprint: Error: [Compiler Bp_MazeCube] This blueprint (self) is not a InstancedStaticMeshComponent, therefore ' Target ' must have a connection.
+[2019.05.04-05.09.00:222][711]LogBlueprint: Warning: [Compiler Bp_MazeCube] [3978.34] Compile of Bp_MazeCube failed. 1 Fatal Issue(s) 0 Warning(s) [in 185 ms] (/Game/MyContent/Blueprints/Bp_MazeCube.Bp_MazeCube)
+[2019.05.04-05.09.00:589][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_MazeCube" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset" SILENT=true
+[2019.05.04-05.09.00:643][748]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Bp_MazeCubeB97B477548565218BEFAD2A37D2D6559.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset'
+[2019.05.04-05.09.40:371][507]BlueprintLog: New page: Compile Bp_MazeCube
+[2019.05.04-05.09.40:402][507]LogBlueprint: Error: [Compiler Bp_MazeCube] This blueprint (self) is not a InstancedStaticMeshComponent, therefore ' Target ' must have a connection.
+[2019.05.04-05.09.40:532][507]LogBlueprint: Warning: [Compiler Bp_MazeCube] [4018.65] Compile of Bp_MazeCube failed. 1 Fatal Issue(s) 0 Warning(s) [in 161 ms] (/Game/MyContent/Blueprints/Bp_MazeCube.Bp_MazeCube)
+[2019.05.04-05.09.45:869][135]BlueprintLog: New page: Compile Bp_MazeCube
+[2019.05.04-05.09.45:897][135]LogBlueprint: Error: [Compiler Bp_MazeCube] This blueprint (self) is not a InstancedStaticMeshComponent, therefore ' Target ' must have a connection.
+[2019.05.04-05.09.46:032][135]LogBlueprint: Warning: [Compiler Bp_MazeCube] [4024.15] Compile of Bp_MazeCube failed. 1 Fatal Issue(s) 0 Warning(s) [in 163 ms] (/Game/MyContent/Blueprints/Bp_MazeCube.Bp_MazeCube)
+[2019.05.04-05.09.52:434][896]BlueprintLog: New page: Compile Bp_MazeCube
+[2019.05.04-05.09.52:465][896]LogBlueprint: Error: [Compiler Bp_MazeCube] This blueprint (self) is not a InstancedStaticMeshComponent, therefore ' Target ' must have a connection.
+[2019.05.04-05.09.52:601][896]LogBlueprint: Warning: [Compiler Bp_MazeCube] [4030.72] Compile of Bp_MazeCube failed. 1 Fatal Issue(s) 0 Warning(s) [in 167 ms] (/Game/MyContent/Blueprints/Bp_MazeCube.Bp_MazeCube)
+[2019.05.04-05.11.45:536][313]BlueprintLog: New page: Compile Bp_MazeCube
+[2019.05.04-05.11.45:568][313]LogBlueprint: Error: [Compiler Bp_MazeCube] This blueprint (self) is not a InstancedStaticMeshComponent, therefore ' Target ' must have a connection.
+[2019.05.04-05.11.45:699][313]LogBlueprint: Warning: [Compiler Bp_MazeCube] [4143.82] Compile of Bp_MazeCube failed. 1 Fatal Issue(s) 0 Warning(s) [in 163 ms] (/Game/MyContent/Blueprints/Bp_MazeCube.Bp_MazeCube)
+[2019.05.04-05.12.52:126][332]BlueprintLog: New page: Compile Bp_MazeCube
+[2019.05.04-05.12.56:462][826]BlueprintLog: New page: Compile Bp_MazeCube
+[2019.05.04-05.14.31:504][213]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/Maps/Main' took 0.028
+[2019.05.04-05.14.31:506][213]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/Blueprints/Bp_MazeCube] ([1] browsable assets)...
+[2019.05.04-05.14.31:519][213]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyContent/Blueprints/Bp_MazeCube.Bp_MazeCube]
+[2019.05.04-05.14.31:519][213]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/Blueprints/Bp_MazeCube]
+[2019.05.04-05.14.31:573][213]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Bp_MazeCube_Auto4410D79C942C6D19466A68C980F5E200D.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Autosaves/Game/MyContent/Blueprints/Bp_MazeCube_Auto4.uasset'
+[2019.05.04-05.14.31:576][213]LogFileHelpers: Auto-saving content packages took 0.071
+[2019.05.04-05.14.39:222][126]BlueprintLog: New page: Compile Bp_MazeCube
+[2019.05.04-05.14.39:881][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_MazeCube" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset" SILENT=true
+[2019.05.04-05.14.39:934][179]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Bp_MazeCubeB1B0942D42147459A7C3B7AC6D606FF9.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset'
+[2019.05.04-05.14.59:925][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_MazeCube" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset" SILENT=true
+[2019.05.04-05.14.59:973][573]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Bp_MazeCubeA3DDDE2D463CE991A0013580039AFF66.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset'
+[2019.05.04-05.15.23:016][300]LogAssetEditorManager: Opening Asset editor for World /Game/MyContent/Maps/TestMaze.TestMaze
+[2019.05.04-05.15.25:594][300]LogSlate: Window 'Save Content' being destroyed
+[2019.05.04-05.15.25:718][300]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/TestMaze5A13CF5744B11279D13E87A9A7AC496B.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestMaze.umap'
+[2019.05.04-05.15.25:722][300]LogFileHelpers: Saving map 'TestMaze' took 0.122
+[2019.05.04-05.15.25:727][300]Cmd: MAP LOAD FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestMaze.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.04-05.15.25:727][300]LightingResults: New page: Lighting Build
+[2019.05.04-05.15.25:730][300]LoadErrors: New page: Loading map: TestMaze.umap
+[2019.05.04-05.15.25:734][300]MapCheck: New page: Map Check
+[2019.05.04-05.15.25:734][300]LightingResults: New page: Lighting Build
+[2019.05.04-05.15.25:825][300]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.04-05.15.25:825][300]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.15.25:877][300]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.04-05.15.25:948][300]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 71.016ms to complete.
+[2019.05.04-05.15.25:949][300]LogFileHelpers: Loading map 'TestMaze' took 0.226
+[2019.05.04-05.15.29:957][585]LogSlate: Window 'Delete Assets' being destroyed
+[2019.05.04-05.15.30:994][699]LogAIModule: Creating AISystem for world TestDrive
+[2019.05.04-05.15.30:999][699]LogAssetEditorManager: Opening Asset editor for World /Game/MyContent/Maps/TestDrive.TestDrive
+[2019.05.04-05.15.31:029][699]Cmd: MAP LOAD FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestDrive.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.04-05.15.31:029][699]LightingResults: New page: Lighting Build
+[2019.05.04-05.15.31:029][699]LoadErrors: New page: Loading map: TestDrive.umap
+[2019.05.04-05.15.31:030][699]MapCheck: New page: Map Check
+[2019.05.04-05.15.31:030][699]LightingResults: New page: Lighting Build
+[2019.05.04-05.15.31:117][699]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.04-05.15.31:164][699]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.04-05.15.31:237][699]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 73.242ms to complete.
+[2019.05.04-05.15.31:238][699]LogFileHelpers: Loading map 'TestDrive' took 0.211
+[2019.05.04-05.15.32:478][843]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.15.33:929][843]LogSlate: Window 'Delete Assets' being destroyed
+[2019.05.04-05.15.38:205][148]LogSlate: Window 'New Level' being destroyed
+[2019.05.04-05.15.38:211][148]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.04-05.15.38:235][148]LightingResults: New page: Lighting Build
+[2019.05.04-05.15.38:236][148]LoadErrors: New page: Loading map: Template_Default.umap
+[2019.05.04-05.15.38:238][148]MapCheck: New page: Map Check
+[2019.05.04-05.15.38:238][148]LightingResults: New page: Lighting Build
+[2019.05.04-05.15.38:306][148]LogAIModule: Creating AISystem for world Untitled_1
+[2019.05.04-05.15.38:377][148]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.04-05.15.38:413][148]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.04-05.15.38:486][148]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 73.081ms to complete.
+[2019.05.04-05.15.38:486][148]LogFileHelpers: Loading map 'Template_Default' took 0.276
+[2019.05.04-05.15.39:728][294]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.04-05.15.41:012][441]Cmd: DELETE
+[2019.05.04-05.15.41:013][441]Cmd: ACTOR DELETE
+[2019.05.04-05.15.41:022][441]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-05.15.41:050][441]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.05.04-05.15.43:032][679]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.15.54:508][ 56]LogSlate: Window 'Save Level As' being destroyed
+[2019.05.04-05.15.54:669][ 56]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/TestMazeB5EFAFB64D154D4C3BE68B8892823192.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestMaze.umap'
+[2019.05.04-05.15.54:695][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/TestMaze_BuiltData" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestMaze_BuiltData.uasset" SILENT=true
+[2019.05.04-05.15.54:708][ 56]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/TestMaze_BuiltData41C68AAD410E10DD0D23F2BA235A893C.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestMaze_BuiltData.uasset'
+[2019.05.04-05.15.54:716][ 56]LogFileHelpers: Saving map 'TestMaze' took 0.199
+[2019.05.04-05.16.06:767][491]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.16.12:010][118]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-05.16.12:028][118]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-05.16.12:047][118]PIE: New page: PIE session: TestMaze (4 May 2019 07:16:12)
+[2019.05.04-05.16.12:047][118]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestMaze
+[2019.05.04-05.16.12:049][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002258s)
+[2019.05.04-05.16.12:050][118]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.16.12:051][118]LogPlayLevel: PIE: World Init took: (0.001130s)
+[2019.05.04-05.16.12:051][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestMaze.TestMaze to /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze (0.003608s)
+[2019.05.04-05.16.12:088][118]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.04-05.16.12:101][118]LogInit: FAudioDevice initialized.
+[2019.05.04-05.16.12:290][118]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.05.04-05.16.12:298][118]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze up for play (max tick rate 0) at 2019.05.04-06.16.12
+[2019.05.04-05.16.12:299][118]LogWorld: Bringing up level for play took: 0.001068
+[2019.05.04-05.16.12:342][118]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2019.05.04-05.16.12:374][118]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestMaze 0.027
+[2019.05.04-05.16.14:571][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.16.14:609][372]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-05.16.14:639][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.16.14:672][375]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.05.04-05.16.23:878][455]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.16.27:997][925]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyContent/Blueprints/Bp_CrazyTaxiProcGenGameModeBase.Bp_CrazyTaxiProcGenGameModeBase
+[2019.05.04-05.16.34:623][686]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.05.04-05.16.37:921][ 77]BlueprintLog: New page: Compile Bp_CrazyTaxiProcGenGameModeBase
+[2019.05.04-05.16.39:340][230]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-05.16.39:355][230]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-05.16.39:355][230]PIE: New page: PIE session: TestMaze (4 May 2019 07:16:39)
+[2019.05.04-05.16.39:355][230]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestMaze
+[2019.05.04-05.16.39:357][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001989s)
+[2019.05.04-05.16.39:358][230]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.16.39:358][230]LogPlayLevel: PIE: World Init took: (0.001140s)
+[2019.05.04-05.16.39:358][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestMaze.TestMaze to /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze (0.003310s)
+[2019.05.04-05.16.39:393][230]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.04-05.16.39:404][230]LogInit: FAudioDevice initialized.
+[2019.05.04-05.16.39:436][230]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.05.04-05.16.39:437][230]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze up for play (max tick rate 0) at 2019.05.04-06.16.39
+[2019.05.04-05.16.39:437][230]LogWorld: Bringing up level for play took: 0.000421
+[2019.05.04-05.16.39:455][230]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestMaze -0.892
+[2019.05.04-05.16.43:290][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.16.43:325][688]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-05.16.43:357][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.16.43:392][692]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.05.04-05.16.43:834][745]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.16.47:092][135]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.05.04-05.16.48:023][243]Cmd: DELETE
+[2019.05.04-05.16.48:023][243]Cmd: ACTOR DELETE
+[2019.05.04-05.16.48:024][243]LogEditorActor: Deleted Actor: PlayerStart
+[2019.05.04-05.16.48:052][243]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2019.05.04-05.16.49:227][384]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.16.49:335][397]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-05.16.49:350][397]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-05.16.49:350][397]PIE: New page: PIE session: TestMaze (4 May 2019 07:16:49)
+[2019.05.04-05.16.49:351][397]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestMaze
+[2019.05.04-05.16.49:352][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001851s)
+[2019.05.04-05.16.49:353][397]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.16.49:354][397]LogPlayLevel: PIE: World Init took: (0.001001s)
+[2019.05.04-05.16.49:354][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestMaze.TestMaze to /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze (0.003051s)
+[2019.05.04-05.16.49:386][397]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.04-05.16.49:398][397]LogInit: FAudioDevice initialized.
+[2019.05.04-05.16.49:426][397]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.05.04-05.16.49:427][397]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze up for play (max tick rate 0) at 2019.05.04-06.16.49
+[2019.05.04-05.16.49:427][397]LogWorld: Bringing up level for play took: 0.000525
+[2019.05.04-05.16.49:440][397]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestMaze -0.908
+[2019.05.04-05.16.57:981][420]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.16.58:013][420]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-05.16.58:045][420]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.16.58:083][424]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.05.04-05.17.05:817][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.17.05:899][281]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-05.17.05:914][281]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-05.17.05:914][281]PIE: New page: PIE session: TestMaze (4 May 2019 07:17:05)
+[2019.05.04-05.17.05:914][281]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestMaze
+[2019.05.04-05.17.05:917][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001925s)
+[2019.05.04-05.17.05:917][281]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.17.05:918][281]LogPlayLevel: PIE: World Init took: (0.000820s)
+[2019.05.04-05.17.05:918][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestMaze.TestMaze to /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze (0.002875s)
+[2019.05.04-05.17.05:954][281]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.04-05.17.05:965][281]LogInit: FAudioDevice initialized.
+[2019.05.04-05.17.05:998][281]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.05.04-05.17.05:999][281]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze up for play (max tick rate 0) at 2019.05.04-06.17.05
+[2019.05.04-05.17.05:999][281]LogWorld: Bringing up level for play took: 0.000467
+[2019.05.04-05.17.06:012][281]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestMaze -0.336
+[2019.05.04-05.17.09:373][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.17.09:405][682]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-05.17.09:436][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.17.09:471][686]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.05.04-05.17.24:615][470]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-05.17.24:630][470]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-05.17.24:630][470]PIE: New page: PIE session: TestMaze (4 May 2019 07:17:24)
+[2019.05.04-05.17.24:630][470]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestMaze
+[2019.05.04-05.17.24:632][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001666s)
+[2019.05.04-05.17.24:632][470]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.17.24:633][470]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2019.05.04-05.17.24:633][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestMaze.TestMaze to /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze (0.002565s)
+[2019.05.04-05.17.24:671][470]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.04-05.17.24:683][470]LogInit: FAudioDevice initialized.
+[2019.05.04-05.17.24:715][470]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.05.04-05.17.24:716][470]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze up for play (max tick rate 0) at 2019.05.04-06.17.24
+[2019.05.04-05.17.24:716][470]LogWorld: Bringing up level for play took: 0.000505
+[2019.05.04-05.17.24:729][470]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestMaze 0.381
+[2019.05.04-05.17.26:656][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.17.26:688][699]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-05.17.26:718][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.17.26:758][703]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.05.04-05.17.31:391][253]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-05.17.31:406][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-05.17.31:406][253]PIE: New page: PIE session: TestMaze (4 May 2019 07:17:31)
+[2019.05.04-05.17.31:406][253]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestMaze
+[2019.05.04-05.17.31:408][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001993s)
+[2019.05.04-05.17.31:409][253]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.17.31:409][253]LogPlayLevel: PIE: World Init took: (0.001091s)
+[2019.05.04-05.17.31:409][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestMaze.TestMaze to /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze (0.003263s)
+[2019.05.04-05.17.31:448][253]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.04-05.17.31:459][253]LogInit: FAudioDevice initialized.
+[2019.05.04-05.17.31:490][253]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.05.04-05.17.31:490][253]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze up for play (max tick rate 0) at 2019.05.04-06.17.31
+[2019.05.04-05.17.31:491][253]LogWorld: Bringing up level for play took: 0.000420
+[2019.05.04-05.17.31:503][253]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestMaze -0.845
+[2019.05.04-05.17.44:302][782]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-05.17.47:127][121]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.17.47:161][121]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-05.17.47:193][121]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.17.47:231][123]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.05.04-05.17.55:451][103]LogEditorViewport: Clicking on Actor (LMB): Bp_MazeCube_C (Bp_MazeCube)
+[2019.05.04-05.18.01:352][781]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.18.01:434][791]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-05.18.01:449][791]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-05.18.01:449][791]PIE: New page: PIE session: TestMaze (4 May 2019 07:18:01)
+[2019.05.04-05.18.01:449][791]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestMaze
+[2019.05.04-05.18.01:451][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001670s)
+[2019.05.04-05.18.01:452][791]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.18.01:452][791]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2019.05.04-05.18.01:452][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestMaze.TestMaze to /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze (0.002575s)
+[2019.05.04-05.18.01:487][791]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.04-05.18.01:498][791]LogInit: FAudioDevice initialized.
+[2019.05.04-05.18.01:532][791]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.05.04-05.18.01:533][791]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze up for play (max tick rate 0) at 2019.05.04-06.18.01
+[2019.05.04-05.18.01:533][791]LogWorld: Bringing up level for play took: 0.000411
+[2019.05.04-05.18.01:546][791]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestMaze -0.802
+[2019.05.04-05.18.02:975][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.18.03:009][960]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-05.18.03:040][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.18.03:078][964]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.05.04-05.18.05:679][276]Cmd: TRANSACTION UNDO
+[2019.05.04-05.18.05:679][276]LogEditorTransaction: Undo Move Actors
+[2019.05.04-05.18.05:935][303]Cmd: TRANSACTION UNDO
+[2019.05.04-05.18.05:935][303]LogEditorTransaction: Undo Move Actors
+[2019.05.04-05.18.06:193][333]Cmd: TRANSACTION UNDO
+[2019.05.04-05.18.06:193][333]LogEditorTransaction: Undo Clicking on Actors
+[2019.05.04-05.18.06:439][362]Cmd: TRANSACTION UNDO
+[2019.05.04-05.18.06:439][362]LogEditorTransaction: Undo Clicking on Actors
+[2019.05.04-05.18.06:683][388]Cmd: TRANSACTION UNDO
+[2019.05.04-05.18.06:683][388]LogEditorTransaction: Undo Clicking on Actors
+[2019.05.04-05.18.07:000][426]Cmd: TRANSACTION UNDO
+[2019.05.04-05.18.07:000][426]LogEditorTransaction: Undo Edit Size
+[2019.05.04-05.18.07:312][463]Cmd: TRANSACTION UNDO
+[2019.05.04-05.18.07:312][463]LogEditorTransaction: Undo Clicking on Actors
+[2019.05.04-05.18.07:600][494]Cmd: TRANSACTION UNDO
+[2019.05.04-05.18.07:600][494]LogEditorTransaction: Undo Clicking on Actors
+[2019.05.04-05.18.07:913][528]Cmd: TRANSACTION UNDO
+[2019.05.04-05.18.07:913][528]LogEditorTransaction: Undo Clicking on Actors
+[2019.05.04-05.18.08:231][564]Cmd: TRANSACTION UNDO
+[2019.05.04-05.18.08:231][564]LogEditorTransaction: Undo Clicking on Actors
+[2019.05.04-05.18.08:610][606]Cmd: TRANSACTION UNDO
+[2019.05.04-05.18.08:611][606]LogEditorTransaction: Undo Clicking on Actors
+[2019.05.04-05.18.09:069][661]Cmd: TRANSACTION UNDO
+[2019.05.04-05.18.09:069][661]LogEditorTransaction: Undo Delete Actors
+[2019.05.04-05.18.09:486][707]Cmd: TRANSACTION UNDO
+[2019.05.04-05.18.09:486][707]LogEditorTransaction: Undo Clicking on Actors
+[2019.05.04-05.18.09:889][755]Cmd: TRANSACTION UNDO
+[2019.05.04-05.18.09:889][755]LogEditorTransaction: Undo Edit Default Pawn Class
+[2019.05.04-05.18.10:237][796]Cmd: TRANSACTION UNDO
+[2019.05.04-05.18.10:237][796]LogEditorTransaction: Undo Edit Size
+[2019.05.04-05.18.10:572][836]Cmd: TRANSACTION UNDO
+[2019.05.04-05.18.10:572][836]LogEditorTransaction: Undo Edit Show Boarder
+[2019.05.04-05.18.10:843][868]Cmd: TRANSACTION UNDO
+[2019.05.04-05.18.10:843][868]LogEditorTransaction: Undo Create Actors
+[2019.05.04-05.18.14:390][293]Cmd: TRANSACTION REDO
+[2019.05.04-05.18.14:390][293]LogEditorTransaction: Redo Create Actors
+[2019.05.04-05.18.17:890][699]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.18.20:166][969]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.05.04-05.18.40:778][431]BlueprintLog: New page: Compile Bp_CrazyTaxiProcGenGameModeBase
+[2019.05.04-05.18.41:489][494]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Bp_CrazyTaxiProcGenGameModeBaseF3005AE241FB5337EB0152A6919ECFDF.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_CrazyTaxiProcGenGameModeBase.uasset'
+[2019.05.04-05.18.44:207][817]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-05.18.44:221][817]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-05.18.44:222][817]PIE: New page: PIE session: TestMaze (4 May 2019 07:18:44)
+[2019.05.04-05.18.44:222][817]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestMaze
+[2019.05.04-05.18.44:223][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001559s)
+[2019.05.04-05.18.44:224][817]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.18.44:224][817]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2019.05.04-05.18.44:224][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestMaze.TestMaze to /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze (0.002658s)
+[2019.05.04-05.18.44:261][817]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.04-05.18.44:270][817]LogInit: FAudioDevice initialized.
+[2019.05.04-05.18.44:305][817]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.05.04-05.18.44:307][817]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze up for play (max tick rate 0) at 2019.05.04-06.18.44
+[2019.05.04-05.18.44:307][817]LogWorld: Bringing up level for play took: 0.000398
+[2019.05.04-05.18.44:321][817]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestMaze -0.027
+[2019.05.04-05.18.54:591][ 46]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.18.54:631][ 46]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-05.18.54:662][ 46]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.18.54:702][ 48]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.05.04-05.18.58:813][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.19.01:346][842]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-05.19.01:360][842]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-05.19.01:361][842]PIE: New page: PIE session: TestMaze (4 May 2019 07:19:01)
+[2019.05.04-05.19.01:361][842]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestMaze
+[2019.05.04-05.19.01:363][842]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001833s)
+[2019.05.04-05.19.01:363][842]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.19.01:363][842]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2019.05.04-05.19.01:363][842]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestMaze.TestMaze to /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze (0.002769s)
+[2019.05.04-05.19.01:399][842]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.04-05.19.01:409][842]LogInit: FAudioDevice initialized.
+[2019.05.04-05.19.01:441][842]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.05.04-05.19.01:442][842]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze up for play (max tick rate 0) at 2019.05.04-06.19.01
+[2019.05.04-05.19.01:442][842]LogWorld: Bringing up level for play took: 0.000625
+[2019.05.04-05.19.01:455][842]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestMaze -0.892
+[2019.05.04-05.19.05:297][300]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.19.05:328][300]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-05.19.05:360][300]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.19.05:396][303]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.05.04-05.19.06:565][443]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.05.04-05.19.11:313][997]LogEditorViewport: Clicking on Actor (LMB): Bp_MazeCube_C (Bp_MazeCube)
+[2019.05.04-05.19.15:669][508]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.19.18:178][809]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-05.19.18:193][809]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-05.19.18:193][809]PIE: New page: PIE session: TestMaze (4 May 2019 07:19:18)
+[2019.05.04-05.19.18:193][809]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestMaze
+[2019.05.04-05.19.18:195][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001911s)
+[2019.05.04-05.19.18:196][809]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.19.18:196][809]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2019.05.04-05.19.18:196][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestMaze.TestMaze to /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze (0.002907s)
+[2019.05.04-05.19.18:235][809]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.04-05.19.18:245][809]LogInit: FAudioDevice initialized.
+[2019.05.04-05.19.18:278][809]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.05.04-05.19.18:279][809]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze up for play (max tick rate 0) at 2019.05.04-06.19.18
+[2019.05.04-05.19.18:279][809]LogWorld: Bringing up level for play took: 0.000442
+[2019.05.04-05.19.18:292][809]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestMaze -0.056
+[2019.05.04-05.19.21:731][219]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.19.21:764][219]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-05.19.21:795][219]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.19.21:836][221]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.05.04-05.19.24:270][513]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.19.27:928][949]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-05.19.27:942][949]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-05.19.27:942][949]PIE: New page: PIE session: TestMaze (4 May 2019 07:19:27)
+[2019.05.04-05.19.27:942][949]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestMaze
+[2019.05.04-05.19.27:944][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001869s)
+[2019.05.04-05.19.27:945][949]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.19.27:945][949]LogPlayLevel: PIE: World Init took: (0.001042s)
+[2019.05.04-05.19.27:945][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestMaze.TestMaze to /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze (0.003045s)
+[2019.05.04-05.19.27:985][949]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.04-05.19.27:996][949]LogInit: FAudioDevice initialized.
+[2019.05.04-05.19.28:030][949]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.05.04-05.19.28:031][949]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze up for play (max tick rate 0) at 2019.05.04-06.19.28
+[2019.05.04-05.19.28:031][949]LogWorld: Bringing up level for play took: 0.000421
+[2019.05.04-05.19.28:044][949]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestMaze -0.304
+[2019.05.04-05.19.34:315][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.19.34:346][695]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-05.19.34:378][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.19.34:417][697]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.05.04-05.19.35:564][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.19.38:297][149]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.05.04-05.19.48:521][372]BlueprintLog: New page: Compile Bp_CrazyTaxiProcGenGameModeBase
+[2019.05.04-05.19.49:080][418]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Bp_CrazyTaxiProcGenGameModeBaseAD60E4BA4F819B638FBE8FAEB0D0DDC0.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_CrazyTaxiProcGenGameModeBase.uasset'
+[2019.05.04-05.19.51:196][671]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-05.19.51:212][671]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-05.19.51:212][671]PIE: New page: PIE session: TestMaze (4 May 2019 07:19:51)
+[2019.05.04-05.19.51:212][671]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestMaze
+[2019.05.04-05.19.51:214][671]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001774s)
+[2019.05.04-05.19.51:214][671]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.19.51:215][671]LogPlayLevel: PIE: World Init took: (0.000916s)
+[2019.05.04-05.19.51:215][671]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestMaze.TestMaze to /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze (0.002850s)
+[2019.05.04-05.19.51:251][671]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.04-05.19.51:261][671]LogInit: FAudioDevice initialized.
+[2019.05.04-05.19.51:289][671]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.05.04-05.19.51:290][671]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze up for play (max tick rate 0) at 2019.05.04-06.19.51
+[2019.05.04-05.19.51:290][671]LogWorld: Bringing up level for play took: 0.000511
+[2019.05.04-05.19.51:303][671]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestMaze 0.955
+[2019.05.04-05.19.56:363][275]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.19.56:399][275]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-05.19.56:431][275]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.19.56:470][279]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.05.04-05.19.59:125][597]LogEditorViewport: Clicking on Actor (LMB): Bp_MazeCube_C (Bp_MazeCube)
+[2019.05.04-05.20.02:729][ 25]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.20.09:649][848]LogEditorViewport: Clicking on Component (LMB): SceneComponent (DefaultSceneRoot)
+[2019.05.04-05.20.11:547][ 71]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.20.32:620][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.20.32:745][588]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-05.20.32:760][588]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-05.20.32:760][588]PIE: New page: PIE session: TestMaze (4 May 2019 07:20:32)
+[2019.05.04-05.20.32:760][588]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestMaze
+[2019.05.04-05.20.32:762][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001935s)
+[2019.05.04-05.20.32:763][588]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.20.32:763][588]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2019.05.04-05.20.32:763][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestMaze.TestMaze to /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze (0.002944s)
+[2019.05.04-05.20.32:805][588]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.04-05.20.32:816][588]LogInit: FAudioDevice initialized.
+[2019.05.04-05.20.32:847][588]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.05.04-05.20.32:847][588]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze up for play (max tick rate 0) at 2019.05.04-06.20.32
+[2019.05.04-05.20.32:848][588]LogWorld: Bringing up level for play took: 0.000474
+[2019.05.04-05.20.32:860][588]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestMaze 0.513
+[2019.05.04-05.20.37:291][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.20.37:325][117]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-05.20.37:353][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.20.37:393][121]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.05.04-05.20.53:650][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.20.56:146][327]LogEditorActor: Deleted Actor: Bp_MazeCube_C
+[2019.05.04-05.20.56:175][327]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.05.04-05.21.02:424][ 24]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.21.22:416][392]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-05.21.24:942][694]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.23.05:318][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_MazeCube" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset" SILENT=true
+[2019.05.04-05.23.05:375][233]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Bp_MazeCube98FA7D574CA83444E16E9182061A5B7A.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset'
+[2019.05.04-05.23.06:275][340]BlueprintLog: New page: Compile Bp_MazeCube
+[2019.05.04-05.23.13:817][217]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-05.23.13:834][217]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-05.23.13:834][217]PIE: New page: PIE session: TestMaze (4 May 2019 07:23:13)
+[2019.05.04-05.23.13:834][217]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestMaze
+[2019.05.04-05.23.13:837][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002082s)
+[2019.05.04-05.23.13:837][217]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.23.13:838][217]LogPlayLevel: PIE: World Init took: (0.000965s)
+[2019.05.04-05.23.13:838][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestMaze.TestMaze to /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze (0.003187s)
+[2019.05.04-05.23.13:870][217]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.04-05.23.13:881][217]LogInit: FAudioDevice initialized.
+[2019.05.04-05.23.13:912][217]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.05.04-05.23.13:913][217]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze up for play (max tick rate 0) at 2019.05.04-06.23.13
+[2019.05.04-05.23.13:913][217]LogWorld: Bringing up level for play took: 0.000516
+[2019.05.04-05.23.13:926][217]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestMaze -0.422
+[2019.05.04-05.23.20:916][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.23.20:952][ 53]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-05.23.20:984][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.23.21:016][ 56]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.05.04-05.23.22:701][258]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.23.42:179][588]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-05.23.42:194][588]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-05.23.42:194][588]PIE: New page: PIE session: TestMaze (4 May 2019 07:23:42)
+[2019.05.04-05.23.42:194][588]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestMaze
+[2019.05.04-05.23.42:196][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002067s)
+[2019.05.04-05.23.42:197][588]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.23.42:197][588]LogPlayLevel: PIE: World Init took: (0.000936s)
+[2019.05.04-05.23.42:197][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestMaze.TestMaze to /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze (0.003179s)
+[2019.05.04-05.23.42:233][588]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.04-05.23.42:244][588]LogInit: FAudioDevice initialized.
+[2019.05.04-05.23.42:273][588]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.05.04-05.23.42:273][588]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze up for play (max tick rate 0) at 2019.05.04-06.23.42
+[2019.05.04-05.23.42:274][588]LogWorld: Bringing up level for play took: 0.000447
+[2019.05.04-05.23.42:286][588]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestMaze -0.062
+[2019.05.04-05.23.46:299][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.23.46:334][ 67]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-05.23.46:366][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.23.46:405][ 70]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.05.04-05.23.47:988][255]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.05.04-05.23.50:092][504]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.24.40:596][534]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.24.46:752][269]LogActorFactory: Actor Factory created Cube
+[2019.05.04-05.24.47:278][330]LogActorFactory: Actor Factory created Cube
+[2019.05.04-05.24.50:670][728]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.25.00:565][911]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.05.04-05.25.00:610][911]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-05.25.10:791][122]Cmd: TRANSACTION UNDO
+[2019.05.04-05.25.10:791][122]LogEditorTransaction: Undo Clicking on Actors
+[2019.05.04-05.25.11:172][159]Cmd: TRANSACTION UNDO
+[2019.05.04-05.25.11:172][159]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2019.05.04-05.25.11:620][205]Cmd: TRANSACTION UNDO
+[2019.05.04-05.25.11:620][205]LogEditorTransaction: Undo Set Scale
+[2019.05.04-05.25.12:255][280]Cmd: TRANSACTION UNDO
+[2019.05.04-05.25.12:255][280]LogEditorTransaction: Undo Set Scale
+[2019.05.04-05.25.13:840][470]Cmd: TRANSACTION UNDO
+[2019.05.04-05.25.13:840][470]LogEditorTransaction: Undo Set Scale
+[2019.05.04-05.25.26:514][983]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.25.42:812][929]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.25.53:096][133]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.25.56:813][572]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.05.04-05.26.03:013][275]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.05.04-05.26.03:963][377]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2019.05.04-05.26.03:990][377]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-05.26.05:194][518]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2019.05.04-05.26.05:223][518]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-05.26.10:763][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.05.04-05.26.15:273][691]Cmd: DELETE
+[2019.05.04-05.26.15:273][691]Cmd: ACTOR DELETE
+[2019.05.04-05.26.15:275][691]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.05.04-05.26.15:304][691]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.05.04-05.26.15:822][748]Cmd: DELETE
+[2019.05.04-05.26.15:822][748]Cmd: ACTOR DELETE
+[2019.05.04-05.26.15:824][748]LogEditorActor: Deleted Actor: Brush
+[2019.05.04-05.26.15:856][748]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2019.05.04-05.26.18:234][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.26.29:282][333]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/TestMaze3D3C7C2D4435F898F75B31A4C8F9AA31.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestMaze.umap'
+[2019.05.04-05.26.29:308][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/TestMaze_BuiltData" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestMaze_BuiltData.uasset" SILENT=true
+[2019.05.04-05.26.29:324][333]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/TestMaze_BuiltData2A140A93434064CECD1EA3A46BE34DC7.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestMaze_BuiltData.uasset'
+[2019.05.04-05.26.30:157][432]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.26.30:265][445]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-05.26.30:281][445]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.05.04-05.26.30:294][445]LogPlayLevel: [PlayLevel] Compiling Bp_MazeCube before play...
+[2019.05.04-05.26.30:459][445]LogPlayLevel: PlayLevel: Blueprint regeneration took 177 ms (1 blueprints)
+[2019.05.04-05.26.30:459][445]PIE: New page: PIE session: TestMaze (4 May 2019 07:26:30)
+[2019.05.04-05.26.30:459][445]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestMaze
+[2019.05.04-05.26.30:461][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001838s)
+[2019.05.04-05.26.30:462][445]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.26.30:462][445]LogPlayLevel: PIE: World Init took: (0.001046s)
+[2019.05.04-05.26.30:462][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestMaze.TestMaze to /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze (0.003071s)
+[2019.05.04-05.26.30:497][445]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.04-05.26.30:506][445]LogInit: FAudioDevice initialized.
+[2019.05.04-05.26.30:539][445]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.05.04-05.26.30:540][445]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze up for play (max tick rate 0) at 2019.05.04-06.26.30
+[2019.05.04-05.26.30:540][445]LogWorld: Bringing up level for play took: 0.000408
+[2019.05.04-05.26.30:553][445]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestMaze 0.205
+[2019.05.04-05.26.33:842][838]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.26.33:874][838]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-05.26.33:902][838]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.26.33:944][841]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.05.04-05.26.34:473][898]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.26.37:635][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_MazeCube" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset" SILENT=true
+[2019.05.04-05.26.37:687][260]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Bp_MazeCube18072B3E4B8BE8956603D3B5D16B2044.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset'
+[2019.05.04-05.26.40:789][627]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-05.26.40:809][627]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-05.26.40:809][627]PIE: New page: PIE session: TestMaze (4 May 2019 07:26:40)
+[2019.05.04-05.26.40:809][627]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestMaze
+[2019.05.04-05.26.40:811][627]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002016s)
+[2019.05.04-05.26.40:811][627]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.26.40:812][627]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2019.05.04-05.26.40:812][627]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestMaze.TestMaze to /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze (0.002994s)
+[2019.05.04-05.26.40:848][627]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.04-05.26.40:858][627]LogInit: FAudioDevice initialized.
+[2019.05.04-05.26.40:890][627]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.05.04-05.26.40:891][627]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze up for play (max tick rate 0) at 2019.05.04-06.26.40
+[2019.05.04-05.26.40:891][627]LogWorld: Bringing up level for play took: 0.000405
+[2019.05.04-05.26.40:904][627]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestMaze 0.556
+[2019.05.04-05.26.44:068][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.26.44:102][  5]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-05.26.44:133][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.26.44:173][  9]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.05.04-05.26.45:634][173]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.27.49:043][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.27.51:486][887]LogEditorViewport: Clicking on Actor (LMB): Bp_MazeCube_C (Bp_MazeCube)
+[2019.05.04-05.27.58:952][774]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.29.31:591][193]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/TestMaze57EC28634C43A9166D1C1FA71B04FF57.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestMaze.umap'
+[2019.05.04-05.29.31:619][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/TestMaze_BuiltData" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestMaze_BuiltData.uasset" SILENT=true
+[2019.05.04-05.29.31:632][193]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/TestMaze_BuiltDataB27A6FA14AC9F4A19B73D28AE87A2C45.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestMaze_BuiltData.uasset'
+[2019.05.04-05.29.34:041][466]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.29.38:572][  7]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.05.04-05.29.48:714][220]BlueprintLog: New page: Compile Bp_CrazyTaxiProcGenGameModeBase
+[2019.05.04-05.29.49:299][269]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Bp_CrazyTaxiProcGenGameModeBase6E1C44FC452FA0EF8F4BA3B8A2E1DFC4.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_CrazyTaxiProcGenGameModeBase.uasset'
+[2019.05.04-05.29.50:574][421]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-05.29.50:589][421]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-05.29.50:589][421]PIE: New page: PIE session: TestMaze (4 May 2019 07:29:50)
+[2019.05.04-05.29.50:589][421]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestMaze
+[2019.05.04-05.29.50:591][421]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001904s)
+[2019.05.04-05.29.50:592][421]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.29.50:592][421]LogPlayLevel: PIE: World Init took: (0.000889s)
+[2019.05.04-05.29.50:592][421]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestMaze.TestMaze to /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze (0.002913s)
+[2019.05.04-05.29.50:625][421]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.04-05.29.50:635][421]LogInit: FAudioDevice initialized.
+[2019.05.04-05.29.50:665][421]LogLoad: Game class is 'Bp_CrazyTaxiProcGenGameModeBase_C'
+[2019.05.04-05.29.50:666][421]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze up for play (max tick rate 0) at 2019.05.04-06.29.50
+[2019.05.04-05.29.50:666][421]LogWorld: Bringing up level for play took: 0.000431
+[2019.05.04-05.29.50:679][421]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestMaze 0.331
+[2019.05.04-05.29.54:388][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.29.54:424][864]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-05.29.54:455][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.29.54:490][868]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.05.04-05.29.57:496][222]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.05.04-05.29.58:480][335]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.31.13:412][903]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.05.04-05.31.35:966][564]BlueprintLog: New page: Compile Bp_CrazyTaxiProcGenGameModeBase
+[2019.05.04-05.31.37:315][704]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Bp_CrazyTaxiProcGenGameModeBase456D74E74AD30A4446286C84119215F2.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_CrazyTaxiProcGenGameModeBase.uasset'
+[2019.05.04-05.31.52:891][560]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.05.04-05.31.57:437][ 98]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-05.31.57:452][ 98]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-05.31.57:452][ 98]PIE: New page: PIE session: TestMaze (4 May 2019 07:31:57)
+[2019.05.04-05.31.57:452][ 98]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestMaze
+[2019.05.04-05.31.57:454][ 98]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001742s)
+[2019.05.04-05.31.57:454][ 98]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.31.57:454][ 98]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2019.05.04-05.31.57:454][ 98]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestMaze.TestMaze to /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze (0.002487s)
+[2019.05.04-05.31.57:489][ 98]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.04-05.31.57:500][ 98]LogInit: FAudioDevice initialized.
+[2019.05.04-05.31.57:528][ 98]LogLoad: Game class is 'CrazyTaxiProcGenGameModeBase'
+[2019.05.04-05.31.57:529][ 98]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze up for play (max tick rate 0) at 2019.05.04-06.31.57
+[2019.05.04-05.31.57:529][ 98]LogWorld: Bringing up level for play took: 0.000730
+[2019.05.04-05.31.57:542][ 98]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestMaze -0.806
+[2019.05.04-05.32.07:666][310]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.32.07:702][310]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-05.32.07:733][310]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.32.07:771][314]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.05.04-05.32.08:773][434]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.32.09:466][514]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.05.04-05.32.10:334][615]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.32.10:416][625]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-05.32.10:431][625]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-05.32.10:431][625]PIE: New page: PIE session: TestMaze (4 May 2019 07:32:10)
+[2019.05.04-05.32.10:431][625]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestMaze
+[2019.05.04-05.32.10:433][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002188s)
+[2019.05.04-05.32.10:434][625]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.32.10:434][625]LogPlayLevel: PIE: World Init took: (0.000826s)
+[2019.05.04-05.32.10:434][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestMaze.TestMaze to /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze (0.003150s)
+[2019.05.04-05.32.10:467][625]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.04-05.32.10:477][625]LogInit: FAudioDevice initialized.
+[2019.05.04-05.32.10:511][625]LogLoad: Game class is 'CrazyTaxiProcGenGameModeBase'
+[2019.05.04-05.32.10:512][625]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze up for play (max tick rate 0) at 2019.05.04-06.32.10
+[2019.05.04-05.32.10:512][625]LogWorld: Bringing up level for play took: 0.000629
+[2019.05.04-05.32.10:525][625]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestMaze 0.177
+[2019.05.04-05.32.20:901][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.32.20:939][868]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-05.32.20:970][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.32.21:001][871]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.05.04-05.32.23:918][221]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.32.28:787][800]LogEditorActor: Deleted Actor: Bp_MazeCube_C
+[2019.05.04-05.32.28:818][800]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.05.04-05.33.00:321][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.33.00:386][452]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-05.33.00:403][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-05.33.00:403][452]PIE: New page: PIE session: TestMaze (4 May 2019 07:33:00)
+[2019.05.04-05.33.00:403][452]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestMaze
+[2019.05.04-05.33.00:405][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002184s)
+[2019.05.04-05.33.00:406][452]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.33.00:406][452]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2019.05.04-05.33.00:407][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestMaze.TestMaze to /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze (0.003360s)
+[2019.05.04-05.33.00:447][452]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.04-05.33.00:458][452]LogInit: FAudioDevice initialized.
+[2019.05.04-05.33.00:488][452]LogLoad: Game class is 'CrazyTaxiProcGenGameModeBase'
+[2019.05.04-05.33.00:488][452]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze up for play (max tick rate 0) at 2019.05.04-06.33.00
+[2019.05.04-05.33.00:489][452]LogWorld: Bringing up level for play took: 0.000579
+[2019.05.04-05.33.00:501][452]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestMaze 0.153
+[2019.05.04-05.33.10:053][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.33.10:088][592]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-05.33.10:120][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.33.10:157][595]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.05.04-05.33.10:952][683]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.04-05.33.45:080][746]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.04-05.33.45:094][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.04-05.33.45:095][746]PIE: New page: PIE session: TestMaze (4 May 2019 07:33:45)
+[2019.05.04-05.33.45:095][746]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestMaze
+[2019.05.04-05.33.45:098][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003072s)
+[2019.05.04-05.33.45:098][746]LogAIModule: Creating AISystem for world TestMaze
+[2019.05.04-05.33.45:099][746]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2019.05.04-05.33.45:099][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestMaze.TestMaze to /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze (0.004022s)
+[2019.05.04-05.33.45:137][746]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.04-05.33.45:147][746]LogInit: FAudioDevice initialized.
+[2019.05.04-05.33.45:176][746]LogLoad: Game class is 'CrazyTaxiProcGenGameModeBase'
+[2019.05.04-05.33.45:177][746]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestMaze.TestMaze up for play (max tick rate 0) at 2019.05.04-06.33.45
+[2019.05.04-05.33.45:177][746]LogWorld: Bringing up level for play took: 0.000507
+[2019.05.04-05.33.45:190][746]PIE: Play in editor start time for /Game/MyContent/Maps/UEDPIE_0_TestMaze 0.842
+[2019.05.04-05.34.00:155][539]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.04-05.34.13:043][ 38]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.34.13:075][ 38]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.04-05.34.13:107][ 38]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.04-05.34.13:147][ 42]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.05.04-05.36.48:082][228]LogEditorTransaction: Undo Delete current selection
+[2019.05.04-05.36.48:840][312]LogEditorTransaction: Undo Create Pin Link
+[2019.05.04-05.36.49:240][360]LogEditorTransaction: Undo Create Pin Link
+[2019.05.04-05.36.49:640][408]LogEditorTransaction: Undo Break Pin Links
+[2019.05.04-05.36.50:435][500]LogEditorTransaction: Undo Move Node
+[2019.05.04-05.36.51:023][567]LogEditorTransaction: Undo Add Node
+[2019.05.04-05.36.52:190][704]LogEditorTransaction: Undo Break Pin Links
+[2019.05.04-05.37.46:867][251]BlueprintLog: New page: Compile Bp_MazeCube
+[2019.05.04-05.37.47:457][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Blueprints/Bp_MazeCube" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset" SILENT=true
+[2019.05.04-05.37.47:514][293]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Bp_MazeCubeA2C9F15B4667F884B7DB5989139F41A7.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Blueprints/Bp_MazeCube.uasset'
+[2019.05.04-05.40.34:275][518]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/TestMaze_Auto5AE9B90484BD08C4CF6A7ADAF6B539D74.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/Autosaves/Game/MyContent/Maps/TestMaze_Auto5.umap'
+[2019.05.04-05.40.34:281][518]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyContent/Maps/TestMaze' took 0.075
+[2019.05.04-05.40.34:281][518]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.075
+[2019.05.04-05.42.37:971][234]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/TestMazeBB18BE86479CD344B1EDE1982FF98406.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestMaze.umap'
+[2019.05.04-05.42.37:993][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/TestMaze_BuiltData" FILE="A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestMaze_BuiltData.uasset" SILENT=true
+[2019.05.04-05.42.38:006][234]LogSavePackage: Moving 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Saved/TestMaze_BuiltData64E5398C465CB522E13C4EA8B78521CA.tmp' to 'A:/Projects/Unreal Engine Projects/SoloUE4/CrazyTaxiProcGen/Content/MyContent/Maps/TestMaze_BuiltData.uasset'
+[2019.05.04-06.22.59:929][146]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.05.04-06.22.59:992][146]LogSlate: Window 'CrazyTaxiProcGen - Unreal Editor' being destroyed
+[2019.05.04-06.23.00:287][147]Cmd: QUIT_EDITOR
+[2019.05.04-06.23.00:589][147]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.05.04-06.23.00:604][147]LogExit: Preparing to exit.
+[2019.05.04-06.23.01:078][147]LogExit: Editor shut down
+[2019.05.04-06.23.01:078][147]LogExit: Transaction tracking system shut down
+[2019.05.04-06.23.01:719][147]LogExit: Object subsystem successfully closed.
+[2019.05.04-06.23.01:753][147]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.05.04-06.23.01:758][147]LogD3D11RHI: Shutdown
+[2019.05.04-06.23.01:759][147]LogD3D11RHI: CleanupD3DDevice
+[2019.05.04-06.23.01:766][147]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.05.04-06.23.01:837][147]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (625)
+[2019.05.04-06.23.01:837][147]LogModuleManager: Shutting down and abandoning module Voice (623)
+[2019.05.04-06.23.01:837][147]LogModuleManager: Shutting down and abandoning module NewLevelDialog (621)
+[2019.05.04-06.23.01:837][147]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (619)
+[2019.05.04-06.23.01:838][147]LogModuleManager: Shutting down and abandoning module BlueprintGraph (617)
+[2019.05.04-06.23.01:838][147]LogModuleManager: Shutting down and abandoning module CrazyTaxiProcGen (615)
+[2019.05.04-06.23.01:838][147]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (614)
+[2019.05.04-06.23.01:838][147]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (612)
+[2019.05.04-06.23.01:838][147]LogModuleManager: Shutting down and abandoning module AddContentDialog (610)
+[2019.05.04-06.23.01:841][147]LogModuleManager: Shutting down and abandoning module WidgetCarousel (609)
+[2019.05.04-06.23.01:841][147]LogModuleManager: Shutting down and abandoning module EditorWidgets (606)
+[2019.05.04-06.23.01:841][147]LogModuleManager: Shutting down and abandoning module CollectionManager (604)
+[2019.05.04-06.23.01:843][147]LogModuleManager: Shutting down and abandoning module SceneOutliner (602)
+[2019.05.04-06.23.01:843][147]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2019.05.04-06.23.01:843][147]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2019.05.04-06.23.01:844][147]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2019.05.04-06.23.01:845][147]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2019.05.04-06.23.01:845][147]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2019.05.04-06.23.01:845][147]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2019.05.04-06.23.01:845][147]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2019.05.04-06.23.01:845][147]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2019.05.04-06.23.01:845][147]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2019.05.04-06.23.01:845][147]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2019.05.04-06.23.01:845][147]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2019.05.04-06.23.01:846][147]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2019.05.04-06.23.01:846][147]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2019.05.04-06.23.01:846][147]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2019.05.04-06.23.01:846][147]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2019.05.04-06.23.01:846][147]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2019.05.04-06.23.01:847][147]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2019.05.04-06.23.01:847][147]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2019.05.04-06.23.01:849][147]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2019.05.04-06.23.01:849][147]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2019.05.04-06.23.01:849][147]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2019.05.04-06.23.01:850][147]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2019.05.04-06.23.01:850][147]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2019.05.04-06.23.01:850][147]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2019.05.04-06.23.01:850][147]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2019.05.04-06.23.01:850][147]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2019.05.04-06.23.01:850][147]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2019.05.04-06.23.01:850][147]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2019.05.04-06.23.01:850][147]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2019.05.04-06.23.01:850][147]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2019.05.04-06.23.01:850][147]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2019.05.04-06.23.01:850][147]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2019.05.04-06.23.01:850][147]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2019.05.04-06.23.01:850][147]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2019.05.04-06.23.01:850][147]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2019.05.04-06.23.01:850][147]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2019.05.04-06.23.01:850][147]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2019.05.04-06.23.01:851][147]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2019.05.04-06.23.01:852][147]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2019.05.04-06.23.01:853][147]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2019.05.04-06.23.01:854][147]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2019.05.04-06.23.01:854][147]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2019.05.04-06.23.01:854][147]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2019.05.04-06.23.01:854][147]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2019.05.04-06.23.01:854][147]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2019.05.04-06.23.01:855][147]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2019.05.04-06.23.03:453][147]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2019.05.04-06.23.03:454][147]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2019.05.04-06.23.03:454][147]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2019.05.04-06.23.03:454][147]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2019.05.04-06.23.03:454][147]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2019.05.04-06.23.03:456][147]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2019.05.04-06.23.03:458][147]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2019.05.04-06.23.03:459][147]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2019.05.04-06.23.03:460][147]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2019.05.04-06.23.03:460][147]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2019.05.04-06.23.03:460][147]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2019.05.04-06.23.03:460][147]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2019.05.04-06.23.03:461][147]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2019.05.04-06.23.03:461][147]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2019.05.04-06.23.03:461][147]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2019.05.04-06.23.03:462][147]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2019.05.04-06.23.03:462][147]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2019.05.04-06.23.03:462][147]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2019.05.04-06.23.03:463][147]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2019.05.04-06.23.03:464][147]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2019.05.04-06.23.03:464][147]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2019.05.04-06.23.03:465][147]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2019.05.04-06.23.03:520][147]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2019.05.04-06.23.03:522][147]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2019.05.04-06.23.03:523][147]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2019.05.04-06.23.03:525][147]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2019.05.04-06.23.03:525][147]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2019.05.04-06.23.03:525][147]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2019.05.04-06.23.03:526][147]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2019.05.04-06.23.03:527][147]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2019.05.04-06.23.03:527][147]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2019.05.04-06.23.03:527][147]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2019.05.04-06.23.03:535][147]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2019.05.04-06.23.03:535][147]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2019.05.04-06.23.03:537][147]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2019.05.04-06.23.03:537][147]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
+[2019.05.04-06.23.03:538][147]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.05.04-06.23.03:539][147]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.05.04-06.23.03:540][147]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.05.04-06.23.03:540][147]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.05.04-06.23.03:540][147]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.05.04-06.23.03:540][147]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.05.04-06.23.03:541][147]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.05.04-06.23.03:541][147]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.05.04-06.23.03:542][147]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.05.04-06.23.03:542][147]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.05.04-06.23.03:542][147]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.05.04-06.23.03:542][147]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.05.04-06.23.03:542][147]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.05.04-06.23.03:542][147]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.05.04-06.23.03:542][147]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.05.04-06.23.03:543][147]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.05.04-06.23.03:543][147]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.05.04-06.23.03:543][147]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.05.04-06.23.03:751][147]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.05.04-06.23.03:754][147]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.05.04-06.23.03:754][147]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.05.04-06.23.03:754][147]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.05.04-06.23.03:754][147]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.05.04-06.23.03:754][147]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.05.04-06.23.03:754][147]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.05.04-06.23.03:754][147]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.05.04-06.23.03:754][147]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.05.04-06.23.03:754][147]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.05.04-06.23.03:754][147]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.05.04-06.23.03:754][147]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.05.04-06.23.03:754][147]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.05.04-06.23.03:754][147]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.05.04-06.23.03:756][147]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2019.05.04-06.23.03:756][147]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2019.05.04-06.23.03:756][147]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2019.05.04-06.23.03:756][147]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2019.05.04-06.23.03:760][147]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.05.04-06.23.03:760][147]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.05.04-06.23.03:760][147]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.05.04-06.23.03:760][147]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.05.04-06.23.03:761][147]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.05.04-06.23.03:761][147]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.05.04-06.23.03:761][147]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.05.04-06.23.03:761][147]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.05.04-06.23.03:761][147]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.05.04-06.23.03:761][147]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.05.04-06.23.03:761][147]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2019.05.04-06.23.03:762][147]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2019.05.04-06.23.03:763][147]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.05.04-06.23.03:763][147]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.05.04-06.23.03:765][147]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.05.04-06.23.03:765][147]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.05.04-06.23.03:766][147]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.05.04-06.23.03:766][147]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.05.04-06.23.03:766][147]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.05.04-06.23.03:766][147]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.05.04-06.23.03:766][147]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.05.04-06.23.03:766][147]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.05.04-06.23.03:766][147]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.05.04-06.23.03:767][147]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.05.04-06.23.03:768][147]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.05.04-06.23.03:769][147]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.05.04-06.23.03:769][147]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.05.04-06.23.03:769][147]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2019.05.04-06.23.03:769][147]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2019.05.04-06.23.03:769][147]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2019.05.04-06.23.03:769][147]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2019.05.04-06.23.03:770][147]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2019.05.04-06.23.03:770][147]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.05.04-06.23.03:770][147]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.05.04-06.23.03:770][147]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.05.04-06.23.03:771][147]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.05.04-06.23.03:771][147]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.05.04-06.23.03:771][147]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.05.04-06.23.03:771][147]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.05.04-06.23.03:771][147]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.05.04-06.23.03:771][147]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.05.04-06.23.03:872][147]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.05.04-06.23.03:974][147]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.05.04-06.23.03:974][147]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.05.04-06.23.03:976][147]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.05.04-06.23.03:976][147]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.05.04-06.23.03:976][147]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.05.04-06.23.03:976][147]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.05.04-06.23.03:977][147]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.05.04-06.23.03:979][147]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.05.04-06.23.03:979][147]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.05.04-06.23.03:979][147]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.05.04-06.23.03:980][147]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.05.04-06.23.03:981][147]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.05.04-06.23.03:983][147]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.05.04-06.23.03:984][147]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.05.04-06.23.03:984][147]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.05.04-06.23.03:984][147]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.05.04-06.23.03:984][147]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.05.04-06.23.03:984][147]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.05.04-06.23.03:986][147]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.05.04-06.23.03:992][147]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.05.04-06.23.03:992][147]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.05.04-06.23.03:992][147]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.05.04-06.23.03:993][147]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.05.04-06.23.03:993][147]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.05.04-06.23.03:993][147]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.05.04-06.23.03:993][147]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.05.04-06.23.03:994][147]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.05.04-06.23.03:994][147]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.05.04-06.23.03:994][147]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.05.04-06.23.03:996][147]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.05.04-06.23.03:996][147]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.05.04-06.23.03:997][147]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.05.04-06.23.03:997][147]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.05.04-06.23.03:997][147]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.05.04-06.23.03:997][147]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.05.04-06.23.03:999][147]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.05.04-06.23.03:999][147]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.05.04-06.23.04:001][147]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.05.04-06.23.04:001][147]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.05.04-06.23.04:004][147]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.05.04-06.23.04:004][147]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.05.04-06.23.04:004][147]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.05.04-06.23.04:004][147]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.05.04-06.23.04:004][147]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.05.04-06.23.04:004][147]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.05.04-06.23.04:004][147]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.05.04-06.23.04:004][147]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.05.04-06.23.04:004][147]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.05.04-06.23.04:005][147]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.05.04-06.23.04:006][147]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.05.04-06.23.04:006][147]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.05.04-06.23.04:006][147]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.05.04-06.23.04:007][147]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.05.04-06.23.04:007][147]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.05.04-06.23.04:007][147]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.05.04-06.23.04:008][147]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.05.04-06.23.04:008][147]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.05.04-06.23.04:063][147]LogDerivedDataCache: Shutdown
+[2019.05.04-06.23.04:063][147]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.05.04-06.23.04:064][147]LogXGEController: Cleaning working directory: C:/Users/Thomas Simon/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.05.04-06.23.04:065][147]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.05.04-06.23.04:066][147]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.05.04-06.23.04:066][147]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.05.04-06.23.04:067][147]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.05.04-06.23.04:068][147]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.05.04-06.23.04:068][147]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.05.04-06.23.04:069][147]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.05.04-06.23.04:069][147]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.05.04-06.23.04:069][147]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.05.04-06.23.04:069][147]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.05.04-06.23.04:071][147]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.05.04-06.23.04:071][147]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.05.04-06.23.04:071][147]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.05.04-06.23.04:071][147]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.05.04-06.23.04:071][147]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.05.04-06.23.04:071][147]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.05.04-06.23.04:071][147]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.05.04-06.23.04:071][147]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.05.04-06.23.04:072][147]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.05.04-06.23.04:072][147]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.05.04-06.23.04:072][147]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.05.04-06.23.04:073][147]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.05.04-06.23.04:085][147]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.05.04-06.23.04:085][147]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.05.04-06.23.04:091][147]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.05.04-06.23.04:092][147]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.05.04-06.23.04:129][147]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.05.04-06.23.04:129][147]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.05.04-06.23.04:129][147]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.05.04-06.23.04:129][147]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.05.04-06.23.04:129][147]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.05.04-06.23.04:129][147]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.05.04-06.23.04:129][147]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.05.04-06.23.04:129][147]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.05.04-06.23.04:129][147]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.05.04-06.23.04:129][147]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.05.04-06.23.04:129][147]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.05.04-06.23.04:129][147]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.05.04-06.23.04:129][147]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.05.04-06.23.04:129][147]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.05.04-06.23.04:130][147]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.05.04-06.23.04:130][147]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.05.04-06.23.04:130][147]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.05.04-06.23.04:130][147]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.05.04-06.23.04:131][147]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.05.04-06.23.04:132][147]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.05.04-06.23.04:151][147]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.05.04-06.23.04:152][147]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2019.05.04-06.23.04:152][147]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3561562F-4E8C-E07B-D1AB-2DAD9C67D80A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=5fdfb9eb4a3af766a039a8b9b40f75dc%7C75455451a11a4e86936f96d58b7d0fbf%7C0157599c-15ed-48c0-9aab-018aec8adfe9&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.05.04-06.23.04:152][147]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3561562F-4E8C-E07B-D1AB-2DAD9C67D80A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=5fdfb9eb4a3af766a039a8b9b40f75dc%7C75455451a11a4e86936f96d58b7d0fbf%7C0157599c-15ed-48c0-9aab-018aec8adfe9&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.05.04-06.23.04:187][147]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.05.04-06.23.04:190][147]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.05.04-06.23.04:190][147]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.05.04-06.23.04:190][147]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.05.04-06.23.04:190][147]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.05.04-06.23.04:190][147]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.05.04-06.23.04:190][147]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.05.04-06.23.04:190][147]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.05.04-06.23.04:190][147]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.05.04-06.23.04:190][147]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.05.04-06.23.04:191][147]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.05.04-06.23.04:191][147]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.05.04-06.23.04:191][147]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.05.04-06.23.04:192][147]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.05.04-06.23.04:192][147]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.05.04-06.23.04:193][147]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.05.04-06.23.04:195][147]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.05.04-06.23.04:195][147]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.05.04-06.23.04:195][147]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.05.04-06.23.04:196][147]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.05.04-06.23.04:197][147]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.05.04-06.23.04:197][147]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.05.04-06.23.04:197][147]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.05.04-06.23.04:197][147]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.05.04-06.23.04:197][147]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.05.04-06.23.04:197][147]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.05.04-06.23.04:197][147]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.05.04-06.23.04:197][147]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.05.04-06.23.04:197][147]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.05.04-06.23.04:197][147]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.05.04-06.23.04:202][147]LogExit: Exiting.
+[2019.05.04-06.23.04:215][147]Log file closed, 05/04/19 07:23:04
