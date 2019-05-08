@@ -13,8 +13,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define CRAZYTAXIPROCGEN_MazeGenerator_generated_h
 
-#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_MazeGenerator_h_12_RPC_WRAPPERS
-#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_MazeGenerator_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_MazeGenerator_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execConstruction) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Construction(); \
+		P_NATIVE_END; \
+	}
+
+
+#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_MazeGenerator_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execConstruction) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Construction(); \
+		P_NATIVE_END; \
+	}
+
+
 #define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_MazeGenerator_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMazeGenerator(); \

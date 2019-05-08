@@ -17,11 +17,39 @@ void EmptyLinkFunctionForGeneratedCodeMazeGenerator() {}
 	CRAZYTAXIPROCGEN_API UClass* Z_Construct_UClass_AMazeGenerator();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_CrazyTaxiProcGen();
+	CRAZYTAXIPROCGEN_API UFunction* Z_Construct_UFunction_AMazeGenerator_Construction();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRandomStream();
 	ENGINE_API UClass* Z_Construct_UClass_UInstancedStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void AMazeGenerator::StaticRegisterNativesAMazeGenerator()
 	{
+		UClass* Class = AMazeGenerator::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "Construction", &AMazeGenerator::execConstruction },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AMazeGenerator_Construction_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMazeGenerator_Construction_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MazeGenerator.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMazeGenerator_Construction_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMazeGenerator, "Construction", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMazeGenerator_Construction_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMazeGenerator_Construction_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMazeGenerator_Construction()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMazeGenerator_Construction_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AMazeGenerator_NoRegister()
 	{
@@ -30,6 +58,7 @@ void EmptyLinkFunctionForGeneratedCodeMazeGenerator() {}
 	struct Z_Construct_UClass_AMazeGenerator_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -67,6 +96,9 @@ void EmptyLinkFunctionForGeneratedCodeMazeGenerator() {}
 	UObject* (*const Z_Construct_UClass_AMazeGenerator_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_CrazyTaxiProcGen,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AMazeGenerator_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AMazeGenerator_Construction, "Construction" }, // 2902418010
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMazeGenerator_Statics::Class_MetaDataParams[] = {
@@ -144,7 +176,7 @@ void EmptyLinkFunctionForGeneratedCodeMazeGenerator() {}
 		&AMazeGenerator::StaticClass,
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009000A0u,
-		nullptr, 0,
+		FuncInfo, ARRAY_COUNT(FuncInfo),
 		Z_Construct_UClass_AMazeGenerator_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_AMazeGenerator_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
@@ -160,7 +192,7 @@ void EmptyLinkFunctionForGeneratedCodeMazeGenerator() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMazeGenerator, 3047099766);
+	IMPLEMENT_CLASS(AMazeGenerator, 2419199033);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AMazeGenerator(Z_Construct_UClass_AMazeGenerator, &AMazeGenerator::StaticClass, TEXT("/Script/CrazyTaxiProcGen"), TEXT("AMazeGenerator"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AMazeGenerator);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -46,6 +46,8 @@ protected:
 
 	bool CurrentFreeSide;
 
+	void PopulateBoarder(int Size, TArray<int> BoarderArray);
+
 public:	
 	// Sets default values for this actor's properties
 	AMazeGenerator();
@@ -53,6 +55,7 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	
+	UFUNCTION(BlueprintCallable)
+	void Construction();
 	
 };
