@@ -39,15 +39,32 @@ protected:
 	TArray<int> WallTiles;
 	TArray<int> CheckedTiles;
 
+	const int MaxCycle = 4;
+
 	int CurrentTile;
 	int MaxLoopPaths;
+	int CycleCount;
 
 	float TileSize;
 
 	bool CurrentFreeSide;
 
 	void PopulateBoarder(TArray<int> BoarderArray);
-	//void SetInitialTile();
+	void SetInitialTile();
+	void AddBridgePathTile(int PathTile, int BridgeTile);
+	void PickNearbyTile();
+	void BackTrack();
+
+	void North();
+	void East();
+	void South();
+	void West();
+
+	bool CheckTileArrays(int ItemToFind);
+	bool CheckNorthTile(bool IsNorth);
+	bool CheckEastTile(bool IsEast);
+
+	bool CycleCounter(int Counter, int Max);
 
 public:	
 	// Sets default values for this actor's properties
