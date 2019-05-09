@@ -1,7 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading CrazyTaxiProcGenEditor (ini files are newer than UBTMakefile)
+  Creating makefile for hot reloading CrazyTaxiProcGenEditor (modules to compile have changed)
   Compiling game modules for hot reload
   Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Target is up to date
+  Building 3 actions with 4 processes...
+    [1/3] MazeGenerator.cpp
+    [2/3] UE4Editor-CrazyTaxiProcGen-3866.lib
+       Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-3866.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-3866.exp
+    [3/3] UE4Editor-CrazyTaxiProcGen-3866.dll
+       Creating library A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-3866.suppressed.lib and object A:\Projects\Unreal Engine Projects\SoloUE4\CrazyTaxiProcGen\Intermediate\Build\Win64\UE4Editor\Development\CrazyTaxiProcGen\UE4Editor-CrazyTaxiProcGen-3866.suppressed.exp
   Deploying CrazyTaxiProcGenEditor Win64 Development...
-  Total build time: 5.21 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 8.15 seconds (Parallel executor: 2.24 seconds)

@@ -60,6 +60,8 @@ protected:
 	void South();
 	void West();
 
+	int ForLoopWithBreakRev(TArray<int> Array);
+
 	bool CheckTileArrays(int ItemToFind);
 	bool CheckNorthTile(bool IsNorth);
 	bool CheckEastTile(bool IsEast);

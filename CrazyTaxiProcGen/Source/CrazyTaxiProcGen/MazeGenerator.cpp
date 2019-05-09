@@ -25,7 +25,7 @@ void AMazeGenerator::BeginPlay()
 void AMazeGenerator::Construction()
 {
 	PopulateBoarder(BoarderTiles);
-	SetInitialTile();
+	/*SetInitialTile();
 
 	while (CurrentFreeSide == true)
 	{
@@ -33,7 +33,7 @@ void AMazeGenerator::Construction()
 	}
 
 	CheckedTiles.Add(CurrentTile);
-
+	BackTrack();*/
 
 }
 
@@ -104,8 +104,7 @@ void AMazeGenerator::PickNearbyTile()
 {
 	CycleCount = 0;
 
-	UKismetMathLibrary MathLibray;
-	int SwitchVal = MathLibray.RandomIntegerInRangeFromStream(0, 3, InitialSeed);
+	int SwitchVal = UKismetMathLibrary::RandomIntegerInRangeFromStream(0, 3, InitialSeed);
 
 	switch (SwitchVal)
 	{
@@ -267,6 +266,11 @@ void AMazeGenerator::West()
 	}
 	else
 		AddBridgePathTile(PathTile, BridgeTile);
+}
+
+int AMazeGenerator::ForLoopWithBreakRev(TArray<int> Array)
+{
+	return 0;
 }
 
 bool AMazeGenerator::CheckTileArrays(int ItemToFind)
