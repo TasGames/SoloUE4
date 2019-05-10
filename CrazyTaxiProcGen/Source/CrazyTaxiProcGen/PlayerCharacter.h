@@ -15,11 +15,41 @@ class CRAZYTAXIPROCGEN_API APlayerCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FirstPersonCameraComponent;
 
+	//Player Mesh
+	UPROPERTY(VisibleAnywhere, Category = Mesh)
+	class UStaticMeshComponent* PlayerMesh;
+
 public:
 	// Sets default values for this character's properties
 	APlayerCharacter();
 
-protected:	
+	UFUNCTION(BlueprintCallable)
+	void PauseIt();
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	bool IsPaused;
+
+	bool GameOver;
+
+protected:
+
+	virtual void BeginPlay() override;
+
+	UPROPERTY(BlueprintReadWrite)
+	int Micro;
+
+	UPROPERTY(BlueprintReadWrite)
+	int Seconds;
+
+	UPROPERTY(BlueprintReadWrite)
+	int Minutes;
+
+	UPROPERTY(EditAnywhere, Category = Maze)
+	bool IsFirstPerson;
+
+	struct FTimerHandle MemberTimerHandle;
+
+	void RepeatingFunction();
 
 	void MoveVer(float Val);
 	void MoveHor(float Val);

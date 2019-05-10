@@ -13,8 +13,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define CRAZYTAXIPROCGEN_PlayerCharacter_generated_h
 
-#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_PlayerCharacter_h_12_RPC_WRAPPERS
-#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_PlayerCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_PlayerCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execPauseIt) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PauseIt(); \
+		P_NATIVE_END; \
+	}
+
+
+#define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_PlayerCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execPauseIt) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PauseIt(); \
+		P_NATIVE_END; \
+	}
+
+
 #define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_PlayerCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPlayerCharacter(); \
@@ -58,7 +78,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerCharacter); \
 
 
 #define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_PlayerCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__FirstPersonCameraComponent() { return STRUCT_OFFSET(APlayerCharacter, FirstPersonCameraComponent); }
+	FORCEINLINE static uint32 __PPO__FirstPersonCameraComponent() { return STRUCT_OFFSET(APlayerCharacter, FirstPersonCameraComponent); } \
+	FORCEINLINE static uint32 __PPO__PlayerMesh() { return STRUCT_OFFSET(APlayerCharacter, PlayerMesh); } \
+	FORCEINLINE static uint32 __PPO__Micro() { return STRUCT_OFFSET(APlayerCharacter, Micro); } \
+	FORCEINLINE static uint32 __PPO__Seconds() { return STRUCT_OFFSET(APlayerCharacter, Seconds); } \
+	FORCEINLINE static uint32 __PPO__Minutes() { return STRUCT_OFFSET(APlayerCharacter, Minutes); } \
+	FORCEINLINE static uint32 __PPO__IsFirstPerson() { return STRUCT_OFFSET(APlayerCharacter, IsFirstPerson); }
 
 
 #define CrazyTaxiProcGen_Source_CrazyTaxiProcGen_PlayerCharacter_h_9_PROLOG
