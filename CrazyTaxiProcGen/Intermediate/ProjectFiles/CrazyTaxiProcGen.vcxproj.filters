@@ -73,9 +73,15 @@
     <ClInclude Include="..\..\Source\CrazyTaxiProcGen\CameraMover.h">
       <Filter>Source\CrazyTaxiProcGen</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\CrazyTaxiProcGen\PlayerCharacter.h">
+      <Filter>Source\CrazyTaxiProcGen</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\CrazyTaxiProcGen\CameraMover.cpp">
+      <Filter>Source\CrazyTaxiProcGen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CrazyTaxiProcGen\PlayerCharacter.cpp">
       <Filter>Source\CrazyTaxiProcGen</Filter>
     </ClCompile>
   </ItemGroup>
