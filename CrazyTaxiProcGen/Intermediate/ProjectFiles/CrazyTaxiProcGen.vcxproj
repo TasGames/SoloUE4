@@ -410,7 +410,9 @@
     <NMakeOutput>..\..\Binaries\HTML5\CrazyTaxiProcGen-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\CrazyTaxiProcGen\EndGoal.cpp" />
     <ClCompile Include="..\..\Source\CrazyTaxiProcGen\PlayerCharacter.cpp" />
+    <ClInclude Include="..\..\Source\CrazyTaxiProcGen\EndGoal.h" />
     <ClInclude Include="..\..\Source\CrazyTaxiProcGen\PlayerCharacter.h" />
     <None Include="..\..\CrazyTaxiProcGen.uproject" />
     <None Include="..\..\Source\CrazyTaxiProcGen.Target.cs" />
